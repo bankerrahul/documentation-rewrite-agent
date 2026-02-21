@@ -185,12 +185,15 @@ def cmd_generate_seo(args, config, paths, adapter):
     """Generate SEO metadata for articles using LLM."""
     from universal_screenshot_agent.seo_generator import generate_seo_for_product
 
-    wp_posts_path = paths["wp_posts"]
+    wp_posts_path = getattr(args, "wp_posts", None) or paths["wp_posts"]
     docs_dir = paths["docs"]
-    seo_meta_path = paths["seo_meta"]
+    seo_meta_path = getattr(args, "output", None) or paths["seo_meta"]
 
     print(f"Generating SEO metadata...")
+    print(f"Source: {wp_posts_path}")
     print(f"Output: {seo_meta_path}")
+    if getattr(args, "force", False):
+        print(f"Force mode: regenerating all entries")
     print()
 
     generate_seo_for_product(
@@ -202,6 +205,7 @@ def cmd_generate_seo(args, config, paths, adapter):
         provider=getattr(args, "provider", "auto"),
         model=getattr(args, "model", None),
         article_filter=getattr(args, "article", None),
+        force=getattr(args, "force", False),
     )
 
 
@@ -267,6 +271,12 @@ def main():
         default="auto", help="LLM provider (default: auto-detect)"
     )
     seo_gen_parser.add_argument("--model", default=None, help="Override LLM model name")
+    seo_gen_parser.add_argument("--wp-posts", default=None,
+        help="Path to wp_posts.json (default: product directory)")
+    seo_gen_parser.add_argument("--output", "-o", default=None,
+        help="Output path for seo_meta.json (default: product directory)")
+    seo_gen_parser.add_argument("--force", action="store_true",
+        help="Regenerate SEO for all articles, even those with existing data")
 
     # publish-seo
     seo_pub_parser = subparsers.add_parser("publish-seo", help="Publish SEO metadata to WordPress (AIOSEO)")

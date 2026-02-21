@@ -106,12 +106,36 @@ cd knowledge_base
 python scripts/screenshot_runner.py <product>/output/<article_id>/screenshot_spec.json
 ```
 
+### Generate SEO metadata
+
+Generate SEO-optimized titles, meta descriptions, and keyphrases for all articles:
+
+```bash
+# Generate SEO for all articles (reads from wp_posts.json)
+screenshot-agent -p <product> generate-seo
+
+# Generate for a single article
+screenshot-agent -p <product> generate-seo --article <slug>
+
+# Use a specific LLM provider
+screenshot-agent -p <product> generate-seo --provider anthropic
+```
+
+This creates `seo_meta.json` in the product directory with:
+- SEO title (< 60 chars, with optional brand suffix from config)
+- Meta description (140-160 chars)
+- Focus keyphrase
+- Additional keyphrases (2-3)
+
+Existing entries are preserved — re-running only fills in missing articles.
+
 ### Generate metadata report
 
 Review all articles and compile:
 - Master metadata table (title, URL, category, meta description)
 - Redirect map summary
 - Screenshot completion status
+- SEO metadata completion status
 
 ## Phase 5: Summary
 

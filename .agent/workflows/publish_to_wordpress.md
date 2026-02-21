@@ -124,7 +124,39 @@ Share the preview link with the user for review.
 client.update_post(post.id, status="publish")
 ```
 
-## Phase 5: Set Up Redirects
+## Phase 5: Publish SEO Metadata
+
+After articles are published as drafts and have post IDs, push SEO metadata via AIOSEO:
+
+### 1. Generate SEO metadata (if not already done)
+```bash
+screenshot-agent -p <product> generate-seo
+```
+
+This reads `wp_posts.json`, calls the LLM, and creates `seo_meta.json` with optimized titles, descriptions, and keyphrases.
+
+### 2. Ensure post IDs are in seo_meta.json
+Each entry needs a `post_id` matching the WordPress draft. If articles were published via the WebSocket publisher, post IDs should already be in `wp_posts.json`. Otherwise, manually add them to `seo_meta.json`.
+
+### 3. Publish SEO to WordPress
+```bash
+screenshot-agent -p <product> publish-seo
+```
+
+This starts the WebSocket server. Inject the printed Chrome JS into wp-admin to push SEO data.
+
+The Chrome client auto-detects the best method:
+- **AIOSEO internal API** (`/wp-json/aioseo/v1/post`) — works on all AIOSEO installations
+- **WP REST API addon** (fallback) — for sites with the AIOSEO REST API addon
+
+### 4. Verify SEO
+Open each draft in wp-admin and scroll to the AIOSEO section to confirm:
+- SEO title is populated (with brand suffix if configured)
+- Meta description is filled in (140-160 chars)
+- Focus keyphrase is set
+- Additional keyphrases are listed
+
+## Phase 6: Set up Redirects
 
 ### Option A: Redirection Plugin (automated)
 
@@ -150,7 +182,7 @@ Use the redirect CSV for bulk import into the Redirection plugin:
 knowledge_base/<product>/redirect_map.csv
 ```
 
-## Phase 6: Verification
+## Phase 7: Verification
 
 After publishing:
 

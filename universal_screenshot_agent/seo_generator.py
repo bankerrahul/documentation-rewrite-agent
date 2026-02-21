@@ -217,6 +217,7 @@ def generate_seo_for_product(
     provider: str = "auto",
     model: str = None,
     article_filter: str = None,
+    force: bool = False,
 ):
     """Generate SEO metadata for all articles in a product.
 
@@ -231,9 +232,14 @@ def generate_seo_for_product(
         article_filter: Optional slug to filter to a single article
     """
     product_name = config["product"]["name"]
-    articles = adapter.get_articles()
+    config_articles = adapter.get_articles()
     seo_config = config.get("seo", {})
     default_keyphrases = seo_config.get("default_keyphrases", [])
+
+    # Build a slug→post_id lookup from config articles
+    slug_to_post_id = {}
+    for a in config_articles:
+        slug_to_post_id[a["slug"]] = a.get("post_id")
 
     # Load existing seo_meta.json to preserve manual edits
     existing = {}
@@ -245,39 +251,54 @@ def generate_seo_for_product(
 
     # Load content source — prefer wp_posts.json, fall back to markdown docs
     content_source = {}
+    article_list = []  # [{slug, filename, post_id}]
+
     if os.path.exists(wp_posts_path):
         with open(wp_posts_path, "r", encoding="utf-8") as f:
-            for post in json.load(f):
-                content_source[post["filename"]] = {
-                    "title": post["title"],
-                    "content": post["content"],
-                }
+            wp_posts = json.load(f)
+        for post in wp_posts:
+            filename = post["filename"]
+            content_source[filename] = {
+                "title": post["title"],
+                "content": post["content"],
+            }
+            slug = filename.replace(".md", "")
+            article_list.append({
+                "slug": slug,
+                "filename": filename,
+                "post_id": post.get("post_id") or slug_to_post_id.get(slug),
+            })
         print(f"Using content from wp_posts.json ({len(content_source)} articles)")
     else:
-        # Fall back to markdown docs
-        for article_info in articles:
+        # Fall back to config articles + markdown docs
+        for article_info in config_articles:
             slug = article_info["slug"]
-            md_path = os.path.join(docs_dir, f"{slug}.md")
+            filename = f"{slug}.md"
+            md_path = os.path.join(docs_dir, filename)
             if os.path.exists(md_path):
                 with open(md_path, "r", encoding="utf-8") as f:
                     content = f.read()
-                # Extract title from first H1
                 title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
                 title = title_match.group(1) if title_match else slug
-                content_source[f"{slug}.md"] = {"title": title, "content": content}
+                content_source[filename] = {"title": title, "content": content}
+            article_list.append({
+                "slug": slug,
+                "filename": filename,
+                "post_id": article_info.get("post_id"),
+            })
         print(f"Using content from markdown docs ({len(content_source)} articles)")
 
     results = []
-    for article_info in articles:
+    for article_info in article_list:
         slug = article_info["slug"]
-        filename = f"{slug}.md"
+        filename = article_info["filename"]
         post_id = article_info.get("post_id")
 
         if article_filter and slug != article_filter:
             continue
 
-        # Skip if already in existing and has all fields
-        if filename in existing:
+        # Skip if already in existing and has all fields (unless --force)
+        if not force and filename in existing:
             entry = existing[filename]
             if all(entry.get(f) for f in ["seo_title", "meta_description", "focus_keyphrase"]):
                 print(f"  Skipping {slug} (already has SEO data, use --force to regenerate)")
