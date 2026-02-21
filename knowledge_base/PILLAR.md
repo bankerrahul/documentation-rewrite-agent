@@ -176,16 +176,55 @@ Transform any source documentation into polished, user-friendly, SEO-optimized d
 
 ### 8. SEO Requirements
 
-**Keywords**
-- Include relevant keywords in Title, H1, and body content
-- Use natural keyword placement (avoid keyword stuffing)
-- Research and use terms users actually search for
+Every article must be optimized for a **focus keyphrase**—a 1-3 word phrase representing the article's primary search term. The focus keyphrase must satisfy all AIOSEO analysis checks listed below.
+
+**Choosing a Focus Keyphrase**
+- Pick a short (1-3 word) phrase that users actually search for
+- The keyphrase must appear naturally and frequently in the content—do NOT choose a phrase you have to force in
+- Shorter keyphrases (1-2 words) score better because they're easier to place in all required locations
+- Each article should have a unique focus keyphrase (avoid duplicating across articles)
+
+**AIOSEO Focus Keyphrase Placement Rules (ALL required):**
+
+1. **In SEO Title** — The focus keyphrase must appear in the SEO title (under 60 chars, excluding brand suffix)
+2. **In Meta Description** — The focus keyphrase must appear in the meta description (140-160 chars)
+3. **In Introduction** — The focus keyphrase must appear in the first paragraph of the article body
+4. **In Subheadings** — The focus keyphrase must appear in at least one H2 or H3 heading
+5. **In Image Alt Text** — At least one image must have the focus keyphrase in its alt attribute
+6. **Keyphrase Density** — The focus keyphrase must appear enough times in the body to achieve ≥0.5% density (roughly 1 occurrence per 200 words for a single-word keyphrase)
+7. **Keyphrase Length** — Keep the focus keyphrase to 1-3 words (AIOSEO flags longer phrases)
+
+**Writing the Introduction for SEO**
+- The first `<p>` tag in the article is the "introduction" for AIOSEO analysis
+- Always include the focus keyphrase naturally within the first sentence or two
+- Standard pattern: "In this article, you'll learn how to [action involving focus keyphrase] in [Product Name]..."
+
+**Writing Subheadings for SEO**
+- At least one H2 or H3 must contain the focus keyphrase
+- Keep it natural—don't force the keyphrase into every heading
+- Example: If the focus keyphrase is "course bundles", use a heading like "What Are Course Bundles?" or "Creating a Course Bundle Step by Step"
+
+**Image Alt Text for SEO**
+- At least one image alt attribute must include the focus keyphrase
+- Use descriptive alt text that naturally incorporates the keyphrase
+- Example: `alt="Creating course bundles in Thrive Apprentice Products section"`
+- When generating screenshot specs, ensure the alt text template includes the focus keyphrase
+
+**Additional Keyphrases**
+- Include 2-3 secondary keyphrases (each 1-4 words) representing related search queries
+- The product name (e.g., "thrive apprentice") should always be an additional keyphrase if it isn't the focus keyphrase
+- Additional keyphrases don't need to meet the same strict placement rules as the focus keyphrase
 
 **Meta Description**
-- Write a compelling, clear meta description
-- Keep it under 160 characters
-- Include primary keywords
-- Make it actionable and informative
+- 140-160 characters
+- Must contain the focus keyphrase
+- Compelling, action-oriented summary that entices clicks from search results
+- Start with a verb when possible (e.g., "Learn how to...", "Set up...", "Use...")
+
+**SEO Title**
+- Under 60 characters (brand suffix like " - Thrive Themes" is appended automatically)
+- Must contain the focus keyphrase
+- Action-oriented when possible (e.g., "How to [Action] in [Product]")
 
 **Content Structure**
 - Use proper heading hierarchy (H1 → H2 → H3)
@@ -194,7 +233,7 @@ Transform any source documentation into polished, user-friendly, SEO-optimized d
 - Include internal links to related content
 
 **Technical SEO**
-- Add Alt Text to all images
+- Add Alt Text to all images (at least one must include the focus keyphrase)
 - Use descriptive file names for images
 - Ensure proper heading structure
 - Optimize for readability and user experience
@@ -305,6 +344,7 @@ For every rewrite, produce:
 
 Before finalizing any documentation, verify:
 
+**Content & Formatting**
 - [ ] Title is action-oriented and starts with "How to" when possible
 - [ ] All headings use Title Case
 - [ ] All UI elements are bolded
@@ -318,12 +358,21 @@ Before finalizing any documentation, verify:
 - [ ] Spelling uses American English
 - [ ] All images have Alt Text
 - [ ] Related resources section is included
-- [ ] SEO keywords are included naturally
-- [ ] Meta description is written
 - [ ] All links are functional and relevant
 - [ ] Transitions are used appropriately
 - [ ] Grammar and punctuation are correct
 - [ ] Content is user-centric and goal-focused
+
+**AIOSEO Focus Keyphrase Checks**
+- [ ] Focus keyphrase chosen (1-3 words, naturally occurring in content)
+- [ ] Focus keyphrase appears in SEO title
+- [ ] Focus keyphrase appears in meta description
+- [ ] Focus keyphrase appears in the first paragraph (introduction)
+- [ ] Focus keyphrase appears in at least one H2 or H3 heading
+- [ ] Focus keyphrase density is ≥0.5% in the body content
+- [ ] At least one image alt text includes the focus keyphrase
+- [ ] Meta description is 140-160 characters and contains the focus keyphrase
+- [ ] SEO title is under 60 characters (excluding brand suffix)
 
 ---
 

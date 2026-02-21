@@ -1,0 +1,66 @@
+[
+  {
+    "filename": "1-01-creating-your-first-course.md",
+    "post_id": 114142892,
+    "seo_title": "How to Create Your First Thrive Apprentice Course",
+    "meta_description": "Set up Thrive Apprentice and create your first course step by step—from running the setup wizard to adding lessons and publishing your course.",
+    "focus_keyphrase": "thrive apprentice",
+    "additional_keyphrases": ["first course", "online course WordPress", "create course"]
+  },
+  {
+    "filename": "1-02-course-content-types-navigation-structure.md",
+    "post_id": 114142893,
+    "seo_title": "Thrive Apprentice Content Types, Navigation & Progress",
+    "meta_description": "Learn how Thrive Apprentice uses content types like modules, chapters, and lessons to organize courses—plus how navigation and progress tracking work.",
+    "focus_keyphrase": "content types",
+    "additional_keyphrases": ["thrive apprentice", "course navigation", "progress tracking"]
+  },
+  {
+    "filename": "1-03-creating-course-bundles.md",
+    "post_id": 114142894,
+    "seo_title": "How to Create Course Bundles in Thrive Apprentice",
+    "meta_description": "Create course bundles in Thrive Apprentice to package multiple courses into a single product—set up bundles, add courses, and configure access rules.",
+    "focus_keyphrase": "course bundles",
+    "additional_keyphrases": ["thrive apprentice", "bundle courses", "course products"]
+  },
+  {
+    "filename": "1-04-creating-a-free-course-funnel.md",
+    "post_id": 114142895,
+    "seo_title": "How to Create a Free Course Funnel in Thrive Apprentice",
+    "meta_description": "Build a free course funnel in Thrive Apprentice to grow your email list—create an opt-in page, connect your email service, and deliver a free course.",
+    "focus_keyphrase": "free course funnel",
+    "additional_keyphrases": ["thrive apprentice", "lead generation", "free course"]
+  },
+  {
+    "filename": "1-05-creating-a-student-profile-page.md",
+    "post_id": 114142896,
+    "seo_title": "How to Create a Student Profile Page in Thrive Apprentice",
+    "meta_description": "Create a student profile page in Thrive Apprentice so students can view enrolled courses, track progress, and manage their account details.",
+    "focus_keyphrase": "profile page",
+    "additional_keyphrases": ["thrive apprentice", "student profile page", "student dashboard"]
+  },
+  {
+    "filename": "1-06-ai-powered-course-generation.md",
+    "post_id": 114142897,
+    "seo_title": "How to Use AI Course Generation in Thrive Apprentice",
+    "meta_description": "Use AI course generation in Thrive Apprentice to build full course outlines and lessons in minutes—start from a prompt or remix existing material.",
+    "focus_keyphrase": "AI course generation",
+    "additional_keyphrases": ["thrive apprentice", "generate course", "prompt to course"]
+  },
+  {
+    "filename": "1-07-using-dynamic-text.md",
+    "post_id": 114142898,
+    "seo_title": "How to Use Dynamic Text in Thrive Apprentice",
+    "meta_description": "Use dynamic text in Thrive Apprentice to display personalized content for each student—show names, progress, lesson details, and course data automatically.",
+    "focus_keyphrase": "dynamic text",
+    "additional_keyphrases": ["thrive apprentice", "personalized content", "dynamic text tags"]
+  },
+  {
+    "filename": "1-08-switching-to-thrive-apprentice-from-another-lms.md",
+    "post_id": 114142900,
+    "seo_title": "How to Migrate to Thrive Apprentice From Another LMS",
+    "meta_description": "Switch to Thrive Apprentice from LearnDash, Teachable, or another LMS with this step-by-step migration checklist covering content, design, and payments.",
+    "focus_keyphrase": "thrive apprentice",
+    "additional_keyphrases": ["migration", "switch LMS", "LearnDash alternative"]
+  }
+]

@@ -413,12 +413,23 @@ known_course_titles:
   - "My First Course"
 
 # ─── Articles (for publishing) ───
-# Sample: 2 articles included for reference. Add your articles here.
 articles:
   - slug: "1-01-creating-your-first-course"
     post_id: 114142892
+  - slug: "1-02-course-content-types-navigation-structure"
+    post_id: 114142893
   - slug: "1-03-creating-course-bundles"
     post_id: 114142894
+  - slug: "1-04-creating-a-free-course-funnel"
+    post_id: 114142895
+  - slug: "1-05-creating-a-student-profile-page"
+    post_id: 114142896
+  - slug: "1-06-ai-powered-course-generation"
+    post_id: 114142897
+  - slug: "1-07-using-dynamic-text"
+    post_id: 114142898
+  - slug: "1-08-switching-to-thrive-apprentice-from-another-lms"
+    post_id: 114142900
 
 # ─── SEO Configuration (AIOSEO) ───
 seo:
