@@ -45,7 +45,7 @@ def load_product_config(product_slug: str, products_dir: str = None) -> Dict:
     """Load and validate a product's config.yaml.
     
     Args:
-        product_slug: e.g., "thrive_apprentice"
+        product_slug: e.g., "my_product"
         products_dir: Path to the products/ directory. 
                       Defaults to universal_screenshot_agent/products/
     
@@ -137,7 +137,7 @@ def load_adapter(product_slug: str, config: Dict, products_dir: str = None):
     Falls back to GenericWebAppAdapter if no custom adapter exists.
     
     Args:
-        product_slug: e.g., "thrive_apprentice"
+        product_slug: e.g., "my_product"
         config: Parsed config dict
         products_dir: Path to the products/ directory
     

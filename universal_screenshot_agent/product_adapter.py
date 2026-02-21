@@ -1,9 +1,8 @@
 """
 Product Adapter — abstract base class for product-specific screenshot automation.
 
-Each web product (Thrive Apprentice, Thrive Quiz Builder, any web app) provides
-an adapter that implements product-specific navigation, element finding, modal
-handling, and publishing logic.
+Each web product provides an adapter that implements product-specific navigation,
+element finding, modal handling, and publishing logic.
 
 The GenericWebAppAdapter provides config-driven defaults that work for simple
 web apps without needing custom code.
@@ -319,7 +318,7 @@ class ProductAdapter(ABC):
         return self.config.get("production_site", {}).get("taxonomy", "category")
 
     def get_alt_text_suffix(self) -> str:
-        """Return suffix for image alt text (e.g., 'in Thrive Apprentice')."""
+        """Return suffix for image alt text (e.g., 'in My Product')."""
         return f"in {self.product_name}"
 
     def get_categories_for_article(self, filename: str) -> List[int]:

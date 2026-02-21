@@ -43,7 +43,7 @@ def infer_target_from_text(clean_text: str, action: str) -> str:
     """
     text_lower = clean_text.lower().strip()
 
-    # 1. Quoted text (e.g., 'Click "Add Course"', 'Select "Thrive Apprentice"')
+    # 1. Quoted text (e.g., 'Click "Add Course"', 'Select "My Plugin"')
     quoted = re.findall(r'"([^"]+)"', clean_text) + re.findall(r"'([^']+)'", clean_text)
     # Also match text in single backtick-like quotes
     quoted += re.findall(r'\u201c([^\u201d]+)\u201d', clean_text)  # curly quotes

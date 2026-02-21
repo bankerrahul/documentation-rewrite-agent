@@ -27,7 +27,7 @@ pip install -e . && playwright install chromium
 cp .env.example .env
 # Edit .env with your local WordPress URL and credentials
 
-# 5. Try the screenshot agent with the included Thrive Apprentice example
+# 5. Try the screenshot agent with the included sample product
 screenshot-agent -p thrive_apprentice parse
 ```
 
@@ -166,19 +166,19 @@ A standalone, product-agnostic screenshot pipeline. Point it at any WordPress pr
 screenshot-agent list-products
 
 # Parse markdown docs into JSON step specs
-screenshot-agent -p thrive_apprentice parse
+screenshot-agent -p my_product parse
 
 # Capture screenshots (headless)
-screenshot-agent -p thrive_apprentice capture 1-01-creating-your-first-course
+screenshot-agent -p my_product capture getting-started
 
 # Capture with visible browser (for debugging)
-screenshot-agent -p thrive_apprentice capture 1-01-creating-your-first-course --headed
+screenshot-agent -p my_product capture getting-started --headed
 
 # Capture all articles
-screenshot-agent -p thrive_apprentice capture-all
+screenshot-agent -p my_product capture-all
 
 # Publish to production via WebSocket
-screenshot-agent -p thrive_apprentice publish
+screenshot-agent -p my_product publish
 ```
 
 ### Pipeline
@@ -213,7 +213,7 @@ Markdown Docs          Step Parser           Playwright            PIL Annotate
    screenshot-agent -p my_product publish
    ```
 
-See `products/thrive_apprentice/` for a complete working example with a Vue.js SPA adapter.
+See `products/thrive_apprentice/` for a complete working example with a custom SPA adapter.
 
 ---
 

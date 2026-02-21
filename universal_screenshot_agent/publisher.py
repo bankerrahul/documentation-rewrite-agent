@@ -10,7 +10,7 @@ All product-specific settings (articles, post type, alt text) come from
 the ProductAdapter config.
 
 Usage:
-    1. Run via CLI: python -m universal_screenshot_agent.run -p thrive_apprentice publish
+    1. Run via CLI: python -m universal_screenshot_agent.run -p my_product publish
     2. Inject the WebSocket client JS into Chrome (on the production site's wp-admin)
     3. Screenshots are uploaded and injected automatically
 """

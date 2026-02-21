@@ -4,22 +4,22 @@ CLI runner for the Universal Screenshot Agent.
 
 Usage:
     # Parse all docs for a product
-    python -m universal_screenshot_agent.run -p thrive_apprentice parse
+    python -m universal_screenshot_agent.run -p my_product parse
 
     # Parse a single doc
-    python -m universal_screenshot_agent.run -p thrive_apprentice parse --article 1-01-creating-your-first-course
+    python -m universal_screenshot_agent.run -p my_product parse --article getting-started
 
     # Capture screenshots for a specific article
-    python -m universal_screenshot_agent.run -p thrive_apprentice capture 1-01-creating-your-first-course
+    python -m universal_screenshot_agent.run -p my_product capture getting-started
 
     # Capture with visible browser (for debugging)
-    python -m universal_screenshot_agent.run -p thrive_apprentice capture 1-01-creating-your-first-course --headed
+    python -m universal_screenshot_agent.run -p my_product capture getting-started --headed
 
     # Capture all articles
-    python -m universal_screenshot_agent.run -p thrive_apprentice capture-all
+    python -m universal_screenshot_agent.run -p my_product capture-all
 
     # Publish screenshots to production
-    python -m universal_screenshot_agent.run -p thrive_apprentice publish
+    python -m universal_screenshot_agent.run -p my_product publish
 
     # List available products
     python -m universal_screenshot_agent.run list-products
@@ -187,7 +187,7 @@ def main():
     )
     parser.add_argument(
         "--product", "-p",
-        help="Product slug (e.g., thrive_apprentice). Required for most commands.",
+        help="Product slug (e.g., my_product). Required for most commands.",
     )
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
 
