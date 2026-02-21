@@ -1,0 +1,309 @@
+{
+  "filename": "1-01-creating-your-first-course.md",
+  "title": "How to Create Your First Thrive Apprentice Course",
+  "total": 23,
+  "captured": 23,
+  "skipped": 0,
+  "errors": 0,
+  "not_found": 3,
+  "screenshots": [
+    {
+      "file": "accessing-thrive-apprentice_step1.png",
+      "step": 1,
+      "section": "Accessing Thrive Apprentice",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "accessing-thrive-apprentice_step2.png",
+      "step": 2,
+      "section": "Accessing Thrive Apprentice",
+      "target": "Thrive Dashboard",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 555.625,
+        "width": 160,
+        "height": 34.1875
+      }
+    },
+    {
+      "file": "accessing-thrive-apprentice_step3.png",
+      "step": 3,
+      "section": "Accessing Thrive Apprentice",
+      "target": "Thrive Apprentice",
+      "found": true,
+      "bbox": {
+        "x": 165,
+        "y": 453.9375,
+        "width": 154,
+        "height": 28.1875
+      }
+    },
+    {
+      "file": "running-the-setup-wizard_step1.png",
+      "step": 1,
+      "section": "Running the Setup Wizard",
+      "target": "Get Started",
+      "found": false
+    },
+    {
+      "file": "running-the-setup-wizard_step2.png",
+      "step": 2,
+      "section": "Running the Setup Wizard",
+      "target": "Add New Page",
+      "found": false
+    },
+    {
+      "file": "running-the-setup-wizard_step3.png",
+      "step": 3,
+      "section": "Running the Setup Wizard",
+      "target": "Create new design",
+      "found": true,
+      "bbox": {
+        "x": 39,
+        "y": 356,
+        "width": 57,
+        "height": 60
+      }
+    },
+    {
+      "file": "creating-your-first-course_step1.png",
+      "step": 1,
+      "section": "Creating Your First Course",
+      "target": "Courses",
+      "found": true,
+      "bbox": {
+        "x": 39,
+        "y": 112,
+        "width": 57,
+        "height": 60
+      }
+    },
+    {
+      "file": "creating-your-first-course_step2.png",
+      "step": 2,
+      "section": "Creating Your First Course",
+      "target": "Add course",
+      "found": true,
+      "bbox": {
+        "x": 1121.28125,
+        "y": 52,
+        "width": 123.71875,
+        "height": 36
+      }
+    },
+    {
+      "file": "creating-your-first-course_step3.png",
+      "step": 3,
+      "section": "Creating Your First Course",
+      "target": "Course Title",
+      "found": true,
+      "bbox": {
+        "x": 366,
+        "y": 62,
+        "width": 696.515625,
+        "height": 36
+      }
+    },
+    {
+      "file": "creating-your-first-course_step4.png",
+      "step": 4,
+      "section": "Creating Your First Course",
+      "target": "Course Description",
+      "found": true,
+      "bbox": {
+        "x": 386,
+        "y": 500,
+        "width": 113.890625,
+        "height": 18
+      }
+    },
+    {
+      "file": "creating-your-first-course_step5.png",
+      "step": 5,
+      "section": "Creating Your First Course",
+      "target": "Save",
+      "found": true,
+      "bbox": {
+        "x": 1160,
+        "y": 750,
+        "width": 90,
+        "height": 30
+      }
+    },
+    {
+      "file": "adding-modules-and-chapters_step1.png",
+      "step": 1,
+      "section": "Adding Modules and Chapters",
+      "target": "Courses",
+      "found": true,
+      "bbox": {
+        "x": 39,
+        "y": 112,
+        "width": 57,
+        "height": 60
+      }
+    },
+    {
+      "file": "adding-modules-and-chapters_step2.png",
+      "step": 2,
+      "section": "Adding Modules and Chapters",
+      "target": "Add Module",
+      "found": true,
+      "bbox": {
+        "x": 841.796875,
+        "y": 363.296875,
+        "width": 119.734375,
+        "height": 32
+      }
+    },
+    {
+      "file": "adding-modules-and-chapters_step3.png",
+      "step": 3,
+      "section": "Adding Modules and Chapters",
+      "target": "Module Title",
+      "found": true,
+      "bbox": {
+        "x": 255,
+        "y": 165,
+        "width": 770,
+        "height": 36
+      }
+    },
+    {
+      "file": "adding-modules-and-chapters_step4.png",
+      "step": 4,
+      "section": "Adding Modules and Chapters",
+      "target": "Add Chapter",
+      "found": true,
+      "bbox": {
+        "x": 818,
+        "y": 454.796875,
+        "width": 206,
+        "height": 60
+      }
+    },
+    {
+      "file": "adding-your-first-lesson_step1.png",
+      "step": 1,
+      "section": "Adding Your First Lesson",
+      "target": "Add Lesson",
+      "found": true,
+      "bbox": {
+        "x": 366,
+        "y": 454.796875,
+        "width": 206,
+        "height": 60
+      }
+    },
+    {
+      "file": "adding-your-first-lesson_step2.png",
+      "step": 2,
+      "section": "Adding Your First Lesson",
+      "target": "Lesson Title",
+      "found": true,
+      "bbox": {
+        "x": 255,
+        "y": 165,
+        "width": 500,
+        "height": 36
+      }
+    },
+    {
+      "file": "adding-your-first-lesson_step3.png",
+      "step": 3,
+      "section": "Adding Your First Lesson",
+      "target": "Save",
+      "found": true,
+      "bbox": {
+        "x": 922.71875,
+        "y": 655,
+        "width": 102.28125,
+        "height": 36
+      }
+    },
+    {
+      "file": "adding-your-first-lesson_step4.png",
+      "step": 4,
+      "section": "Adding Your First Lesson",
+      "target": "Add content",
+      "found": true,
+      "bbox": {
+        "x": 1000.875,
+        "y": 371.296875,
+        "width": 99.546875,
+        "height": 16
+      }
+    },
+    {
+      "file": "adding-your-first-lesson_step5.png",
+      "step": 5,
+      "section": "Adding Your First Lesson",
+      "target": "Save Work",
+      "found": false
+    },
+    {
+      "file": "publishing-your-course_step1.png",
+      "step": 1,
+      "section": "Publishing Your Course",
+      "target": "Courses",
+      "found": true,
+      "bbox": {
+        "x": 39,
+        "y": 112,
+        "width": 57,
+        "height": 60
+      }
+    },
+    {
+      "file": "publishing-your-course_step2.png",
+      "step": 2,
+      "section": "Publishing Your Course",
+      "target": "your course",
+      "found": true,
+      "bbox": {
+        "x": 371,
+        "y": 204,
+        "width": 260,
+        "height": 310
+      }
+    },
+    {
+      "file": "publishing-your-course_step3.png",
+      "step": 3,
+      "section": "Publishing Your Course",
+      "target": "Unpublished",
+      "found": true,
+      "bbox": {
+        "x": 1102.515625,
+        "y": 62,
+        "width": 125,
+        "height": 36
+      }
+    }
+  ],
+  "validation_issues": [
+    {
+      "section": "Running the Setup Wizard",
+      "step": 1,
+      "target": "Get Started",
+      "raw_text": "Click **Get Started** on the welcome lightbox.",
+      "issue": "UI element 'Get Started' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Running the Setup Wizard",
+      "step": 2,
+      "target": "Add New Page",
+      "raw_text": "Choose a page where your courses will be listed, or click **Add New Page** to create one. Then click **Continue**.",
+      "issue": "UI element 'Add New Page' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Adding Your First Lesson",
+      "step": 5,
+      "target": "Save Work",
+      "raw_text": "When you're done editing, click **Save Work** in Thrive Architect, then click **Done** to return to Thrive Apprentice.",
+      "issue": "UI element 'Save Work' not found on page \u2014 verify step is accurate"
+    }
+  ]
+}

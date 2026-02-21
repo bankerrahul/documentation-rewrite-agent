@@ -1,0 +1,135 @@
+{
+  "filename": "2-10-attaching-downloadable-files.md",
+  "title": "How to Attach Downloadable Files to Lessons in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Attaching Files Using the Resources Feature",
+      "heading_slug": "attaching-files-using-the-resources-feature",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Courses** in the left sidebar and open the course containing your lesson.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar and open the course containing your lesson"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click on the lesson where you want to attach a file.",
+          "action": "click",
+          "target": "On The Lesson Where You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "In the lesson settings panel, locate the **Resources** section.",
+          "action": "locate",
+          "target": "Resources",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click the **Add Resources** button.",
+          "action": "click",
+          "target": "Add Resources",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Choose **Upload File** to select a file from your computer, or **Media Library** to choose a file you've already uploaded.",
+          "action": "click",
+          "target": "Upload File",
+          "target_bold": true,
+          "has_target": true,
+          "context": "select a file from your computer, or Media Library to choose a file you've alrea"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Once the file is uploaded, give it a descriptive label (e.g., \"Module 1 Worksheet\" or \"Lesson Checklist\").",
+          "action": "locate",
+          "target": "Module 1 Worksheet",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Click **Save** to attach the file to the lesson.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "attach the file to the lesson"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Download Links Within Lesson Content",
+      "heading_slug": "adding-download-links-within-lesson-content",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the lesson and click **Edit Content** to launch **Thrive Architect**.",
+          "action": "navigate",
+          "target": "Edit Content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "launch Thrive Architect"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Add a **Text** element or **Button** element where you want the download link.",
+          "action": "locate",
+          "target": "Text",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element or Button element where you want the download link"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Highlight the text or configure the button, then click the **Link** icon.",
+          "action": "locate",
+          "target": "Link",
+          "target_bold": true,
+          "has_target": true,
+          "context": "icon"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Upload or select your file from the **Media Library** and insert its URL.",
+          "action": "locate",
+          "target": "Media Library",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and insert its URL"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save Work**, then click **Done**.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "then click Done"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "filename": "4-05-displaying-lesson-resources-by-progress.md",
+  "title": "How to Display Lesson Resources Based on Student Progress",
+  "sections": [
+    {
+      "heading": "Setting Up Conditional Display",
+      "heading_slug": "setting-up-conditional-display",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the **Design** tab and open your active design by clicking **Edit Design**.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and open your active design by clicking Edit Design"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Navigate to the **Lesson** template you want to modify.",
+          "action": "navigate",
+          "target": "Lesson",
+          "target_bold": true,
+          "has_target": true,
+          "context": "template you want to modify"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Open the template in the visual editor.",
+          "action": "navigate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Add a **Content Box** element to the area of the template where you want the conditional resources to appear.",
+          "action": "locate",
+          "target": "Content Box",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element to the area of the template where you want the conditional resources to "
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Place your resource elements inside the Content Box—such as download buttons, links, or text blocks.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Select the Content Box and open its settings.",
+          "action": "click",
+          "target": "Content Box",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Look for the **Conditional Display** option in the settings panel.",
+          "action": "locate",
+          "target": "Conditional Display",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option in the settings panel"
+        },
+        {
+          "step_num": 9,
+          "raw_text": "Set the visibility rule to show the Content Box only when the lesson status is **Completed**.",
+          "action": "click",
+          "target": "Completed",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 10,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

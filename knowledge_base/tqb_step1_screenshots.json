@@ -1,0 +1,60 @@
+[
+    {
+        "id": "1_tqb_dashboard",
+        "url": "/wp-admin/admin.php?page=tqb_admin_dashboard",
+        "actions": [],
+        "selector": "viewport",
+        "output_file": "1_tqb_dashboard.png",
+        "annotations": []
+    },
+    {
+        "id": "2_quiz_templates",
+        "url": "/wp-admin/admin.php?page=tqb_admin_dashboard",
+        "actions": [
+            {
+                "type": "click",
+                "selector": ".tqb-add-new-quiz"
+            },
+            {
+                "type": "wait",
+                "ms": 1000
+            }
+        ],
+        "selector": "viewport",
+        "output_file": "2_quiz_templates.png",
+        "annotations": []
+    },
+    {
+        "id": "3_quiz_naming",
+        "url": "/wp-admin/admin.php?page=tqb_admin_dashboard",
+        "actions": [
+            {
+                "type": "click",
+                "selector": ".tqb-add-new-quiz"
+            },
+            {
+                "type": "wait",
+                "ms": 1000
+            },
+            {
+                "type": "click",
+                "selector": "[data-template='blank']"
+            },
+            {
+                "type": "wait",
+                "ms": 500
+            },
+            {
+                "type": "click",
+                "selector": ".tqb-template-continue"
+            },
+            {
+                "type": "wait",
+                "ms": 1000
+            }
+        ],
+        "selector": "viewport",
+        "output_file": "3_quiz_naming.png",
+        "annotations": []
+    }
+]

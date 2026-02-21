@@ -1,0 +1,234 @@
+{
+  "filename": "2-06-organizing-lessons-in-chapters.md",
+  "title": "How to Organize Lessons in Chapters",
+  "sections": [
+    {
+      "heading": "Adding Chapters to Your Course",
+      "heading_slug": "adding-chapters-to-your-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Courses** in the left sidebar and select the course you want to organize.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar and select the course you want to organize"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Open the **Content** tab.",
+          "action": "navigate",
+          "target": "Content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "If you're adding a chapter inside a module, click on the module first to expand it.",
+          "action": "locate",
+          "target": "On The Module First",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click the **Add Chapter** button.",
+          "action": "click",
+          "target": "Add Chapter",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Enter a name for your chapter—choose something descriptive that tells students what they'll learn in this section.",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save** to create the chapter.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create the chapter"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Lessons to a Chapter",
+      "heading_slug": "adding-lessons-to-a-chapter",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Click on the chapter to expand it.",
+          "action": "click",
+          "target": "On The Chapter",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Add Lesson** inside the chapter.",
+          "action": "click",
+          "target": "Add Lesson",
+          "target_bold": true,
+          "has_target": true,
+          "context": "inside the chapter"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Enter the lesson name and configure the lesson type (**Text**, **Video**, or **Audio**).",
+          "action": "type",
+          "target": "Text",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Video, or Audio)"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save**.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Reordering Chapters and Lessons",
+      "heading_slug": "reordering-chapters-and-lessons",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the **Content** tab of your course.",
+          "action": "navigate",
+          "target": "Content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab of your course"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Hover over the chapter or lesson you want to move until you see the **drag handle** (the icon with horizontal lines).",
+          "action": "hover",
+          "target": "drag handle",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(the icon with horizontal lines)"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click and hold the drag handle, then drag the item to its new position.",
+          "action": "click",
+          "target": "And Hold The Drag Handle",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Release to drop it in place.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Renaming and Deleting Chapters",
+      "heading_slug": "renaming-and-deleting-chapters",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Hover over the chapter in the **Content** tab.",
+          "action": "hover",
+          "target": "Content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Edit** icon (pencil) that appears.",
+          "action": "click",
+          "target": "Edit",
+          "target_bold": true,
+          "has_target": true,
+          "context": "icon (pencil) that appears"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Update the chapter name.",
+          "action": "click",
+          "target": "Chapter Name",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save**.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Renaming and Deleting Chapters",
+      "heading_slug": "renaming-and-deleting-chapters",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Hover over the chapter you want to remove.",
+          "action": "hover",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Delete** icon (trash can).",
+          "action": "click",
+          "target": "Delete",
+          "target_bold": true,
+          "has_target": true,
+          "context": "icon (trash can)"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Confirm the deletion when prompted.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

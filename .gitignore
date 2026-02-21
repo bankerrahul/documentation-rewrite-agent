@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# Generated files (per-product)
+universal_screenshot_agent/products/*/specs/
+universal_screenshot_agent/products/*/screenshots/
+
+# Keep template
+!universal_screenshot_agent/products/_template/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/

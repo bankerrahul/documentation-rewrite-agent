@@ -1,0 +1,23 @@
+[
+  {
+    "id": "settings-menu-annotated",
+    "description": "The Settings menu item with arrow",
+    "url": "/wp-admin/admin.php?page=tqb_admin_dashboard",
+    "actions": [
+      {
+        "type": "click",
+        "selector": "#tqb-settings-nav"
+      }
+    ],
+    "selector": "body",
+    "output_file": "settings-annotated.png",
+    "annotations": [
+      {
+        "type": "arrow",
+        "selector": ".tqb-settings-dropdown",
+        "position": "left",
+        "color": "red"
+      }
+    ]
+  }
+]

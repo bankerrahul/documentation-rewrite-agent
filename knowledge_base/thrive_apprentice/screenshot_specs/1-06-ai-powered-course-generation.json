@@ -1,0 +1,168 @@
+{
+  "filename": "1-06-ai-powered-course-generation.md",
+  "title": "How to Use AI Course Generation in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Generating a Course from a Prompt (\"Prompt-to-Course\")",
+      "heading_slug": "generating-a-course-from-a-prompt-prompt-to-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Courses** tab.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the **Add Course** button.",
+          "action": "click",
+          "target": "Add Course",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Select **Generate with AI**.",
+          "action": "click",
+          "target": "Generate with AI",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "In the **Topic** field, enter a brief description of what you want to teach (e.g., \"Beginner's Guide to Urban Gardening\").",
+          "action": "locate",
+          "target": "Topic",
+          "target_bold": true,
+          "has_target": true,
+          "context": "field, enter a brief description of what you want to teach (e.g., \"Beginner's Gu"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Adjust the **Difficulty** and **Course Length** settings to match your target audience.",
+          "action": "locate",
+          "target": "Difficulty",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and Course Length settings to match your target audience"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Generate Course Structure**.",
+          "action": "click",
+          "target": "Generate Course Structure",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Generating a Course from a Prompt (\"Prompt-to-Course\")",
+      "heading_slug": "generating-a-course-from-a-prompt-prompt-to-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Review the generated outline carefully.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Regenerate specific sections or edit titles as needed.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Once you are satisfied with the structure, click **Generate Content** to have the AI write the lesson summaries and text.",
+          "action": "locate",
+          "target": "Generate Content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "have the AI write the lesson summaries and text"
+        }
+      ]
+    },
+    {
+      "heading": "Remixing an Existing Course",
+      "heading_slug": "remixing-an-existing-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Find the course you want to use as a template in the **Courses** list.",
+          "action": "locate",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "list"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Hover over the course and select the **Remix** option.",
+          "action": "hover",
+          "target": "Remix",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Enter the **New Topic** you want to adapt the content for (e.g., changing \"Social Media for Realtors\" to \"Social Media for Dentists\").",
+          "action": "type",
+          "target": "New Topic",
+          "target_bold": true,
+          "has_target": true,
+          "context": "you want to adapt the content for (e.g., changing \"Social Media for Realtors\" to"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "The AI will rewrite the content, keeping the proven structure of your original course but adapting the terminology and examples for the new audience.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Review the changes and click **Save** to create your new course.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create your new course"
+        }
+      ]
+    }
+  ]
+}

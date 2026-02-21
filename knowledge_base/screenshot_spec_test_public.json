@@ -1,0 +1,11 @@
+{
+  "base_url": "https://example.com",
+  "captures": [
+    {
+      "image_id": "test-homepage",
+      "url": "/",
+      "steps": [],
+      "full_page": false
+    }
+  ]
+}

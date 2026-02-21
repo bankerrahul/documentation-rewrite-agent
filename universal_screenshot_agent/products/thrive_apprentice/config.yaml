@@ -1,0 +1,426 @@
+# Thrive Apprentice — Universal Screenshot Agent Configuration
+# All TA-specific selectors, navigation flows, and settings extracted from
+# the original hardcoded screenshot agent.
+
+product:
+  name: "Thrive Apprentice"
+  slug: "thrive_apprentice"
+
+local_site:
+  url: "${WP_URL:-http://thrive-themes.local}"
+  admin_entry: "/wp-admin/admin.php?page=thrive_apprentice"
+  login_path: "/wp-login.php"
+
+production_site:
+  url: "https://thrivethemes.com"
+  post_type: "ht-kb"
+  taxonomy: "ht-kb-category"
+
+auth:
+  username_field: "#user_login"
+  password_field: "#user_pass"
+  submit_button: "#wp-submit"
+  success_indicator: "wp-admin"
+
+browser:
+  viewport_width: 1280
+  viewport_height: 800
+  scale_factor: 2
+  spa_load_delay_ms: 3000
+
+layout:
+  sidebar_width_css: 100
+  wp_sidebar_width_css: 160
+  toolbar_height_css: 32
+
+# ─── Section Context Mapping ───
+# Maps section heading keywords → logical page context strings.
+# Sections with the same context skip re-navigation.
+section_contexts:
+  - context: "wp-dashboard"
+    keywords: ["accessing"]
+
+  - context: "ta-courses-list"
+    keywords:
+      - "creating your first course"
+      - "managing courses"
+      - "course list"
+      - "publishing"
+      - "publish"
+      - "ai"
+      - "generating"
+      - "prompt-to-course"
+      - "remixing"
+      - "generate with ai"
+      - "course generation"
+      - "funnel"
+      - "opt-in"
+      - "email service"
+      - "landing"
+      - "free course"
+      - "lead generation"
+
+  - context: "ta-course-content"
+    keywords:
+      - "adding modules"
+      - "adding chapters"
+      - "adding your first lesson"
+      - "lesson"
+      - "module"
+      - "chapter"
+      - "hierarchy"
+      - "content type"
+      - "structuring"
+      - "course structure"
+      - "navigation"
+      - "progress tracking"
+
+  - context: "ta-settings"
+    keywords:
+      - "settings"
+      - "general settings"
+      - "email template"
+      - "login"
+      - "access restriction"
+      - "payment"
+      - "api key"
+      - "log"
+      - "data cleanup"
+      - "course page"
+      - "url slug"
+      - "auto-login"
+      - "auto login"
+      - "course comment"
+      - "dynamic label"
+      - "label"
+      - "translation"
+      - "certificate"
+      - "assessment upload"
+      - "authentication"
+      - "registration"
+
+  - context: "ta-products"
+    keywords:
+      - "product"
+      - "bundle"
+      - "creating a course bundle"
+      - "adding courses to"
+      - "configuring access"
+      - "access rule"
+      - "access requirement"
+
+  - context: "ta-design"
+    keywords:
+      - "design"
+      - "template"
+      - "dynamic text"
+      - "visual editor"
+
+  - context: "ta-course-drip"
+    keywords:
+      - "drip"
+      - "schedule"
+
+  - context: "wp-pages"
+    keywords:
+      - "profile page"
+      - "landing page"
+      - "menu link"
+      - "my profile"
+      - "edit profile"
+
+  # Default context (no keywords = catch-all)
+  - context: "ta-dashboard"
+    keywords: []
+
+# ─── Navigation Flows ───
+# Define action sequences for each context.
+navigation_flows:
+  wp-dashboard:
+    requires_app: false
+    actions:
+      - goto: "${local_site.url}/wp-admin/"
+        wait: "networkidle"
+      - wait_ms: 1000
+
+  ta-courses-list:
+    requires_app: true
+    actions:
+      - click: ".tva-menu .tva-menu-item:has-text('Courses')"
+        wait_ms: 2000
+
+  ta-course-content:
+    requires_app: true
+    # Note: actual navigation is handled by adapter (check if inside course, click Content tab)
+    actions: []
+
+  ta-settings:
+    requires_app: true
+    actions:
+      - click: ".tva-menu .tva-menu-item:has-text('Settings')"
+        wait_ms: 3000
+
+  ta-products:
+    requires_app: true
+    actions:
+      - click: ".tva-menu .tva-menu-item:has-text('Products')"
+        wait_ms: 3000
+
+  ta-design:
+    requires_app: true
+    actions:
+      - click: ".tva-menu .tva-menu-item:has-text('Design')"
+        wait_ms: 3000
+
+  ta-course-drip:
+    requires_app: true
+    # Note: adapter handles entering course + clicking Drip tab
+    actions: []
+
+  wp-pages:
+    requires_app: false
+    actions:
+      - goto: "${local_site.url}/wp-admin/edit.php?post_type=page"
+        wait: "networkidle"
+      - wait_ms: 1000
+
+  ta-dashboard:
+    requires_app: true
+    actions: []
+
+# ─── CSS Selectors ───
+selectors:
+  sidebar:
+    container: ".tva-menu"
+    item: ".tva-menu-item"
+    item_template: ".tva-menu .tva-menu-item:has-text('{text}')"
+    known_items:
+      - "Home"
+      - "Courses"
+      - "Members"
+      - "Reports"
+      - "Design"
+      - "Products"
+      - "Protected Files"
+      - "Settings"
+      - "Notice"
+      - "Preview"
+      - "Assessments"
+
+  tabs:
+    container: "ul.tva-tabs-ul"
+    selected: "li.tva-tab-selected"
+    title: ".tva-tab-title"
+    slug_map:
+      "course details": "details"
+      "content": "new"
+      "access restrictions": "access"
+      "drip": "drip"
+      "course completion": "completion"
+    content_tab_slug: "new"
+    content_tab_index: 1
+
+  modals:
+    overlay: "#tvd-modal-base:visible, .tvd-modal-overlay:visible, .tva-modal:visible"
+    close_button: >
+      #tvd-modal-base button:has-text('Close'):visible,
+      .tva-modal-create button:has-text('Close'):visible,
+      button.tvd-modal-close:visible,
+      .tvd-modal-close:visible
+    x_button: >
+      #tvd-modal-base .tvd-modal-close:visible,
+      .modal-close:visible,
+      [data-dismiss='modal']:visible
+    save_button: >
+      .tva-modal-btn-green[data-fn='save']:visible,
+      .tvd-modal-save:visible,
+      #tvd-modal-base button:has-text('Save'):visible,
+      .tva-modal-create button:has-text('Save'):visible
+    form_step: "#tvd-form-modal-step"
+
+  action_buttons:
+    add_item_selector: "[data-fn='openAddItemModal'][data-type='{type}']:visible"
+    type_map:
+      "add module": "module"
+      "add lesson": "lesson"
+      "add chapter": "chapter"
+      "add assessment": "assessment"
+    class_map:
+      module: ".tva-add-main-btn"
+      lesson: ".tva-add-lesson"
+      chapter: ".tva-add-chapter"
+      assessment: ".tva-add-main-btn"
+
+  course:
+    card_selectors:
+      - ".tva-course-card"
+      - ".tva-course-item"
+      - ".tva-course-card-container"
+      - "div[class*='course-card']"
+      - "div[class*='course-item']"
+    publish_button: "#tva-course-publish"
+    status_dropdown: ".tva-course-status-drop"
+    course_name_input: "input[placeholder*='Course name' i], input[placeholder*='name' i].tva-course-name"
+
+  toggles:
+    settings_row: ".tva-settings-row"
+    switch_class: ".tvd-switch"
+    toggle_class: ".tva-toggle"
+
+  wp_admin:
+    menu: "#adminmenu a:has-text('{text}')"
+    admin_bar: "#wpadminbar a:has-text('{text}')"
+    known_items:
+      - "Thrive Dashboard"
+      - "Thrive Apprentice"
+      - "Thrive Comments"
+      - "Thrive Ovation"
+      - "Thrive Optimize"
+      - "Thrive Leads"
+      - "Thrive Quiz Builder"
+      - "Thrive Ultimatum"
+      - "Thrive Theme Builder"
+      - "Product Manager"
+      - "Dashboard"
+      - "Posts"
+      - "Pages"
+      - "Media"
+      - "Appearance"
+      - "Plugins"
+      - "Users"
+      - "Tools"
+      - "Settings"
+
+  save_buttons:
+    modal_save: >
+      .tva-modal-btn-green[data-fn='save']:visible,
+      .tvd-modal-save:visible
+    green_button: >
+      button.tva-btn-green:has-text('{text}'):visible,
+      button.tvd-btn-green:has-text('{text}'):visible
+
+  edit_links:
+    item_actions: >
+      .tva-course-item a:has-text('{text}'):visible,
+      .tva-item-actions a:has-text('{text}'):visible
+
+  labels:
+    course_label: >
+      label.course-label:has-text('{text}'):visible,
+      label:has-text('{text}'):visible,
+      h3:has-text('{text}'):visible,
+      h4:has-text('{text}'):visible,
+      .tva-section-title:has-text('{text}'):visible
+
+  vague_course_targets:
+    - "your course"
+    - "the course"
+    - "course you want"
+    - "first course"
+
+  ai_elements:
+    selectors: >
+      button:has-text('{text}'):visible,
+      a:has-text('{text}'):visible,
+      span:has-text('{text}'):visible,
+      .tva-ai-generate:has-text('{text}'):visible
+
+  architect:
+    selectors: >
+      a:has-text('{text}'):visible,
+      button:has-text('{text}'):visible,
+      #thrive_preview_button:visible,
+      .tcb-enable-editor:visible
+
+  section_map:
+    design: ".tva-menu .tva-menu-item:has-text('Design')"
+    template: ".tva-menu .tva-menu-item:has-text('Design')"
+    branding: ".tva-menu .tva-menu-item:has-text('Design')"
+    typography: ".tva-menu .tva-menu-item:has-text('Design')"
+    layout: ".tva-menu .tva-menu-item:has-text('Design')"
+    product: ".tva-menu .tva-menu-item:has-text('Products')"
+    payment: ".tva-menu .tva-menu-item:has-text('Products')"
+    member: ".tva-menu .tva-menu-item:has-text('Members')"
+    report: ".tva-menu .tva-menu-item:has-text('Reports')"
+    drip: ".tva-tab-title:has-text('Drip')"
+    access restriction: ".tva-tab-title:has-text('Access restrictions')"
+
+# ─── Tab Switching ───
+tab_switching:
+  content_tab_targets:
+    - "add module"
+    - "add lesson"
+    - "add chapter"
+    - "add assessment"
+    - "edit content"
+    - "add content"
+    - "edit module details"
+    - "add course content"
+  modal_targets:
+    - "module title"
+    - "lesson title"
+    - "chapter title"
+
+# ─── Modal Wizard (multi-step Add Item modal) ───
+modal_wizard:
+  type_selection:
+    button_selector: "[data-fn='setModel'][data-type='{type}']:visible"
+    type_map:
+      "add module": "module"
+      "add lesson": "lesson"
+      "add chapter": "chapter"
+      "add assessment": "assessment"
+  parent_selection:
+    step_selector: "#tvd-parent-selection-step:visible"
+    parent_dropdown: "#tva-parent-target:visible"
+    continue_button: >
+      #tvd-parent-selection-step [data-fn='setParent']:visible,
+      #tvd-parent-selection-step .tva-modal-btn-green:visible
+
+# ─── Settings Sub-tabs ───
+settings_sub_tabs:
+  "email template": "Email templates"
+  "label": "Labels & translations"
+  "translation": "Labels & translations"
+  "dynamic label": "Labels & translations"
+  "login": "Login & access restriction"
+  "access restriction": "Login & access restriction"
+  "payment": "Payments"
+  "log": "Logs"
+  "api key": "Api keys"
+  "data cleanup": "Data Cleanup"
+  "assessment upload": "Assessment uploads"
+
+# ─── Sample Text ───
+sample_text:
+  "course title": "Introduction to Email Marketing"
+  "course name": "Introduction to Email Marketing"
+  "module title": "Getting Started"
+  "module name": "Getting Started"
+  "lesson title": "Welcome to the Course"
+  "lesson name": "Welcome to the Course"
+  "chapter title": "Chapter 1: Basics"
+  "chapter name": "Chapter 1: Basics"
+  "course summary": "Learn the fundamentals of email marketing in this comprehensive course."
+  "course description": "Learn the fundamentals of email marketing in this comprehensive course."
+  "course overview": "This course covers everything you need to know about email marketing."
+  "url": "https://example.com"
+  "email": "student@example.com"
+
+# Known course titles for fallback navigation
+known_course_titles:
+  - "Introduction to Email Marketing"
+  - "My First Course"
+
+# ─── Articles (for publishing) ───
+# Sample: 2 articles included for reference. Add your articles here.
+articles:
+  - slug: "1-01-creating-your-first-course"
+    post_id: 114142892
+  - slug: "1-03-creating-course-bundles"
+    post_id: 114142894
+
+categories:
+  prefix_map:
+    "1-": [34177]
+    "2-": [34177]

@@ -1,0 +1,315 @@
+{
+  "filename": "10-02-sendowl-operations-legacy.md",
+  "title": "SendOwl Operations and Troubleshooting (Legacy)",
+  "sections": [
+    {
+      "heading": "Customizing Checkout Templates",
+      "heading_slug": "customizing-checkout-templates",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In **SendOwl**, go to **Settings** > **Checkout Templates**.",
+          "action": "locate",
+          "target": "SendOwl",
+          "target_bold": true,
+          "has_target": true,
+          "context": "go to Settings > Checkout Templates"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select an existing template or click **Create New**.",
+          "action": "click",
+          "target": "Create New",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Customize the layout, colors, logo, and text fields.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Assign the template to your products under each product's settings.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Sending Customers Directly to Checkout",
+      "heading_slug": "sending-customers-directly-to-checkout",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In **SendOwl**, open the product you want to link.",
+          "action": "locate",
+          "target": "SendOwl",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open the product you want to link"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Copy the **Direct Checkout URL** from the product's sharing options.",
+          "action": "locate",
+          "target": "Direct Checkout URL",
+          "target_bold": true,
+          "has_target": true,
+          "context": "product's sharing options"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Use this URL in your buttons, emails, or landing pages to send customers directly to payment.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Viewing the Customer List",
+      "heading_slug": "viewing-the-customer-list",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In **SendOwl**, go to **Orders** to see all completed purchases.",
+          "action": "locate",
+          "target": "SendOwl",
+          "target_bold": true,
+          "has_target": true,
+          "context": "go to Orders to see all completed purchases"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Filter by product, date range, or payment status.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click on any order to view customer details, purchase history, and payment information.",
+          "action": "click",
+          "target": "On Any Order",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Customer Login After Purchase",
+      "heading_slug": "customer-login-after-purchase",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "The student receives a confirmation email with login credentials (or a link to set their password).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "They visit your site's **Login** page.",
+          "action": "locate",
+          "target": "Login",
+          "target_bold": true,
+          "has_target": true,
+          "context": "page"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "After logging in, they're redirected to their course dashboard with access to purchased content.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Mailing List Integration",
+      "heading_slug": "mailing-list-integration",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In **SendOwl**, go to **Settings** > **Integrations**.",
+          "action": "locate",
+          "target": "SendOwl",
+          "target_bold": true,
+          "has_target": true,
+          "context": "go to Settings > Integrations"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Connect your email service provider (Mailchimp, ConvertKit, AWeber, etc.).",
+          "action": "locate",
+          "target": "Email Service Provider (Mailchimp",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Map the product to a specific email list or tag.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "When a purchase completes, the customer is automatically added to your list.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Applying Discounts",
+      "heading_slug": "applying-discounts",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In **SendOwl**, go to **Marketing** > **Discount Codes**.",
+          "action": "locate",
+          "target": "SendOwl",
+          "target_bold": true,
+          "has_target": true,
+          "context": "go to Marketing > Discount Codes"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Create Discount Code**.",
+          "action": "click",
+          "target": "Create Discount Code",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the code name, discount type (percentage or fixed amount), and expiration date.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Optionally restrict the code to specific products.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Share the discount code with your audience—students enter it at checkout.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Viewing SendOwl Logs",
+      "heading_slug": "viewing-sendowl-logs",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In **Thrive Apprentice**, go to **Settings** > **SendOwl**.",
+          "action": "locate",
+          "target": "Thrive Apprentice",
+          "target_bold": true,
+          "has_target": true,
+          "context": "go to Settings > SendOwl"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Check the **Connection Log** for recent webhook events.",
+          "action": "toggle",
+          "target": "Connection Log",
+          "target_bold": true,
+          "has_target": true,
+          "context": "for recent webhook events"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Each entry shows the timestamp, order ID, product, and whether access was successfully granted.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Selling Subscriber-Only Courses",
+      "heading_slug": "selling-subscriber-only-courses",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Create a product in **SendOwl** for the subscriber-only course.",
+          "action": "locate",
+          "target": "SendOwl",
+          "target_bold": true,
+          "has_target": true,
+          "context": "for the subscriber-only course"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "In **Thrive Apprentice**, assign the course to this product.",
+          "action": "locate",
+          "target": "Thrive Apprentice",
+          "target_bold": true,
+          "has_target": true,
+          "context": "assign the course to this product"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set access rules so only users with the correct product access can view the course.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Share the **Direct Checkout URL** only with your subscriber list through email campaigns.",
+          "action": "locate",
+          "target": "Direct Checkout URL",
+          "target_bold": true,
+          "has_target": true,
+          "context": "only with your subscriber list through email campaigns"
+        }
+      ]
+    }
+  ]
+}

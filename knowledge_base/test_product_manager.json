@@ -1,0 +1,17 @@
+[
+    {
+        "id": "product-manager-arrow",
+        "description": "Arrow pointing to Product Manager",
+        "url": "/wp-admin/",
+        "selector": "body",
+        "output_file": "product_manager.png",
+        "annotations": [
+            {
+                "type": "arrow",
+                "selector": "#toplevel_page_thrive_product_manager",
+                "position": "right",
+                "color": "red"
+            }
+        ]
+    }
+]

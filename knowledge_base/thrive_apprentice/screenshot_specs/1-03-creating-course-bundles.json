@@ -1,0 +1,168 @@
+{
+  "filename": "1-03-creating-course-bundles.md",
+  "title": "How to Create Course Bundles in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Creating a Course Bundle Step by Step",
+      "heading_slug": "creating-a-course-bundle-step-by-step",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** in your WordPress admin.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice in your WordPress admin"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Products** tab in the left sidebar.",
+          "action": "click",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the **Add New Product** button.",
+          "action": "click",
+          "target": "Add New Product",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Enter a **Product Name** for your bundle (e.g., \"Complete Marketing Mastery Bundle\").",
+          "action": "type",
+          "target": "Product Name",
+          "target_bold": true,
+          "has_target": true,
+          "context": "for your bundle (e.g., \"Complete Marketing Mastery Bundle\")"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Optionally, add a **Product Description** to explain what's included.",
+          "action": "locate",
+          "target": "Product Description",
+          "target_bold": true,
+          "has_target": true,
+          "context": "explain what's included"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to create the product.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create the product"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Courses to the Bundle",
+      "heading_slug": "adding-courses-to-the-bundle",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the product you just created by clicking on it in the **Products** list.",
+          "action": "navigate",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "list"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Look for the **Course Access** or **Content** section within the product settings.",
+          "action": "locate",
+          "target": "Course Access",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Content section within the product settings"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Add Course** and select the first course you want to include.",
+          "action": "click",
+          "target": "Add Course",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select the first course you want to include"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Repeat for each additional course you want in the bundle.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** to confirm your selections.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "confirm your selections"
+        }
+      ]
+    },
+    {
+      "heading": "Configuring Access Rules",
+      "heading_slug": "configuring-access-rules",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Within the product settings, navigate to the **Access Requirements** section.",
+          "action": "locate",
+          "target": "Access Requirements",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Configure how students gain access—through a direct purchase, a membership, or a manual grant.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Connect your product to a payment gateway if you are selling the bundle (e.g., link to a ThriveCart checkout or a WooCommerce product).",
+          "action": "locate",
+          "target": "Payments",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Set any additional restrictions, such as time-limited access or drip-released content.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** to apply the access rules.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the access rules"
+        }
+      ]
+    }
+  ]
+}

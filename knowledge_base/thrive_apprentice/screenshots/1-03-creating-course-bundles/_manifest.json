@@ -1,0 +1,146 @@
+{
+  "filename": "1-03-creating-course-bundles.md",
+  "title": "How to Create Course Bundles in Thrive Apprentice",
+  "total": 16,
+  "captured": 16,
+  "skipped": 0,
+  "errors": 0,
+  "screenshots": [
+    {
+      "file": "creating-a-course-bundle-step-by-step_step1.png",
+      "step": 1,
+      "section": "Creating a Course Bundle Step by Step",
+      "target": "Thrive Dashboard",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 485,
+        "width": 36,
+        "height": 34
+      }
+    },
+    {
+      "file": "creating-a-course-bundle-step-by-step_step2.png",
+      "step": 2,
+      "section": "Creating a Course Bundle Step by Step",
+      "target": "Products",
+      "found": true,
+      "bbox": {
+        "x": 180,
+        "y": 137,
+        "width": 990,
+        "height": 31
+      }
+    },
+    {
+      "file": "creating-a-course-bundle-step-by-step_step3.png",
+      "step": 3,
+      "section": "Creating a Course Bundle Step by Step",
+      "target": "Add New Product",
+      "found": true
+    },
+    {
+      "file": "creating-a-course-bundle-step-by-step_step4.png",
+      "step": 4,
+      "section": "Creating a Course Bundle Step by Step",
+      "target": "Product Name",
+      "found": true
+    },
+    {
+      "file": "creating-a-course-bundle-step-by-step_step5.png",
+      "step": 5,
+      "section": "Creating a Course Bundle Step by Step",
+      "target": "Product Description",
+      "found": true
+    },
+    {
+      "file": "creating-a-course-bundle-step-by-step_step6.png",
+      "step": 6,
+      "section": "Creating a Course Bundle Step by Step",
+      "target": "Save",
+      "found": true
+    },
+    {
+      "file": "adding-courses-to-the-bundle_step1.png",
+      "step": 1,
+      "section": "Adding Courses to the Bundle",
+      "target": "Products",
+      "found": true,
+      "bbox": {
+        "x": 39,
+        "y": 417,
+        "width": 57,
+        "height": 60
+      }
+    },
+    {
+      "file": "adding-courses-to-the-bundle_step2.png",
+      "step": 2,
+      "section": "Adding Courses to the Bundle",
+      "target": "Course Access",
+      "found": true
+    },
+    {
+      "file": "adding-courses-to-the-bundle_step3.png",
+      "step": 3,
+      "section": "Adding Courses to the Bundle",
+      "target": "Add Course",
+      "found": true
+    },
+    {
+      "file": "adding-courses-to-the-bundle_step4.png",
+      "step": 4,
+      "section": "Adding Courses to the Bundle",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "adding-courses-to-the-bundle_step5.png",
+      "step": 5,
+      "section": "Adding Courses to the Bundle",
+      "target": "Save",
+      "found": true
+    },
+    {
+      "file": "configuring-access-rules_step1.png",
+      "step": 1,
+      "section": "Configuring Access Rules",
+      "target": "Access Requirements",
+      "found": true
+    },
+    {
+      "file": "configuring-access-rules_step2.png",
+      "step": 2,
+      "section": "Configuring Access Rules",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "configuring-access-rules_step3.png",
+      "step": 3,
+      "section": "Configuring Access Rules",
+      "target": "Payments",
+      "found": true,
+      "bbox": {
+        "x": 39,
+        "y": 417,
+        "width": 57,
+        "height": 60
+      }
+    },
+    {
+      "file": "configuring-access-rules_step4.png",
+      "step": 4,
+      "section": "Configuring Access Rules",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "configuring-access-rules_step5.png",
+      "step": 5,
+      "section": "Configuring Access Rules",
+      "target": "Save",
+      "found": true
+    }
+  ]
+}

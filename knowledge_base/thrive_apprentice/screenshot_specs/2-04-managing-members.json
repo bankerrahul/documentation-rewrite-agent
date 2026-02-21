@@ -1,0 +1,225 @@
+{
+  "filename": "2-04-managing-members.md",
+  "title": "How to Manage Members in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Accessing the Members Section",
+      "heading_slug": "accessing-the-members-section",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Members** in the left sidebar.",
+          "action": "click",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        }
+      ]
+    },
+    {
+      "heading": "Managing Member Access",
+      "heading_slug": "managing-member-access",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Click on the member's name in the member list.",
+          "action": "click",
+          "target": "On The Member'S Name",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Review their enrollment details and progress.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Use the available options to grant, revoke, or modify their access.",
+          "action": "locate",
+          "target": "Their Access",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply any changes.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply any changes"
+        }
+      ]
+    },
+    {
+      "heading": "Revoking Product Access",
+      "heading_slug": "revoking-product-access",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Members** in the left sidebar.",
+          "action": "navigate",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Find the member in the list and click their name.",
+          "action": "locate",
+          "target": "Their Name",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Locate the product you want to revoke access for.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Revoke Access** next to the product.",
+          "action": "click",
+          "target": "Revoke Access",
+          "target_bold": true,
+          "has_target": true,
+          "context": "next to the product"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Confirm the action.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Completely Removing a Member",
+      "heading_slug": "completely-removing-a-member",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to the **Members** section.",
+          "action": "navigate",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Find and click the member you want to remove.",
+          "action": "locate",
+          "target": "Member You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the **Remove** option.",
+          "action": "click",
+          "target": "Remove",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Confirm the removal when prompted.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Import the CSV into Thrive Apprentice",
+      "heading_slug": "step-2-import-the-csv-into-thrive-apprentice",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** > **Members**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Members"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Import** button at the top of the members list.",
+          "action": "click",
+          "target": "Import",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button at the top of the members list"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Upload your **.CSV file**.",
+          "action": "locate",
+          "target": ".CSV file",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Map the CSV columns to the corresponding Thrive Apprentice fields (e.g., email, first name, last name).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Select which **products** the imported members should have access to.",
+          "action": "click",
+          "target": "products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "the imported members should have access to"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Import** to begin the process.",
+          "action": "click",
+          "target": "Import",
+          "target_bold": true,
+          "has_target": true,
+          "context": "begin the process"
+        }
+      ]
+    }
+  ]
+}

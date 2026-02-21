@@ -1,0 +1,387 @@
+{
+  "filename": "4-02-creating-managing-templates.md",
+  "title": "How to Create and Manage Thrive Apprentice Templates",
+  "sections": [
+    {
+      "heading": "Understanding the Design Section",
+      "heading_slug": "understanding-the-design-section",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "From your WordPress admin area, go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Design** in the left sidebar.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        }
+      ]
+    },
+    {
+      "heading": "Editing a Pre-built Design",
+      "heading_slug": "editing-a-pre-built-design",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** > **Design**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Design"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate the design you want to modify—either in the published or unpublished section.",
+          "action": "locate",
+          "target": "Publish",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Edit Design** on the design block.",
+          "action": "click",
+          "target": "Edit Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "design block"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "You will enter the design editing dashboard, which shows all template types associated with that design (Course Overview, Lesson, Module, etc.).",
+          "action": "locate",
+          "target": "Course Overview",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click on any template type to open it in the visual editor.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Customize the layout, colors, typography, and elements as needed.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click the pencil icon next to the design name if you want to rename it.",
+          "action": "click",
+          "target": "Pencil Icon Next",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Save your changes when finished.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Design from Scratch",
+      "heading_slug": "adding-a-new-design-from-scratch",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice** > **Design**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Design"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **+Add Design** button on the Design management page.",
+          "action": "click",
+          "target": "+Add Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button on the Design management page"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the dialog box that appears, enter a name for your new design.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Create New Design** to confirm.",
+          "action": "click",
+          "target": "Create New Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "confirm"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Your new design will appear in the **Unpublished Designs** section.",
+          "action": "locate",
+          "target": "Unpublished Designs",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Edit Design** on your new design block to begin building out each template type.",
+          "action": "click",
+          "target": "Edit Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "your new design block to begin building out each template type"
+        }
+      ]
+    },
+    {
+      "heading": "Creating and Using Templates Within a Design",
+      "heading_slug": "creating-and-using-templates-within-a-design",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your design by clicking **Edit Design**.",
+          "action": "navigate",
+          "target": "Edit Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Navigate to the template type you want to add (e.g., **Lesson**).",
+          "action": "navigate",
+          "target": "Lesson",
+          "target_bold": true,
+          "has_target": true,
+          "context": ")"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the option to add a new template for that type.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Choose whether to start from a pre-built template or build from scratch.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Customize the template using the drag-and-drop visual editor.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save your work.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Applying a Template to Content",
+      "heading_slug": "applying-a-template-to-content",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the course, lesson, or module you want to update.",
+          "action": "navigate",
+          "target": "Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Hover over **Edit with Thrive** and select **Edit with Thrive Architect** from the dropdown.",
+          "action": "hover",
+          "target": "Edit with Thrive",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Edit with Thrive Architect from the dropdown"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the left sidebar, locate the template settings for your content.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Select the desired template from the available options.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Renaming a Template",
+      "heading_slug": "renaming-a-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the design containing the template by clicking **Edit Design**.",
+          "action": "navigate",
+          "target": "Edit Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate the template you want to rename.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the pencil icon next to the template name.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Enter the new name and confirm.",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Duplicating a Template",
+      "heading_slug": "duplicating-a-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the design and locate the template you want to copy.",
+          "action": "navigate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Duplicate** option on the template.",
+          "action": "click",
+          "target": "Duplicate",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option on the template"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "A copy of the template will appear in your template list, ready for further customization.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Deleting a Template",
+      "heading_slug": "deleting-a-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the design and locate the template you no longer need.",
+          "action": "navigate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Delete** option on the template.",
+          "action": "click",
+          "target": "Delete",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option on the template"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Confirm the deletion when prompted.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

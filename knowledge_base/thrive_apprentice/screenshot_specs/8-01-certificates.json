@@ -1,0 +1,354 @@
+{
+  "filename": "8-01-certificates.md",
+  "title": "How to Issue Course Completion Certificates in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Creating a Certificate Template",
+      "heading_slug": "creating-a-certificate-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Certificates** tab in the left sidebar.",
+          "action": "click",
+          "target": "Certificates",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Add New Certificate** to create a new template.",
+          "action": "click",
+          "target": "Add New Certificate",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create a new template"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Give your certificate a descriptive name (e.g., \"Standard Completion Certificate\").",
+          "action": "locate",
+          "target": "Standard Completion Certificate",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Edit Design** to open the certificate in the visual editor.",
+          "action": "click",
+          "target": "Edit Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open the certificate in the visual editor"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Design your certificate layout using the drag-and-drop builder—add text elements, images, borders, logos, and background colors to match your brand.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save Work** when you're finished, then click **Done** to return to the Certificates screen.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "when you're finished, then click Done to return to the Certificates screen"
+        }
+      ]
+    },
+    {
+      "heading": "Using Dynamic Data in Your Certificate",
+      "heading_slug": "using-dynamic-data-in-your-certificate",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "While editing your certificate template in the visual editor, click on a text element where you want to insert dynamic content.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Look for the **Dynamic Text** option in the text element toolbar.",
+          "action": "locate",
+          "target": "Dynamic Text",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option in the text element toolbar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select from the available dynamic fields:",
+          "action": "click",
+          "target": "From The Available Dynamic Fields:",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Position and style the dynamic text elements to fit your certificate design.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save Work** to preserve your changes.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "preserve your changes"
+        }
+      ]
+    },
+    {
+      "heading": "Assigning a Certificate to a Course",
+      "heading_slug": "assigning-a-certificate-to-a-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to the **Courses** tab and open the course you want to add a certificate to.",
+          "action": "navigate",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and open the course you want to add a certificate to"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "In the course settings, locate the **Certificate** section.",
+          "action": "locate",
+          "target": "Certificate",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select your certificate template from the dropdown list.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply the certificate to the course.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the certificate to the course"
+        }
+      ]
+    },
+    {
+      "heading": "Customizing the PDF File Name",
+      "heading_slug": "customizing-the-pdf-file-name",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to the **Certificates** tab and open the certificate template you want to modify.",
+          "action": "navigate",
+          "target": "Certificates",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and open the certificate template you want to modify"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate the **PDF File Name** setting.",
+          "action": "locate",
+          "target": "PDF File Name",
+          "target_bold": true,
+          "has_target": true,
+          "context": "setting"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Enter a custom filename pattern using dynamic placeholders. For example:",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply the changes.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the changes"
+        }
+      ]
+    },
+    {
+      "heading": "Enabling Certificate Verification",
+      "heading_slug": "enabling-certificate-verification",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to the **Certificates** tab and open your certificate template.",
+          "action": "navigate",
+          "target": "Certificates",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and open your certificate template"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Find the **Verification** toggle and enable it.",
+          "action": "locate",
+          "target": "Verification",
+          "target_bold": true,
+          "has_target": true,
+          "context": "toggle and enable it"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Once enabled, each generated certificate will include a unique verification URL.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Students and employers can visit this URL to confirm the certificate is valid and view details like the student's name, course title, and completion date.",
+          "action": "locate",
+          "target": "Course Title",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Adding a Download Certificate Button",
+      "heading_slug": "adding-a-download-certificate-button",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the page or lesson where you want to add the download button in **Thrive Architect**.",
+          "action": "navigate",
+          "target": "Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "From the element panel, drag and drop the **Download Certificate** button element onto the page.",
+          "action": "locate",
+          "target": "Download Certificate",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button element onto the page"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Customize the button text (e.g., \"Download Your Certificate\"), style, and placement.",
+          "action": "locate",
+          "target": "Download Your Certificate",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "The button automatically links to the student's personalized certificate PDF—no manual linking needed.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save Work** to apply your changes.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply your changes"
+        }
+      ]
+    },
+    {
+      "heading": "Sending Certificates via Email",
+      "heading_slug": "sending-certificates-via-email",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Apprentice** > **Settings** > **Email Templates**.",
+          "action": "navigate",
+          "target": "Thrive Apprentice",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Settings > Email Templates"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate or create a **Course Completion** email template.",
+          "action": "locate",
+          "target": "Course Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "email template"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the email body, add the certificate download link using the available dynamic shortcodes.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Customize the subject line and body text to congratulate the student and provide instructions for downloading their certificate.",
+          "action": "locate",
+          "target": "Subject Line",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save the email template.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

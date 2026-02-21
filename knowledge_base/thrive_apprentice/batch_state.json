@@ -1,0 +1,1514 @@
+{
+  "product": "thrive_apprentice",
+  "created_at": "2026-02-20T08:29:12.471931+00:00",
+  "updated_at": "2026-02-20T08:29:12.472603+00:00",
+  "total_articles": 69,
+  "articles": [
+    {
+      "id": "switching_to_thrive_apprentice_from_another_lms",
+      "title": "Switching to Thrive Apprentice from Another LMS",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Switching From LMS Platform",
+          "source_file": ""
+        },
+        {
+          "title": "Switching From LearnDash",
+          "source_file": ""
+        },
+        {
+          "title": "Switching From Teachable",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Three overlapping migration guides → one comprehensive guide with sections per platform.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "thrive_apprentice_settings_guide",
+      "title": "Thrive Apprentice Settings Guide",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Navigating the Settings Page",
+          "source_file": ""
+        },
+        {
+          "title": "Getting Started with General Settings",
+          "source_file": ""
+        },
+        {
+          "title": "Using Dynamic Labels",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Overlapping \"settings overview\" articles consolidated into one.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "setting_up_login_registration_and_access_restrictions",
+      "title": "Setting Up Login, Registration, and Access Restrictions",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Login and Access Restriction Settings",
+          "source_file": ""
+        },
+        {
+          "title": "Setting up Login and Registration Page",
+          "source_file": ""
+        },
+        {
+          "title": "Configuring Login & Access Restriction Rules",
+          "source_file": ""
+        },
+        {
+          "title": "Registering a New User",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Four articles all about login/registration/access setup.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "access_restrictions_and_rules_in_thrive_apprentice",
+      "title": "Access Restrictions and Rules in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Protecting the Course Overview Page",
+          "source_file": ""
+        },
+        {
+          "title": "Using Access Requirements for Subscribers-only Courses",
+          "source_file": ""
+        },
+        {
+          "title": "Using Dynamic Access Restriction Labels",
+          "source_file": ""
+        },
+        {
+          "title": "Overriding Access Restrictions for Non-Logged In Users",
+          "source_file": ""
+        },
+        {
+          "title": "Accessing Restriction Rules at Product Level",
+          "source_file": ""
+        },
+        {
+          "title": "Understanding Priority of Access Rules",
+          "source_file": ""
+        },
+        {
+          "title": "Advanced Access Control Guide",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Seven articles on access control scattered across Settings, Products, and top-level.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "managing_your_courses_status_scheduling_bulk_actions",
+      "title": "Managing Your Courses (Status, Scheduling, Bulk Actions)",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Managing Course Status",
+          "source_file": ""
+        },
+        {
+          "title": "Scheduling to Publish at Specific Date",
+          "source_file": ""
+        },
+        {
+          "title": "Structuring & Managing Courses Using Bulk Actions",
+          "source_file": ""
+        },
+        {
+          "title": "Hiding Premium Courses in List",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Four course lifecycle management articles.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "managing_members_in_thrive_apprentice",
+      "title": "Managing Members in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Using the Members Section",
+          "source_file": ""
+        },
+        {
+          "title": "Removing Members",
+          "source_file": ""
+        },
+        {
+          "title": "Importing Existing Members",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Three member management articles.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "getting_started_with_the_thrive_apprentice_visual_editor",
+      "title": "Getting Started with the Thrive Apprentice Visual Editor",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Getting Started with New Visual Editor",
+          "source_file": ""
+        },
+        {
+          "title": "Switching From Legacy to Visual Editor",
+          "source_file": ""
+        },
+        {
+          "title": "Switching Back to Legacy Editor",
+          "source_file": ""
+        },
+        {
+          "title": "Customizing Template Using Legacy Editor",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Four articles about editor switching/getting started.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "creating_and_managing_thrive_apprentice_templates",
+      "title": "Creating and Managing Thrive Apprentice Templates",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Creating and Using Templates",
+          "source_file": ""
+        },
+        {
+          "title": "Managing Templates – Basic Options",
+          "source_file": ""
+        },
+        {
+          "title": "Applying a Template to Content",
+          "source_file": ""
+        },
+        {
+          "title": "Using the Design Section",
+          "source_file": ""
+        },
+        {
+          "title": "Editing a Pre-built Design",
+          "source_file": ""
+        },
+        {
+          "title": "Adding a New Design",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Six articles on template basics.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "template_types_in_thrive_apprentice",
+      "title": "Template Types in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Adding Course Overview Template",
+          "source_file": ""
+        },
+        {
+          "title": "Adding Lesson Template",
+          "source_file": ""
+        },
+        {
+          "title": "Creating Module Template",
+          "source_file": ""
+        },
+        {
+          "title": "Adding Course Completion Template",
+          "source_file": ""
+        },
+        {
+          "title": "Adding Access Restricted Template",
+          "source_file": ""
+        },
+        {
+          "title": "Adding Certificate Verification Template",
+          "source_file": ""
+        },
+        {
+          "title": "Adding School Homepage",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Seven \"adding a new X template\" articles → one reference.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "working_with_video_in_thrive_apprentice",
+      "title": "Working with Video in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Adding a Video Description",
+          "source_file": ""
+        },
+        {
+          "title": "Moving the Video Description",
+          "source_file": ""
+        },
+        {
+          "title": "Forcing Students to Watch Video Before Mark Complete",
+          "source_file": ""
+        },
+        {
+          "title": "Recording Video Events",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Four video-related articles.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "getting_started_with_drip_in_thrive_apprentice",
+      "title": "Getting Started with Drip in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Using Drip Campaign Templates",
+          "source_file": ""
+        },
+        {
+          "title": "Understanding New Drip Behavior",
+          "source_file": ""
+        },
+        {
+          "title": "Setting up Unlock Conditions",
+          "source_file": ""
+        },
+        {
+          "title": "Selling a Dripped Content Course",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Four conceptual/overview drip articles.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "drip_schedule_templates_reference",
+      "title": "Drip Schedule Templates Reference",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Sequential Unlock",
+          "source_file": ""
+        },
+        {
+          "title": "Evergreen Repeating",
+          "source_file": ""
+        },
+        {
+          "title": "Scheduled Repeating",
+          "source_file": ""
+        },
+        {
+          "title": "Day of Week/Month",
+          "source_file": ""
+        },
+        {
+          "title": "Drip on Specific Dates",
+          "source_file": ""
+        },
+        {
+          "title": "Start From Scratch",
+          "source_file": ""
+        },
+        {
+          "title": "Thrive Automator Unlock",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Seven drip template articles → one reference guide.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "advanced_drip_techniques",
+      "title": "Advanced Drip Techniques",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Cohort Based Classes",
+          "source_file": ""
+        },
+        {
+          "title": "Dripping Only on Weekdays",
+          "source_file": ""
+        },
+        {
+          "title": "Start Course on First Monday",
+          "source_file": ""
+        },
+        {
+          "title": "Using Decoupled Drip Schedules",
+          "source_file": ""
+        },
+        {
+          "title": "Excluding Lessons",
+          "source_file": ""
+        },
+        {
+          "title": "Hiding Locked Lessons",
+          "source_file": ""
+        },
+        {
+          "title": "Unlocking at Different Time Intervals",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Seven specialized drip articles → one guide.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "choosing_an_integration_for_thrive_apprentice",
+      "title": "Choosing an Integration for Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Should I Use WooCommerce?",
+          "source_file": ""
+        },
+        {
+          "title": "Should I Use ThriveCart?",
+          "source_file": ""
+        },
+        {
+          "title": "Should I Use SendOwl?",
+          "source_file": ""
+        },
+        {
+          "title": "Should I Integrate WishList Member?",
+          "source_file": ""
+        },
+        {
+          "title": "Should I Integrate MemberPress?",
+          "source_file": ""
+        },
+        {
+          "title": "Should I Integrate with Checkout/Membership/Both?",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Six \"Should I\" articles → one decision guide.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "integrating_membership_plugins_with_thrive_apprentice",
+      "title": "Integrating Membership Plugins with Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Working with WishList Member",
+          "source_file": ""
+        },
+        {
+          "title": "Working with MemberPress",
+          "source_file": ""
+        },
+        {
+          "title": "Working with MemberMouse",
+          "source_file": ""
+        },
+        {
+          "title": "Integrating with MemberMouse",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Four membership plugin articles → one guide.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "no_indexing_thrive_apprentice_content",
+      "title": "No-Indexing Thrive Apprentice Content",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "No-index with Yoast",
+          "source_file": ""
+        },
+        {
+          "title": "No-index with AIOSEO",
+          "source_file": ""
+        },
+        {
+          "title": "No-index with Rankmath",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Three SEO articles → one guide with plugin-specific sections.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "course_completion_certificates_in_thrive_apprentice",
+      "title": "Course Completion Certificates in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Issuing Student Certificates",
+          "source_file": ""
+        },
+        {
+          "title": "Using Dynamic Certificate Data",
+          "source_file": ""
+        },
+        {
+          "title": "Using Dynamic Text in Certificate",
+          "source_file": ""
+        },
+        {
+          "title": "Changing PDF File Name",
+          "source_file": ""
+        },
+        {
+          "title": "Enabling Certificate Verification",
+          "source_file": ""
+        },
+        {
+          "title": "Using Download Certificate Button",
+          "source_file": ""
+        },
+        {
+          "title": "Sending Certificate Through Email",
+          "source_file": ""
+        },
+        {
+          "title": "Sharing Certificate When Member Finishes",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Eight certificate articles → one comprehensive guide.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "using_quizzes_in_thrive_apprentice_courses",
+      "title": "Using Quizzes in Thrive Apprentice Courses",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Enabling Mark as Complete After Quiz",
+          "source_file": ""
+        },
+        {
+          "title": "Using Mark as Complete on Quiz",
+          "source_file": ""
+        },
+        {
+          "title": "Unlocking Next Lesson After Quiz",
+          "source_file": ""
+        },
+        {
+          "title": "Enrolling After Quiz (Automator)",
+          "source_file": ""
+        },
+        {
+          "title": "Unlocking Content After Final Exam (Automator)",
+          "source_file": ""
+        },
+        {
+          "title": "Changing Notification for Mark Complete",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Six quiz-related articles across 3 categories.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "thrive_automator_recipes_for_thrive_apprentice",
+      "title": "Thrive Automator Recipes for Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Enrolling After Test",
+          "source_file": ""
+        },
+        {
+          "title": "Notifying Students of New Content",
+          "source_file": ""
+        },
+        {
+          "title": "Revoking Access After Period",
+          "source_file": ""
+        },
+        {
+          "title": "Granting Access to Multiple Free Courses",
+          "source_file": ""
+        },
+        {
+          "title": "Free Course Unlocks Premium",
+          "source_file": ""
+        },
+        {
+          "title": "Removing After Free Trial",
+          "source_file": ""
+        },
+        {
+          "title": "Thank You Email After Purchase",
+          "source_file": ""
+        },
+        {
+          "title": "Discount Code After Purchase",
+          "source_file": ""
+        },
+        {
+          "title": "Digistore24 Automations",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Nine recipe-style automator articles → one reference.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "setting_up_sendowl_with_thrive_apprentice_legacy",
+      "title": "Setting Up SendOwl with Thrive Apprentice (Legacy)",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Selling Course with SendOwl",
+          "source_file": ""
+        },
+        {
+          "title": "Setting Up Listener",
+          "source_file": ""
+        },
+        {
+          "title": "API Key Permissions",
+          "source_file": ""
+        },
+        {
+          "title": "Creating Products in SendOwl",
+          "source_file": ""
+        },
+        {
+          "title": "Assigning Course Access",
+          "source_file": ""
+        },
+        {
+          "title": "Purchasing Process",
+          "source_file": ""
+        },
+        {
+          "title": "SendOwl Protection Options",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Seven core SendOwl setup articles.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "sendowl_operations_and_troubleshooting_legacy",
+      "title": "SendOwl Operations and Troubleshooting (Legacy)",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Checkout templates",
+          "source_file": ""
+        },
+        {
+          "title": "Direct checkout",
+          "source_file": ""
+        },
+        {
+          "title": "Registration page",
+          "source_file": ""
+        },
+        {
+          "title": "Thank you page",
+          "source_file": ""
+        },
+        {
+          "title": "Log in after purchase",
+          "source_file": ""
+        },
+        {
+          "title": "Log in after completion",
+          "source_file": ""
+        },
+        {
+          "title": "Customer list",
+          "source_file": ""
+        },
+        {
+          "title": "Mailing list",
+          "source_file": ""
+        },
+        {
+          "title": "Customers in Architect",
+          "source_file": ""
+        },
+        {
+          "title": "Discounts",
+          "source_file": ""
+        },
+        {
+          "title": "Logs",
+          "source_file": ""
+        },
+        {
+          "title": "Subscriber-only courses",
+          "source_file": ""
+        },
+        {
+          "title": "Finding customers",
+          "source_file": ""
+        },
+        {
+          "title": "Course after purchase",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "All remaining SendOwl articles.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "translating_your_thrive_apprentice_school",
+      "title": "Translating Your Thrive Apprentice School",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Translating Your Online School",
+          "source_file": ""
+        },
+        {
+          "title": "Translating Using Legacy Editor",
+          "source_file": ""
+        },
+        {
+          "title": "Translating Checkout Form",
+          "source_file": ""
+        },
+        {
+          "title": "Translating with Say What Plugin",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Four translation articles → one guide.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "conditional_lesson_unlocking_in_thrive_apprentice",
+      "title": "Conditional Lesson Unlocking in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "Unlock After Previous Completed",
+          "source_file": ""
+        },
+        {
+          "title": "Unlock From Next Course After Module",
+          "source_file": ""
+        },
+        {
+          "title": "Access Using Custom User Roles",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Three use-case articles → one guide.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "connecting_thrivecart_to_thrive_apprentice",
+      "title": "Connecting ThriveCart to Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [
+        {
+          "title": "How to Connect ThriveCart",
+          "source_file": ""
+        },
+        {
+          "title": "Setting Access Restriction Rules for ThriveCart",
+          "source_file": ""
+        }
+      ],
+      "merge_instructions": "Two ThriveCart articles → one guide.",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "creating_your_first_thrive_apprentice_course",
+      "title": "Creating Your First Thrive Apprentice Course",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "using_course_content_types_navigation_structure_and_progress_section",
+      "title": "Using Course Content Types, Navigation, Structure, and Progress Section",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "creating_course_bundles_in_thrive_apprentice",
+      "title": "Creating Course Bundles in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "creating_a_free_online_course_funnel",
+      "title": "Creating a Free Online Course Funnel",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "creating_a_student_profile_page",
+      "title": "Creating a Student Profile Page",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "ai_powered_course_generation",
+      "title": "AI Powered Course Generation",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "using_dynamic_text_in_thrive_apprentice",
+      "title": "Using Dynamic Text in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "managing_your_courses_status_scheduling_and_bulk_actions",
+      "title": "Managing Your Courses — Status, Scheduling, and Bulk Actions",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "changing_the_thrive_apprentice_lesson_type",
+      "title": "Changing the Thrive Apprentice Lesson Type",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "organizing_lessons_in_chapters",
+      "title": "Organizing Lessons in Chapters",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "setting_up_a_menu_for_courses_and_lessons",
+      "title": "Setting Up a Menu for Courses and Lessons",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "setting_up_thrive_apprentice_email_templates",
+      "title": "Setting up Thrive Apprentice Email Templates",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "adding_a_progress_bar_to_your_lesson",
+      "title": "Adding a Progress Bar to Your Lesson",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "attaching_downloadable_files_to_lessons",
+      "title": "Attaching Downloadable Files to Lessons",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "enabling_course_level_grading",
+      "title": "Enabling Course Level Grading",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "using_the_thrive_apprentice_widget_area",
+      "title": "Using the Thrive Apprentice Widget Area",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "how_to_use_the_products_section",
+      "title": "How to Use the Products Section",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "managing_product_access_expiry",
+      "title": "Managing Product Access Expiry",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "protecting_files_and_granting_access",
+      "title": "Protecting Files and Granting Access",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "linking_to_external_checkout_using_custom_payment_links",
+      "title": "Linking to External Checkout Using Custom Payment Links",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "getting_started_with_the_visual_editor",
+      "title": "Getting Started with the Visual Editor",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "creating_and_managing_templates",
+      "title": "Creating and Managing Templates",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "template_types_reference",
+      "title": "Template Types Reference",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "displaying_lesson_resources_by_progress_status",
+      "title": "Displaying Lesson Resources by Progress Status",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "making_the_first_lesson_of_a_paid_course_free",
+      "title": "Making the First Lesson of a Paid Course Free",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "integrating_lesson_and_course_list_elements",
+      "title": "Integrating Lesson and Course List Elements",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "getting_started_with_drip",
+      "title": "Getting Started with Drip",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "integrating_membership_plugins",
+      "title": "Integrating Membership Plugins",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "getting_started_with_woocommerce",
+      "title": "Getting Started with WooCommerce",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "setting_up_stripe_in_thrive_apprentice",
+      "title": "Setting up Stripe in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "enabling_the_stripe_customer_portal",
+      "title": "Enabling the Stripe Customer Portal",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "connecting_with_square",
+      "title": "Connecting with Square",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "enabling_assessments_in_thrive_apprentice",
+      "title": "Enabling Assessments in Thrive Apprentice",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "managing_assessment_upload_settings",
+      "title": "Managing Assessment Upload Settings",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "refreshing_templates_after_adding_assessments",
+      "title": "Refreshing Templates After Adding Assessments",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "registering_users_and_adding_to_autoresponder",
+      "title": "Registering Users and Adding to Autoresponder",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "course_completion_certificates",
+      "title": "Course Completion Certificates",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "setting_up_course_completion_behavior",
+      "title": "Setting up Course Completion Behavior",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "conditional_lesson_unlocking",
+      "title": "Conditional Lesson Unlocking",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "using_the_reports_section",
+      "title": "Using the Reports Section",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "viewing_member_related_data",
+      "title": "Viewing Member Related Data",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "sorting_students_by_enrollment_date",
+      "title": "Sorting Students by Enrollment Date",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "unlocking_a_lesson_for_users_manually",
+      "title": "Unlocking a Lesson for Users Manually",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "setting_up_sendowl_with_thrive_apprentice_legacy_guide",
+      "title": "Setting Up SendOwl with Thrive Apprentice — Legacy Guide",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "id": "sendowl_operations_and_troubleshooting_legacy_guide",
+      "title": "SendOwl Operations and Troubleshooting — Legacy Guide",
+      "source_file": "",
+      "source_urls": [],
+      "merge_sources": [],
+      "merge_instructions": "",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "outputs": {},
+      "error": null,
+      "retry_count": 0
+    }
+  ]
+}

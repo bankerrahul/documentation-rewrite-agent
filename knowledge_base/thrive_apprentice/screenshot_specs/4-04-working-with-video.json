@@ -1,0 +1,297 @@
+{
+  "filename": "4-04-working-with-video.md",
+  "title": "How to Work with Video in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Adding a Video Description to a Course",
+      "heading_slug": "adding-a-video-description-to-a-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the course you want to edit.",
+          "action": "navigate",
+          "target": "Course You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click on the **Course Details** tab.",
+          "action": "click",
+          "target": "Course Details",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Scroll to the bottom of the page and locate the **Video Description** option.",
+          "action": "scroll",
+          "target": "Video Description",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Enable the video description toggle.",
+          "action": "toggle",
+          "target": "Video Description Toggle",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Select or paste the video URL you want to display.",
+          "action": "click",
+          "target": "Or Paste The Video Url You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Moving the Video Description Placement",
+      "heading_slug": "moving-the-video-description-placement",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to your course and preview it on the front end.",
+          "action": "navigate",
+          "target": "Your Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "You will see two editing options:",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Choose the appropriate editor based on whether you want to make a global change or a per-course adjustment.",
+          "action": "click",
+          "target": "Appropriate Editor Based",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Locate the video description element on the template.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Drag it to your desired position on the page.",
+          "action": "drag",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Enabling Video Watch Progress for a New Lesson",
+      "heading_slug": "enabling-video-watch-progress-for-a-new-lesson",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the course and create a new lesson.",
+          "action": "navigate",
+          "target": "Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Add a video to the lesson.",
+          "action": "locate",
+          "target": "Video",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "In the lesson settings, locate the **Video Watch Progress** option.",
+          "action": "locate",
+          "target": "Video Watch Progress",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Enable it and set the required watch percentage (e.g., 90%).",
+          "action": "toggle",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save the lesson.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Enabling Video Watch Progress for an Existing Lesson",
+      "heading_slug": "enabling-video-watch-progress-for-an-existing-lesson",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the existing lesson you want to update.",
+          "action": "navigate",
+          "target": "Existing Lesson You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Navigate to the lesson settings.",
+          "action": "navigate",
+          "target": "Lesson Settings",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Locate the **Video Watch Progress** option.",
+          "action": "locate",
+          "target": "Video Watch Progress",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Enable it and configure the required watch percentage.",
+          "action": "toggle",
+          "target": "Required Watch Percentage",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Recording Video Events for Analytics",
+      "heading_slug": "recording-video-events-for-analytics",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the lesson where you want to track video events.",
+          "action": "navigate",
+          "target": "Lesson Where You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the lesson settings, locate the **Record Video Events** option.",
+          "action": "locate",
+          "target": "Record Video Events",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Enable it.",
+          "action": "toggle",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

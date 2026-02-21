@@ -1,0 +1,210 @@
+{
+  "filename": "4-01-getting-started-visual-editor.md",
+  "title": "How to Get Started with the Thrive Apprentice Visual Editor",
+  "sections": [
+    {
+      "heading": "Accessing the Visual Editor",
+      "heading_slug": "accessing-the-visual-editor",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "From your WordPress admin area, navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the **Design** tab in the left sidebar.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "You will see the Design dashboard, which displays all your published and unpublished designs.",
+          "action": "locate",
+          "target": "Publish",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Edit Design** on the active design block to open the Visual Editor.",
+          "action": "click",
+          "target": "Edit Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "active design block to open the Visual Editor"
+        }
+      ]
+    },
+    {
+      "heading": "Switching from the Legacy Editor to the Visual Editor",
+      "heading_slug": "switching-from-the-legacy-editor-to-the-visual-editor",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the **Design** tab.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "You will see both the Legacy design and any new designs available in the dashboard.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **+Add Design** to create a new design, or select one of the pre-built designs offered by the Visual Editor.",
+          "action": "click",
+          "target": "+Add Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create a new design, or select one of the pre-built designs offered by the Visua"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Give your new design a name and click **Create New Design**.",
+          "action": "locate",
+          "target": "Create New Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Customize the design to your liking using the Visual Editor's drag-and-drop interface.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "When you are satisfied, click **Publish** to make the new design live on your school's front end.",
+          "action": "locate",
+          "target": "Publish",
+          "target_bold": true,
+          "has_target": true,
+          "context": "make the new design live on your school's front end"
+        }
+      ]
+    },
+    {
+      "heading": "Switching Back to the Legacy Editor",
+      "heading_slug": "switching-back-to-the-legacy-editor",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the **Design** tab.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Scroll down to the **Unpublished Designs** section and locate the **Legacy** design.",
+          "action": "scroll",
+          "target": "Unpublished Designs",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section and locate the Legacy design"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Hover over the Legacy design and click the **Publish** button.",
+          "action": "hover",
+          "target": "Publish",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button"
+        }
+      ]
+    },
+    {
+      "heading": "Basic Customization in the Legacy Editor",
+      "heading_slug": "basic-customization-in-the-legacy-editor",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the **Design** tab to view your active design.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab to view your active design"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Edit Design** on the Legacy design block.",
+          "action": "click",
+          "target": "Edit Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Legacy design block"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Use the available options to adjust colors, fonts, and layout settings for your course pages.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your changes when finished.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

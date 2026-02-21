@@ -1,0 +1,75 @@
+{
+  "filename": "2-12-widget-area.md",
+  "title": "How to Use the Thrive Apprentice Widget Area",
+  "sections": [
+    {
+      "heading": "Adding Widgets to the Thrive Apprentice Widget Area",
+      "heading_slug": "adding-widgets-to-the-thrive-apprentice-widget-area",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, go to **Appearance** > **Widgets**.",
+          "action": "locate",
+          "target": "Appearance",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Widgets"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate the **Thrive Apprentice** widget area in the list of available widget areas. It may be labeled as **Thrive Apprentice Sidebar** or similar, depending on your theme.",
+          "action": "locate",
+          "target": "Thrive Apprentice",
+          "target_bold": true,
+          "has_target": true,
+          "context": "widget area in the list of available widget areas. It may be labeled as Thrive A"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the widget area to expand it.",
+          "action": "click",
+          "target": "Widget Area",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click the **Add Widget** button (or use the block inserter if you're using the block-based widget editor).",
+          "action": "click",
+          "target": "Add Widget",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button (or use the block inserter if you're using the block-based widget editor)"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Select the widget you want to add from the available options.",
+          "action": "click",
+          "target": "Widget You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Configure the widget settings as needed (e.g., title, content, display options).",
+          "action": "locate",
+          "target": "Widget Settings As Needed (E",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save** or **Update** to apply your changes.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Update to apply your changes"
+        }
+      ]
+    }
+  ]
+}

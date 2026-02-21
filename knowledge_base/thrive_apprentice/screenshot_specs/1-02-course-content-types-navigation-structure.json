@@ -1,0 +1,48 @@
+{
+  "filename": "1-02-course-content-types-navigation-structure.md",
+  "title": "How to Use Course Content Types, Navigation, and Progress Tracking in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Structuring Your Course Hierarchy",
+      "heading_slug": "structuring-your-course-hierarchy",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Create a **Course** as the outermost container.",
+          "action": "locate",
+          "target": "Course",
+          "target_bold": true,
+          "has_target": true,
+          "context": "as the outermost container"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Add **Modules** inside the course to divide it into major topics or units.",
+          "action": "locate",
+          "target": "Modules",
+          "target_bold": true,
+          "has_target": true,
+          "context": "inside the course to divide it into major topics or units"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Add **Chapters** inside modules to break topics into smaller groups.",
+          "action": "locate",
+          "target": "Chapters",
+          "target_bold": true,
+          "has_target": true,
+          "context": "inside modules to break topics into smaller groups"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Add **Lessons** inside chapters (or directly inside modules or the course itself) for the actual learning content.",
+          "action": "locate",
+          "target": "Lessons",
+          "target_bold": true,
+          "has_target": true,
+          "context": "inside chapters (or directly inside modules or the course itself) for the actual"
+        }
+      ]
+    }
+  ]
+}

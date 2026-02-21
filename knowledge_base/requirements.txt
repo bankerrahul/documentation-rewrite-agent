@@ -1,0 +1,7 @@
+openai
+anthropic
+python-dotenv
+playwright
+Pillow
+requests
+markdown

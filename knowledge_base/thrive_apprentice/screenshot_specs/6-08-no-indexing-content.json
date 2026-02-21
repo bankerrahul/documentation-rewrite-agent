@@ -1,0 +1,399 @@
+{
+  "filename": "6-08-no-indexing-content.md",
+  "title": "How to No-Index Thrive Apprentice Content with SEO Plugins",
+  "sections": [
+    {
+      "heading": "No-Index Individual Lessons, Modules, or Chapters",
+      "heading_slug": "no-index-individual-lessons-modules-or-chapters",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the lesson, module, or chapter you want to no-index in the WordPress editor.",
+          "action": "navigate",
+          "target": "Lesson",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Scroll down to the **Yoast SEO** meta box below the content area.",
+          "action": "scroll",
+          "target": "Yoast SEO",
+          "target_bold": true,
+          "has_target": true,
+          "context": "meta box below the content area"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the **Advanced** tab (the gear icon) within the Yoast SEO box.",
+          "action": "click",
+          "target": "Advanced",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab (the gear icon) within the Yoast SEO box"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Find the **Allow search engines to show this content in search results?** dropdown.",
+          "action": "locate",
+          "target": "Allow search engines to show this content in search results?",
+          "target_bold": true,
+          "has_target": true,
+          "context": "dropdown"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Select **No** to set the page to no-index.",
+          "action": "click",
+          "target": "No",
+          "target_bold": true,
+          "has_target": true,
+          "context": "set the page to no-index"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Update or publish the page.",
+          "action": "click",
+          "target": "Publish",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "No-Index All Content of a Specific Type",
+      "heading_slug": "no-index-all-content-of-a-specific-type",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress admin, go to **Yoast SEO** > **Settings**.",
+          "action": "locate",
+          "target": "Yoast SEO",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Settings"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Navigate to the **Content types** section.",
+          "action": "navigate",
+          "target": "Content types",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Find the Thrive Apprentice content types (Lessons, Modules, Chapters).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "For each content type you want to hide, set the **Show in search results** toggle to **Off**.",
+          "action": "locate",
+          "target": "Show in search results",
+          "target_bold": true,
+          "has_target": true,
+          "context": "toggle to Off"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "No-Index Individual Lessons, Modules, or Chapters",
+      "heading_slug": "no-index-individual-lessons-modules-or-chapters",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the lesson, module, or chapter in the WordPress editor.",
+          "action": "navigate",
+          "target": "Lesson",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Scroll down to the **AIOSEO Settings** section below the content area.",
+          "action": "scroll",
+          "target": "AIOSEO Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section below the content area"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the **Advanced** tab.",
+          "action": "click",
+          "target": "Advanced",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Find the **Robots Setting** section.",
+          "action": "locate",
+          "target": "Robots Setting",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Toggle the **Use Default Settings** switch to **Off** to reveal custom options.",
+          "action": "toggle",
+          "target": "Use Default Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "switch to Off to reveal custom options"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Check the **No Index** checkbox.",
+          "action": "toggle",
+          "target": "No Index",
+          "target_bold": true,
+          "has_target": true,
+          "context": "checkbox"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Update or publish the page.",
+          "action": "click",
+          "target": "Publish",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "No-Index All Content of a Specific Type",
+      "heading_slug": "no-index-all-content-of-a-specific-type",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress admin, go to **All in One SEO** > **Search Appearance**.",
+          "action": "locate",
+          "target": "All in One SEO",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Search Appearance"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Content Types** tab.",
+          "action": "click",
+          "target": "Content Types",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Find the Thrive Apprentice content types (Lessons, Modules, Chapters).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click on the content type you want to configure.",
+          "action": "click",
+          "target": "On The Content Type You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Under the **Advanced** tab, select **No Index** in the Robots meta settings.",
+          "action": "locate",
+          "target": "Advanced",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab, select No Index in the Robots meta settings"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "No-Index Individual Lessons, Modules, or Chapters",
+      "heading_slug": "no-index-individual-lessons-modules-or-chapters",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the lesson, module, or chapter in the WordPress editor.",
+          "action": "navigate",
+          "target": "Lesson",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Rank Math** icon in the top-right corner of the editor (or scroll down to the Rank Math meta box).",
+          "action": "click",
+          "target": "Rank Math",
+          "target_bold": true,
+          "has_target": true,
+          "context": "icon in the top-right corner of the editor (or scroll down to the Rank Math meta"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the **Advanced** tab.",
+          "action": "click",
+          "target": "Advanced",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Find the **Robots Meta** section.",
+          "action": "locate",
+          "target": "Robots Meta",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Select **No Index** from the available directives.",
+          "action": "click",
+          "target": "No Index",
+          "target_bold": true,
+          "has_target": true,
+          "context": "available directives"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Update or publish the page.",
+          "action": "click",
+          "target": "Publish",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "No-Index All Content of a Specific Type",
+      "heading_slug": "no-index-all-content-of-a-specific-type",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress admin, go to **Rank Math** > **Titles & Meta**.",
+          "action": "locate",
+          "target": "Rank Math",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Titles & Meta"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Find the tabs for Thrive Apprentice content types (Lessons, Modules, Chapters).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click on the content type you want to configure.",
+          "action": "click",
+          "target": "On The Content Type You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "In the **Robots Meta** section, check the **No Index** option.",
+          "action": "locate",
+          "target": "Robots Meta",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, check the No Index option"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Verifying Your No-Index Settings",
+      "heading_slug": "verifying-your-no-index-settings",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the lesson or course page you've set to no-index in your browser.",
+          "action": "navigate",
+          "target": "Lesson",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Right-click on the page and select **View Page Source**.",
+          "action": "locate",
+          "target": "View Page Source",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Search for `noindex` in the page source code.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "You should find a meta tag like: `<meta name=\"robots\" content=\"noindex\"/>` in the `<head>` section of the page.",
+          "action": "locate",
+          "target": "robots",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

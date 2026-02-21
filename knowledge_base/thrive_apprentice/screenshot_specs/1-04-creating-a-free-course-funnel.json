@@ -1,0 +1,294 @@
+{
+  "filename": "1-04-creating-a-free-course-funnel.md",
+  "title": "How to Create a Free Course Funnel in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Step 1: Create Your Free Course in Thrive Apprentice",
+      "heading_slug": "step-1-create-your-free-course-in-thrive-apprentice",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Courses** tab in the left sidebar.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Add Course** and enter a compelling course title.",
+          "action": "click",
+          "target": "Add Course",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and enter a compelling course title"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Add a course description that highlights what students will learn.",
+          "action": "locate",
+          "target": "Course Description",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Add your lessons with the free content you want to deliver.",
+          "action": "locate",
+          "target": "Lessons",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Set the **Course Status** to **Published**.",
+          "action": "click",
+          "target": "Course Status",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Published"
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Build a Landing Page with Thrive Architect",
+      "heading_slug": "step-2-build-a-landing-page-with-thrive-architect",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Create a new page in WordPress (e.g., \"Free Course: [Your Topic]\").",
+          "action": "locate",
+          "target": "Free Course: [Your Topic]",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Launch Thrive Architect** to open the visual editor.",
+          "action": "click",
+          "target": "Launch Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open the visual editor"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Choose a landing page template or start from scratch.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Add a headline that clearly states the benefit of the free course.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Include bullet points listing what students will learn.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Add social proof elements if available (testimonials, student count, etc.).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 3: Configure Access—No Product or Payment Needed",
+      "heading_slug": "step-3-configure-accessno-product-or-payment-needed",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In Thrive Apprentice, make sure the course is not linked to any paid product.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Set the course access to allow any logged-in user to view the content.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "New students will be created as WordPress users when they opt in through your form.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 4: Set Up the Opt-In Form",
+      "heading_slug": "step-4-set-up-the-opt-in-form",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In Thrive Architect, add a **Lead Generation** element to your landing page.",
+          "action": "locate",
+          "target": "Lead Generation",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element to your landing page"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Connect the form to your email marketing service using the **API Connection** settings.",
+          "action": "locate",
+          "target": "API Connection",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Configure the form fields—at minimum, collect the student's **Name** and **Email Address**.",
+          "action": "locate",
+          "target": "Name",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and Email Address"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Set the **After Submission** action to redirect students to the course page or a thank-you page with a link to the course.",
+          "action": "click",
+          "target": "After Submission",
+          "target_bold": true,
+          "has_target": true,
+          "context": "action to redirect students to the course page or a thank-you page with a link t"
+        }
+      ]
+    },
+    {
+      "heading": "Step 5: Connect Your Email Service",
+      "heading_slug": "step-5-connect-your-email-service",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **API Connections**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> API Connections"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Add New Connection** and select your email service provider.",
+          "action": "click",
+          "target": "Add New Connection",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select your email service provider"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Enter your API key or credentials and click **Connect**.",
+          "action": "type",
+          "target": "Connect",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Return to your landing page and link the opt-in form to the appropriate email list or tag.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 6: Test the Funnel",
+      "heading_slug": "step-6-test-the-funnel",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Visit your landing page as a logged-out user.",
+          "action": "navigate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Submit the opt-in form with a test email address.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Confirm you receive the email in your email marketing service.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Verify the redirect takes you to the course or thank-you page.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Log in as the test user and confirm you can access all course lessons.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

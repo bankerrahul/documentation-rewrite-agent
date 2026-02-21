@@ -1,0 +1,113 @@
+{
+  "total_articles": 1,
+  "total_steps": 29,
+  "total_captured": 29,
+  "total_not_found": 13,
+  "total_errors": 0,
+  "issues": [
+    {
+      "section": "Step 1: Create Your Course Content",
+      "step": 3,
+      "target": "Modules",
+      "raw_text": "Recreate your modules, chapters, and lessons within each course.",
+      "issue": "UI element 'Modules' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 2: Design Your Online School",
+      "step": 3,
+      "target": "Course Overview",
+      "raw_text": "Configure the layout for your course overview pages, lesson pages, and navigation elements.",
+      "issue": "UI element 'Course Overview' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "step": 1,
+      "target": "Products",
+      "raw_text": "Click the **Products** tab in Thrive Apprentice.",
+      "issue": "UI element 'Products' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "step": 3,
+      "target": "Appropriate Courses",
+      "raw_text": "Associate the appropriate courses with each product.",
+      "issue": "UI element 'Appropriate Courses' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "step": 4,
+      "target": "Payments",
+      "raw_text": "Connect your payment gateway (e.g., ThriveCart, WooCommerce, or SendOwl) to handle purchases.",
+      "issue": "UI element 'Payments' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 4: Configure Access Restrictions",
+      "step": 1,
+      "target": "Access Requirements",
+      "raw_text": "Within each product's settings, define the **Access Requirements**.",
+      "issue": "UI element 'Access Requirements' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 5: Set Up Drip Schedules",
+      "step": 1,
+      "target": "Course You Want",
+      "raw_text": "Open the course you want to drip-release.",
+      "issue": "UI element 'Course You Want' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 5: Set Up Drip Schedules",
+      "step": 2,
+      "target": "Drip",
+      "raw_text": "Navigate to the **Drip** settings within the course.",
+      "issue": "UI element 'Drip' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 5: Set Up Drip Schedules",
+      "step": 3,
+      "target": "When Each Lesson",
+      "raw_text": "Configure when each lesson or module becomes available\u2014based on enrollment date, specific dates, or completion of previous content.",
+      "issue": "UI element 'When Each Lesson' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 5: Set Up Drip Schedules",
+      "step": 4,
+      "target": "Drip",
+      "raw_text": "Save your drip schedule.",
+      "issue": "UI element 'Drip' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 6: Configure Login and Authentication",
+      "step": 1,
+      "target": "Login Page",
+      "raw_text": "Set up a **Login Page** for your students (or use the default WordPress login).",
+      "issue": "UI element 'Login Page' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 6: Configure Login and Authentication",
+      "step": 2,
+      "target": "Registration Page",
+      "raw_text": "Optionally, create a **Registration Page** if you want new students to sign up directly on your site.",
+      "issue": "UI element 'Registration Page' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    },
+    {
+      "section": "Step 7: Import Your Existing Customers",
+      "step": 2,
+      "target": "Members",
+      "raw_text": "In Thrive Apprentice, go to the **Members** tab and click the **Import member** button.",
+      "issue": "UI element 'Members' not found on page \u2014 verify step is accurate",
+      "article": "1-08-switching-to-thrive-apprentice-from-another-lms.md"
+    }
+  ]
+}

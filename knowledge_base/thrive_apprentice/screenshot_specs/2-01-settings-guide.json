@@ -1,0 +1,222 @@
+{
+  "filename": "2-01-settings-guide.md",
+  "title": "How to Navigate and Configure Thrive Apprentice Settings",
+  "sections": [
+    {
+      "heading": "Course Page Selection",
+      "heading_slug": "course-page-selection",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the **General** settings tab.",
+          "action": "navigate",
+          "target": "General",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings tab"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate the **Course Page** dropdown.",
+          "action": "locate",
+          "target": "Course Page",
+          "target_bold": true,
+          "has_target": true,
+          "context": "dropdown"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the page you want to use as your main course listing page.",
+          "action": "click",
+          "target": "Page You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply the change.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the change"
+        }
+      ]
+    },
+    {
+      "heading": "URL Slugs",
+      "heading_slug": "url-slugs",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Scroll to the **URL Slugs** section in the **General** tab.",
+          "action": "scroll",
+          "target": "URL Slugs",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the General tab"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Enter your preferred slug for each content type (e.g., `courses`, `lessons`).",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Save** to update the URLs.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "update the URLs"
+        }
+      ]
+    },
+    {
+      "heading": "Auto-Login",
+      "heading_slug": "auto-login",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **General** tab, find the **Auto-login** toggle.",
+          "action": "locate",
+          "target": "General",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab, find the Auto-login toggle"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Switch it **On** to enable automatic login for new accounts.",
+          "action": "toggle",
+          "target": "Automatic Login",
+          "target_bold": true,
+          "has_target": true,
+          "context": "toggle On, enable automatic login for new accounts"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Save**.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Course Comments",
+      "heading_slug": "course-comments",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Locate the **Enable Comments for Courses** option.",
+          "action": "locate",
+          "target": "Enable Comments for Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Toggle it **On** or **Off** based on your preference.",
+          "action": "toggle",
+          "target": "On",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Off based on your preference"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Save**.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Where to Find Dynamic Labels",
+      "heading_slug": "where-to-find-dynamic-labels",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Settings** > **Labels & Translations**.",
+          "action": "navigate",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Labels & Translations"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select the **Access Restrictions** section.",
+          "action": "click",
+          "target": "Access Restrictions",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "You'll see a list of customizable labels and call-to-action buttons on the right side of the screen.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Customizing Dynamic Labels",
+      "heading_slug": "customizing-dynamic-labels",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Click on the label text you want to edit.",
+          "action": "click",
+          "target": "On The Label Text You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Type your new text in the field provided.",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Repeat for any additional labels or call-to-action buttons.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply your changes.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply your changes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "filename": "3-01-access-restrictions-and-rules.md",
+  "title": "How to Set Up Access Restrictions and Rules in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Protecting Course Overview Pages",
+      "heading_slug": "protecting-course-overview-pages",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select **Courses** from the left sidebar and click on the course you want to protect.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar and click on the course you want to protect"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Open the **Access Restrictions** tab within the course settings.",
+          "action": "navigate",
+          "target": "Access Restrictions",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab within the course settings"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Enable the **Restrict course overview page** toggle.",
+          "action": "toggle",
+          "target": "Restrict course overview page",
+          "target_bold": true,
+          "has_target": true,
+          "context": "toggle"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Choose the restriction type—for example, require a product purchase or a logged-in status.",
+          "action": "click",
+          "target": "Restriction Type—For Example",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply your changes.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply your changes"
+        }
+      ]
+    },
+    {
+      "heading": "Creating Subscribers-Only Courses",
+      "heading_slug": "creating-subscribers-only-courses",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Go to **Products** and create a new product (or select an existing one).",
+          "action": "navigate",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and create a new product (or select an existing one)"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Assign the course you want to protect to this product.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Under the product's **Access Requirements**, set the requirement to **Email subscription** or the appropriate condition for your setup.",
+          "action": "locate",
+          "target": "Access Requirements",
+          "target_bold": true,
+          "has_target": true,
+          "context": "set the requirement to Email subscription or the appropriate condition for your "
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Open your course and mark selected introductory lessons as **Free Preview** so they remain accessible to everyone.",
+          "action": "navigate",
+          "target": "Free Preview",
+          "target_bold": true,
+          "has_target": true,
+          "context": "so they remain accessible to everyone"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save your settings.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Setting Restriction Rules at the Product Level",
+      "heading_slug": "setting-restriction-rules-at-the-product-level",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** > **Products**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Products"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the product you want to configure.",
+          "action": "click",
+          "target": "On The Product You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Open the **Access Restriction Rules** section.",
+          "action": "navigate",
+          "target": "Access Restriction Rules",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Configure the following options:",
+          "action": "locate",
+          "target": "Following Options:",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Understanding Access Rule Priority with Multiple Products",
+      "heading_slug": "understanding-access-rule-priority-with-multiple-products",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "**Course-level overrides** — If you've set specific restriction rules directly on a course, those take the highest priority.",
+          "action": "locate",
+          "target": "Course-level overrides",
+          "target_bold": true,
+          "has_target": true,
+          "context": "If you've set specific restriction rules directly on a course, those take the hi"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "**Product-level rules** — If no course-level override exists, the rules of the product that the visitor is most likely trying to access apply.",
+          "action": "locate",
+          "target": "Product-level rules",
+          "target_bold": true,
+          "has_target": true,
+          "context": "If no course-level override exists, the rules of the product that the visitor is"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "**Global default rules** — If neither course-level nor product-level rules are configured, Thrive Apprentice falls back to the global access restriction defaults set in your general settings.",
+          "action": "locate",
+          "target": "Global default rules",
+          "target_bold": true,
+          "has_target": true,
+          "context": "If neither course-level nor product-level rules are configured, Thrive Apprentic"
+        }
+      ]
+    },
+    {
+      "heading": "Using Dynamic Access Restriction Labels",
+      "heading_slug": "using-dynamic-access-restriction-labels",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Go to the **Design** section and open the course listing or course card template in Thrive Architect.",
+          "action": "navigate",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section and open the course listing or course card template in Thrive Architect"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the **Access Restriction Label** element on your course card.",
+          "action": "click",
+          "target": "Access Restriction Label",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element on your course card"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Customize the label text for each access state:",
+          "action": "locate",
+          "target": "Label Text",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Overriding Restrictions for Non-Logged-In Users",
+      "heading_slug": "overriding-restrictions-for-non-logged-in-users",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the course that contains the lesson you want to make publicly accessible.",
+          "action": "navigate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click on the specific lesson you want to override.",
+          "action": "click",
+          "target": "On The Specific Lesson You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "In the lesson settings, enable the **Free Preview** or **Public Access** toggle.",
+          "action": "locate",
+          "target": "Free Preview",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Public Access toggle"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

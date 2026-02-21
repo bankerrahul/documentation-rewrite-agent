@@ -1,0 +1,179 @@
+{
+  "filename": "1-05-creating-a-student-profile-page.md",
+  "title": "How to Create a Student Profile Page in Thrive Apprentice",
+  "total": 19,
+  "captured": 19,
+  "skipped": 0,
+  "errors": 0,
+  "screenshots": [
+    {
+      "file": "step-1-create-the-my-profile-page-read-only-view_step1.png",
+      "step": 1,
+      "section": "Step 1: Create the \"My Profile\" Page (Read-Only View)",
+      "target": "Pages",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 157.5625,
+        "width": 160,
+        "height": 34.1875
+      }
+    },
+    {
+      "file": "step-1-create-the-my-profile-page-read-only-view_step2.png",
+      "step": 2,
+      "section": "Step 1: Create the \"My Profile\" Page (Read-Only View)",
+      "target": "My Profile",
+      "found": true
+    },
+    {
+      "file": "step-1-create-the-my-profile-page-read-only-view_step3.png",
+      "step": 3,
+      "section": "Step 1: Create the \"My Profile\" Page (Read-Only View)",
+      "target": "Launch Thrive Architect",
+      "found": true
+    },
+    {
+      "file": "step-1-create-the-my-profile-page-read-only-view_step4.png",
+      "step": 4,
+      "section": "Step 1: Create the \"My Profile\" Page (Read-Only View)",
+      "target": "s information. You can use dynamic text fields to show the logged-in user",
+      "found": true
+    },
+    {
+      "file": "step-1-create-the-my-profile-page-read-only-view_step5.png",
+      "step": 5,
+      "section": "Step 1: Create the \"My Profile\" Page (Read-Only View)",
+      "target": "Editable Form Fields Here",
+      "found": true
+    },
+    {
+      "file": "step-1-create-the-my-profile-page-read-only-view_step6.png",
+      "step": 6,
+      "section": "Step 1: Create the \"My Profile\" Page (Read-Only View)",
+      "target": "Save Work",
+      "found": true
+    },
+    {
+      "file": "step-1-create-the-my-profile-page-read-only-view_step7.png",
+      "step": 7,
+      "section": "Step 1: Create the \"My Profile\" Page (Read-Only View)",
+      "target": "Publish",
+      "found": true,
+      "bbox": {
+        "x": 301.734375,
+        "y": 155.796875,
+        "width": 86.359375,
+        "height": 21.1875
+      }
+    },
+    {
+      "file": "step-2-create-the-edit-profile-page-interactive_step1.png",
+      "step": 1,
+      "section": "Step 2: Create the \"Edit Profile\" Page (Interactive)",
+      "target": "Pages",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 157.5625,
+        "width": 160,
+        "height": 34.1875
+      }
+    },
+    {
+      "file": "step-2-create-the-edit-profile-page-interactive_step2.png",
+      "step": 2,
+      "section": "Step 2: Create the \"Edit Profile\" Page (Interactive)",
+      "target": "Edit Profile",
+      "found": true
+    },
+    {
+      "file": "step-2-create-the-edit-profile-page-interactive_step3.png",
+      "step": 3,
+      "section": "Step 2: Create the \"Edit Profile\" Page (Interactive)",
+      "target": "Launch Thrive Architect",
+      "found": true
+    },
+    {
+      "file": "step-2-create-the-edit-profile-page-interactive_step4.png",
+      "step": 4,
+      "section": "Step 2: Create the \"Edit Profile\" Page (Interactive)",
+      "target": "User Profile",
+      "found": true
+    },
+    {
+      "file": "step-2-create-the-edit-profile-page-interactive_step5.png",
+      "step": 5,
+      "section": "Step 2: Create the \"Edit Profile\" Page (Interactive)",
+      "target": "User Profile",
+      "found": true
+    },
+    {
+      "file": "step-2-create-the-edit-profile-page-interactive_step6.png",
+      "step": 6,
+      "section": "Step 2: Create the \"Edit Profile\" Page (Interactive)",
+      "target": "Save Work",
+      "found": true
+    },
+    {
+      "file": "step-2-create-the-edit-profile-page-interactive_step7.png",
+      "step": 7,
+      "section": "Step 2: Create the \"Edit Profile\" Page (Interactive)",
+      "target": "Publish",
+      "found": true,
+      "bbox": {
+        "x": 301.734375,
+        "y": 155.796875,
+        "width": 86.359375,
+        "height": 21.1875
+      }
+    },
+    {
+      "file": "step-3-add-a-menu-link-to-the-profile-page_step1.png",
+      "step": 1,
+      "section": "Step 3: Add a Menu Link to the Profile Page",
+      "target": "Appearance",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 339.5,
+        "width": 160,
+        "height": 34.1875
+      }
+    },
+    {
+      "file": "step-3-add-a-menu-link-to-the-profile-page_step2.png",
+      "step": 2,
+      "section": "Step 3: Add a Menu Link to the Profile Page",
+      "target": "Menu You Want",
+      "found": true
+    },
+    {
+      "file": "step-3-add-a-menu-link-to-the-profile-page_step3.png",
+      "step": 3,
+      "section": "Step 3: Add a Menu Link to the Profile Page",
+      "target": "Pages",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 157.5625,
+        "width": 160,
+        "height": 34.1875
+      }
+    },
+    {
+      "file": "step-3-add-a-menu-link-to-the-profile-page_step4.png",
+      "step": 4,
+      "section": "Step 3: Add a Menu Link to the Profile Page",
+      "target": "Edit Profile",
+      "found": true
+    },
+    {
+      "file": "step-3-add-a-menu-link-to-the-profile-page_step5.png",
+      "step": 5,
+      "section": "Step 3: Add a Menu Link to the Profile Page",
+      "target": "Save Menu",
+      "found": true
+    }
+  ]
+}

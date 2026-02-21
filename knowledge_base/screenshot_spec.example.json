@@ -1,0 +1,26 @@
+{
+  "base_url": "https://staging.example.com",
+  "captures": [
+    {
+      "image_id": "generate-course-selection",
+      "url": "/wp-admin/admin.php?page=tva_admin_dashboard",
+      "steps": [
+        { "click": ".tva-add-course-button" },
+        { "wait": 500 },
+        { "click": "[data-action=generate-with-ai]" }
+      ],
+      "selector": ".tva-add-course-modal",
+      "full_page": false
+    },
+    {
+      "image_id": "prompt-input-settings",
+      "url": "/wp-admin/admin.php?page=tva_admin_dashboard",
+      "steps": [
+        { "click": ".tva-add-course-button" },
+        { "click": "[data-action=generate-with-ai]" },
+        { "wait": 1000 }
+      ],
+      "full_page": false
+    }
+  ]
+}

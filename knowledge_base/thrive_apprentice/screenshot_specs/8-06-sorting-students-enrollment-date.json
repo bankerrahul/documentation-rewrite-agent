@@ -1,0 +1,147 @@
+{
+  "filename": "8-06-sorting-students-enrollment-date.md",
+  "title": "How to Sort Students by Enrollment Date in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Accessing the Members List",
+      "heading_slug": "accessing-the-members-list",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Members** tab in the left sidebar.",
+          "action": "click",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        }
+      ]
+    },
+    {
+      "heading": "Sorting Students by Enrollment Date",
+      "heading_slug": "sorting-students-by-enrollment-date",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Members** list, locate the column headers at the top of the table.",
+          "action": "locate",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "list, locate the column headers at the top of the table"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the **Enrollment Date** column header to sort by date.",
+          "action": "click",
+          "target": "Enrollment Date",
+          "target_bold": true,
+          "has_target": true,
+          "context": "column header to sort by date"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click once to sort in **ascending order** (oldest enrollments first).",
+          "action": "click",
+          "target": "ascending order",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(oldest enrollments first)"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click again to switch to **descending order** (newest enrollments first).",
+          "action": "click",
+          "target": "descending order",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(newest enrollments first)"
+        }
+      ]
+    },
+    {
+      "heading": "Filtering by Date Range",
+      "heading_slug": "filtering-by-date-range",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "At the top of the **Members** list, look for the filter controls.",
+          "action": "locate",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "list, look for the filter controls"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select the **Date Range** filter.",
+          "action": "click",
+          "target": "Date Range",
+          "target_bold": true,
+          "has_target": true,
+          "context": "filter"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Choose a **Start Date** and **End Date** to define the enrollment window.",
+          "action": "click",
+          "target": "Start Date",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and End Date to define the enrollment window"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "The list will update to show only students who enrolled within the selected time frame.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Filtering by Course",
+      "heading_slug": "filtering-by-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Use the **Course** filter dropdown to select the course you want to view.",
+          "action": "locate",
+          "target": "Course",
+          "target_bold": true,
+          "has_target": true,
+          "context": "filter dropdown to select the course you want to view"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "The list updates to show only students enrolled in that course.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "With the course filter active, click the **Enrollment Date** column header to sort those students by their enrollment date.",
+          "action": "locate",
+          "target": "Enrollment Date",
+          "target_bold": true,
+          "has_target": true,
+          "context": "column header to sort those students by their enrollment date"
+        }
+      ]
+    }
+  ]
+}

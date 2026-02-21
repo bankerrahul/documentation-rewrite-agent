@@ -1,0 +1,47 @@
+[
+  {
+    "id": "step-1-thrive-dashboard-sidebar",
+    "description": "Pointing to Thrive Dashboard in the sidebar",
+    "url": "/wp-admin/",
+    "selector": "viewport",
+    "output_file": "step1_thrive_dashboard_sidebar.png",
+    "annotations": [
+      {
+        "type": "arrow",
+        "selector": "#toplevel_page_tve_dash_section",
+        "position": "right",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": "step-2-access-general-settings",
+    "description": "Clicking Manage Settings on the Thrive Dashboard card",
+    "url": "/wp-admin/admin.php?page=tve_dash_section",
+    "selector": "viewport",
+    "output_file": "step2_manage_settings_button.png",
+    "annotations": [
+      {
+        "type": "arrow",
+        "selector": "a.tvd-btn-green[href*='page=tve_dash_general_settings_section']",
+        "position": "right",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": "step-3-disable-google-fonts",
+    "description": "Checkbox to disable Google Fonts",
+    "url": "/wp-admin/admin.php?page=tve_dash_general_settings_section",
+    "selector": "viewport",
+    "output_file": "step3_disable_fonts_checkbox.png",
+    "annotations": [
+      {
+        "type": "arrow",
+        "selector": "label.tcb-checkbox:has(span:has-text('Disable all Google Fonts'))",
+        "position": "right",
+        "color": "red"
+      }
+    ]
+  }
+]

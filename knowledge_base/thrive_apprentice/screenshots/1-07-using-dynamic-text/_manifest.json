@@ -1,0 +1,180 @@
+{
+  "filename": "1-07-using-dynamic-text.md",
+  "title": "How to Use Dynamic Text in Thrive Apprentice",
+  "total": 20,
+  "captured": 18,
+  "skipped": 2,
+  "errors": 0,
+  "screenshots": [
+    {
+      "file": "how-to-access-dynamic-text_step1.png",
+      "step": 1,
+      "section": "How to Access Dynamic Text",
+      "target": "Thrive Dashboard",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 485,
+        "width": 36,
+        "height": 34
+      }
+    },
+    {
+      "file": "how-to-access-dynamic-text_step2.png",
+      "step": 2,
+      "section": "How to Access Dynamic Text",
+      "target": "Design",
+      "found": true,
+      "bbox": {
+        "x": 538,
+        "y": 396,
+        "width": 274,
+        "height": 40
+      }
+    },
+    {
+      "file": "how-to-access-dynamic-text_step3.png",
+      "step": 3,
+      "section": "How to Access Dynamic Text",
+      "target": "Design",
+      "found": true,
+      "bbox": {
+        "x": 237,
+        "y": 113.625,
+        "width": 120.46875,
+        "height": 24
+      }
+    },
+    {
+      "file": "how-to-access-dynamic-text_step4.png",
+      "step": 4,
+      "section": "How to Access Dynamic Text",
+      "target": "Manage Templates",
+      "found": true
+    },
+    {
+      "file": "how-to-access-dynamic-text_step5.png",
+      "step": 5,
+      "section": "How to Access Dynamic Text",
+      "target": "Lesson Template",
+      "found": true
+    },
+    {
+      "file": "how-to-access-dynamic-text_step6.png",
+      "step": 6,
+      "section": "How to Access Dynamic Text",
+      "target": "Edit",
+      "found": false
+    },
+    {
+      "file": "inserting-dynamic-text-tags_step1.png",
+      "step": 1,
+      "section": "Inserting Dynamic Text Tags",
+      "target": "Text",
+      "found": true
+    },
+    {
+      "file": "inserting-dynamic-text-tags_step2.png",
+      "step": 2,
+      "section": "Inserting Dynamic Text Tags",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "inserting-dynamic-text-tags_step3.png",
+      "step": 3,
+      "section": "Inserting Dynamic Text Tags",
+      "target": "Dynamic Text",
+      "found": true
+    },
+    {
+      "file": "inserting-dynamic-text-tags_step4.png",
+      "step": 4,
+      "section": "Inserting Dynamic Text Tags",
+      "target": "Tag You Want",
+      "found": true
+    },
+    {
+      "file": "inserting-dynamic-text-tags_step5.png",
+      "step": 5,
+      "section": "Inserting Dynamic Text Tags",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "walkthrough-adding-dynamic-text-to-a-lesson-template_step1.png",
+      "step": 1,
+      "section": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "target": "Thrive Dashboard",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 485,
+        "width": 36,
+        "height": 34
+      }
+    },
+    {
+      "file": "walkthrough-adding-dynamic-text-to-a-lesson-template_step2.png",
+      "step": 2,
+      "section": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "target": "Manage Templates",
+      "found": true,
+      "bbox": {
+        "x": 200,
+        "y": 474,
+        "width": 274,
+        "height": 72
+      }
+    },
+    {
+      "file": "walkthrough-adding-dynamic-text-to-a-lesson-template_step3.png",
+      "step": 3,
+      "section": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "target": "Edit",
+      "found": false
+    },
+    {
+      "file": "walkthrough-adding-dynamic-text-to-a-lesson-template_step4.png",
+      "step": 4,
+      "section": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "target": "Text",
+      "found": true
+    },
+    {
+      "file": "walkthrough-adding-dynamic-text-to-a-lesson-template_step5.png",
+      "step": 5,
+      "section": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "target": "Dynamic Text",
+      "found": true
+    },
+    {
+      "file": "walkthrough-adding-dynamic-text-to-a-lesson-template_step6.png",
+      "step": 6,
+      "section": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "target": "Student First Name",
+      "found": true
+    },
+    {
+      "file": "walkthrough-adding-dynamic-text-to-a-lesson-template_step7.png",
+      "step": 7,
+      "section": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "target": "Course Progress",
+      "found": true
+    },
+    {
+      "file": "walkthrough-adding-dynamic-text-to-a-lesson-template_step8.png",
+      "step": 8,
+      "section": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "target": "% of this course.",
+      "found": true
+    },
+    {
+      "file": "walkthrough-adding-dynamic-text-to-a-lesson-template_step9.png",
+      "step": 9,
+      "section": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "target": "Save Work",
+      "found": true
+    }
+  ]
+}

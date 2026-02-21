@@ -1,0 +1,270 @@
+{
+  "filename": "6-03-getting-started-woocommerce.md",
+  "title": "How to Get Started with WooCommerce and Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Step 1: Create a Product in Thrive Apprentice",
+      "heading_slug": "step-1-create-a-product-in-thrive-apprentice",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Products** in the left sidebar.",
+          "action": "click",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Add New** to create a new product.",
+          "action": "click",
+          "target": "Add New",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create a new product"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Name your product and add a description.",
+          "action": "locate",
+          "target": "Description",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Assign the course(s) you want to include in this product.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save your product.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Create a Product in WooCommerce",
+      "heading_slug": "step-2-create-a-product-in-woocommerce",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress admin, go to **WooCommerce** > **Products** > **Add New**.",
+          "action": "locate",
+          "target": "WooCommerce",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Products > Add New"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Enter a product name and description that matches your course.",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the product type. For a one-time purchase, use **Simple product**. For recurring payments, use **Subscription** (requires the WooCommerce Subscriptions extension).",
+          "action": "click",
+          "target": "Simple product",
+          "target_bold": true,
+          "has_target": true,
+          "context": "For recurring payments, use Subscription (requires the WooCommerce Subscriptions"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Set your price in the **Product data** section.",
+          "action": "click",
+          "target": "Product data",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Under the **General** tab, configure any additional pricing options as needed.",
+          "action": "locate",
+          "target": "General",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab, configure any additional pricing options as needed"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Publish the product.",
+          "action": "locate",
+          "target": "Publish",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 3: Configure Access Restrictions in Thrive Apprentice",
+      "heading_slug": "step-3-configure-access-restrictions-in-thrive-apprentice",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Products** in the left sidebar.",
+          "action": "click",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the product you created in Step 1.",
+          "action": "click",
+          "target": "Product You Created",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click the **Access requirements** tab.",
+          "action": "click",
+          "target": "Access requirements",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "In the access requirements panel, look for the WooCommerce protection options.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Select the WooCommerce product you created in Step 2.",
+          "action": "click",
+          "target": "Woocommerce Product You Created",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 4: Redirect Users to Course Pages After Purchase",
+      "heading_slug": "step-4-redirect-users-to-course-pages-after-purchase",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In WooCommerce, consider adding a custom thank-you page or redirect that points to the course page in Thrive Apprentice.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "You can use WooCommerce's built-in order confirmation page to include a link to the course.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Alternatively, set up an automated email through WooCommerce that includes the direct course URL.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "How Access Works",
+      "heading_slug": "how-access-works",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "A customer visits your WooCommerce product page and completes a purchase.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "WooCommerce processes the payment and creates a customer account.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Thrive Apprentice detects the completed purchase and grants the customer access to the linked course(s).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "The customer logs in and sees the course in their Thrive Apprentice dashboard.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

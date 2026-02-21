@@ -1,0 +1,207 @@
+{
+  "filename": "3-03-managing-product-access-expiry.md",
+  "title": "How to Manage Product Access Expiry in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Enabling Product Access Expiry",
+      "heading_slug": "enabling-product-access-expiry",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** > **Products**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Products"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the product you want to configure.",
+          "action": "click",
+          "target": "On The Product You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Open the **Access Expiry** tab in the product settings.",
+          "action": "navigate",
+          "target": "Access Expiry",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the product settings"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Toggle the **Enable Access Expiry** option to **On**.",
+          "action": "toggle",
+          "target": "Enable Access Expiry",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option to On"
+        }
+      ]
+    },
+    {
+      "heading": "Setting Up an Access Expiry Date",
+      "heading_slug": "setting-up-an-access-expiry-date",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Access Expiry** tab, locate the **Expiry Duration** setting.",
+          "action": "locate",
+          "target": "Access Expiry",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab, locate the Expiry Duration setting"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Enter a number and select the time unit—**days**, **weeks**, **months**, or **years**.",
+          "action": "type",
+          "target": "days",
+          "target_bold": true,
+          "has_target": true,
+          "context": "weeks, months, or years"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "The expiry countdown begins from the moment a student is granted access to the product.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply"
+        }
+      ]
+    },
+    {
+      "heading": "Enabling a Reminder Notice for Users",
+      "heading_slug": "enabling-a-reminder-notice-for-users",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Access Expiry** tab, find the **Reminder Notice** section.",
+          "action": "locate",
+          "target": "Access Expiry",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab, find the Reminder Notice section"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Toggle the **Send Reminder Email** option to **On**.",
+          "action": "toggle",
+          "target": "Send Reminder Email",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option to On"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the timing for the reminder—for example, **7 days** before expiry.",
+          "action": "click",
+          "target": "7 days",
+          "target_bold": true,
+          "has_target": true,
+          "context": "before expiry"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Editing the Expiry Reminder Email Template",
+      "heading_slug": "editing-the-expiry-reminder-email-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Reminder Notice** section, click **Edit Email Template**.",
+          "action": "locate",
+          "target": "Reminder Notice",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, click Edit Email Template"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Modify the subject line, body text, and any dynamic placeholders (such as the student's name, product name, or expiry date).",
+          "action": "locate",
+          "target": "Subject Line",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Preview the email to ensure it looks correct.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply your changes.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply your changes"
+        }
+      ]
+    },
+    {
+      "heading": "What Happens When Access Expires",
+      "heading_slug": "what-happens-when-access-expires",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Access Expiry** tab, find the **Post-Expiry Redirect** setting.",
+          "action": "locate",
+          "target": "Access Expiry",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab, find the Post-Expiry Redirect setting"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Enter the URL of the page you want expired users to see—such as a renewal page, a special offer page, or a re-enrollment form.",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Save**.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

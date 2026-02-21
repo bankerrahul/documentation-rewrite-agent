@@ -1,0 +1,132 @@
+{
+  "filename": "2-07-setting-up-menus.md",
+  "title": "How to Set Up Menus for Your Courses and Lessons",
+  "sections": [
+    {
+      "heading": "Creating a New Menu",
+      "heading_slug": "creating-a-new-menu",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, go to **Appearance** > **Menus**.",
+          "action": "locate",
+          "target": "Appearance",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Menus"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **create a new menu** link near the top of the page.",
+          "action": "click",
+          "target": "create a new menu",
+          "target_bold": true,
+          "has_target": true,
+          "context": "link near the top of the page"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Enter a descriptive name for your menu (e.g., \"Course Navigation\" or \"Student Menu\").",
+          "action": "type",
+          "target": "Course Navigation",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Create Menu** to save it.",
+          "action": "click",
+          "target": "Create Menu",
+          "target_bold": true,
+          "has_target": true,
+          "context": "save it"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Course and Lesson Links",
+      "heading_slug": "adding-course-and-lesson-links",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "On the left side of the **Menus** screen, locate the **Pages**, **Custom Links**, or **Categories** panels.",
+          "action": "locate",
+          "target": "Menus",
+          "target_bold": true,
+          "has_target": true,
+          "context": "screen, locate the Pages, Custom Links, or Categories panels"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "To add your main courses page, check the box next to it under **Pages** and click **Add to Menu**.",
+          "action": "locate",
+          "target": "Pages",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and click Add to Menu"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "To add individual course or lesson links, use the **Custom Links** panel—enter the URL and link text, then click **Add to Menu**.",
+          "action": "locate",
+          "target": "Custom Links",
+          "target_bold": true,
+          "has_target": true,
+          "context": "panel—enter the URL and link text, then click Add to Menu"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Drag and drop menu items to reorder them or create dropdown sub-menus by nesting items.",
+          "action": "drag",
+          "target": "Dropdown Sub-Menus By Nesting Items",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save Menu** when you're finished.",
+          "action": "click",
+          "target": "Save Menu",
+          "target_bold": true,
+          "has_target": true,
+          "context": "when you're finished"
+        }
+      ]
+    },
+    {
+      "heading": "Assigning the Menu to Your Course Pages",
+      "heading_slug": "assigning-the-menu-to-your-course-pages",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Scroll down to the **Menu Settings** section at the bottom of the **Menus** page.",
+          "action": "scroll",
+          "target": "Menu Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section at the bottom of the Menus page"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Under **Display location**, check the box that corresponds to the menu position you want (this depends on your theme—common options include **Primary Menu**, **Header Menu**, or **Secondary Menu**).",
+          "action": "locate",
+          "target": "Display location",
+          "target_bold": true,
+          "has_target": true,
+          "context": "check the box that corresponds to the menu position you want (this depends on yo"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Save Menu**.",
+          "action": "click",
+          "target": "Save Menu",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

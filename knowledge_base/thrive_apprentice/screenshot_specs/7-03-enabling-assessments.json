@@ -1,0 +1,195 @@
+{
+  "filename": "7-03-enabling-assessments.md",
+  "title": "How to Enable Assessments in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "How to Enable Assessments for a Course",
+      "heading_slug": "how-to-enable-assessments-for-a-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Courses** in the left sidebar and select the course you want to add assessments to.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar and select the course you want to add assessments to"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Open the lesson or module where you want to add an assessment.",
+          "action": "navigate",
+          "target": "Lesson",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "In the lesson editor, locate the **Assessment** section.",
+          "action": "locate",
+          "target": "Assessment",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Toggle the **Enable Assessment** switch to turn it on.",
+          "action": "toggle",
+          "target": "Enable Assessment",
+          "target_bold": true,
+          "has_target": true,
+          "context": "switch to turn it on"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Select the **Assessment Type** from the dropdown:",
+          "action": "click",
+          "target": "Assessment Type",
+          "target_bold": true,
+          "has_target": true,
+          "context": "dropdown:"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Configure any additional settings specific to your chosen type (e.g., passing score for quizzes, allowed file types for uploads).",
+          "action": "locate",
+          "target": "Any Additional Settings Specific",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Click **Save** to apply your changes.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply your changes"
+        }
+      ]
+    },
+    {
+      "heading": "How Students Submit Assessments",
+      "heading_slug": "how-students-submit-assessments",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "The student opens the lesson that contains the assessment.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "They scroll to the **Assessment** section at the bottom of the lesson content.",
+          "action": "locate",
+          "target": "Assessment",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section at the bottom of the lesson content"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Depending on the type, they either:",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "They click **Submit Assessment** to send their work for review.",
+          "action": "locate",
+          "target": "Submit Assessment",
+          "target_bold": true,
+          "has_target": true,
+          "context": "send their work for review"
+        }
+      ]
+    },
+    {
+      "heading": "Instructor Review Workflow",
+      "heading_slug": "instructor-review-workflow",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Assessments** in the left sidebar to see all pending submissions.",
+          "action": "click",
+          "target": "Assessments",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar to see all pending submissions"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select a submission to review the student's work.",
+          "action": "click",
+          "target": "Submission",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Review the uploaded file, video, or linked content.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Choose a result: **Pass** or **Fail**.",
+          "action": "click",
+          "target": "Pass",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Fail"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Optionally, add feedback comments for the student.",
+          "action": "locate",
+          "target": "Feedback Comments",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save** to finalize the grade.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "finalize the grade"
+        }
+      ]
+    }
+  ]
+}

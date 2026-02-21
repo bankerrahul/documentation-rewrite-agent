@@ -1,0 +1,349 @@
+{
+  "filename": "1-08-switching-to-thrive-apprentice-from-another-lms.md",
+  "title": "How to Switch to Thrive Apprentice From Another LMS",
+  "total": 29,
+  "captured": 29,
+  "skipped": 0,
+  "errors": 0,
+  "not_found": 13,
+  "screenshots": [
+    {
+      "file": "step-1-create-your-course-content_step1.png",
+      "step": 1,
+      "section": "Step 1: Create Your Course Content",
+      "target": "Thrive Dashboard",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 485,
+        "width": 36,
+        "height": 34
+      }
+    },
+    {
+      "file": "step-1-create-your-course-content_step2.png",
+      "step": 2,
+      "section": "Step 1: Create Your Course Content",
+      "target": "Courses",
+      "found": true,
+      "bbox": {
+        "x": 538,
+        "y": 369,
+        "width": 274,
+        "height": 72
+      }
+    },
+    {
+      "file": "step-1-create-your-course-content_step3.png",
+      "step": 3,
+      "section": "Step 1: Create Your Course Content",
+      "target": "Modules",
+      "found": false
+    },
+    {
+      "file": "step-1-create-your-course-content_step4.png",
+      "step": 4,
+      "section": "Step 1: Create Your Course Content",
+      "target": "Thrive Architect",
+      "found": true,
+      "bbox": {
+        "x": 200,
+        "y": 399,
+        "width": 274,
+        "height": 33
+      }
+    },
+    {
+      "file": "step-1-create-your-course-content_step5.png",
+      "step": 5,
+      "section": "Step 1: Create Your Course Content",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-2-design-your-online-school_step1.png",
+      "step": 1,
+      "section": "Step 2: Design Your Online School",
+      "target": "Design",
+      "found": true,
+      "bbox": {
+        "x": 538,
+        "y": 396,
+        "width": 274,
+        "height": 40
+      }
+    },
+    {
+      "file": "step-2-design-your-online-school_step2.png",
+      "step": 2,
+      "section": "Step 2: Design Your Online School",
+      "target": "Design",
+      "found": true,
+      "bbox": {
+        "x": 237,
+        "y": 113.625,
+        "width": 120.46875,
+        "height": 24
+      }
+    },
+    {
+      "file": "step-2-design-your-online-school_step3.png",
+      "step": 3,
+      "section": "Step 2: Design Your Online School",
+      "target": "Course Overview",
+      "found": false
+    },
+    {
+      "file": "step-2-design-your-online-school_step4.png",
+      "step": 4,
+      "section": "Step 2: Design Your Online School",
+      "target": "Design",
+      "found": true,
+      "bbox": {
+        "x": 237,
+        "y": 113.625,
+        "width": 120.46875,
+        "height": 24
+      }
+    },
+    {
+      "file": "step-3-set-up-products-and-course-bundles_step1.png",
+      "step": 1,
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "target": "Products",
+      "found": false
+    },
+    {
+      "file": "step-3-set-up-products-and-course-bundles_step2.png",
+      "step": 2,
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "target": "Product",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 453.0625,
+        "width": 160,
+        "height": 34.1875
+      }
+    },
+    {
+      "file": "step-3-set-up-products-and-course-bundles_step3.png",
+      "step": 3,
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "target": "Appropriate Courses",
+      "found": false
+    },
+    {
+      "file": "step-3-set-up-products-and-course-bundles_step4.png",
+      "step": 4,
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "target": "Payments",
+      "found": false
+    },
+    {
+      "file": "step-4-configure-access-restrictions_step1.png",
+      "step": 1,
+      "section": "Step 4: Configure Access Restrictions",
+      "target": "Access Requirements",
+      "found": false
+    },
+    {
+      "file": "step-4-configure-access-restrictions_step2.png",
+      "step": 2,
+      "section": "Step 4: Configure Access Restrictions",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-4-configure-access-restrictions_step3.png",
+      "step": 3,
+      "section": "Step 4: Configure Access Restrictions",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-5-set-up-drip-schedules_step1.png",
+      "step": 1,
+      "section": "Step 5: Set Up Drip Schedules",
+      "target": "Course You Want",
+      "found": false
+    },
+    {
+      "file": "step-5-set-up-drip-schedules_step2.png",
+      "step": 2,
+      "section": "Step 5: Set Up Drip Schedules",
+      "target": "Drip",
+      "found": false
+    },
+    {
+      "file": "step-5-set-up-drip-schedules_step3.png",
+      "step": 3,
+      "section": "Step 5: Set Up Drip Schedules",
+      "target": "When Each Lesson",
+      "found": false
+    },
+    {
+      "file": "step-5-set-up-drip-schedules_step4.png",
+      "step": 4,
+      "section": "Step 5: Set Up Drip Schedules",
+      "target": "Drip",
+      "found": false
+    },
+    {
+      "file": "step-6-configure-login-and-authentication_step1.png",
+      "step": 1,
+      "section": "Step 6: Configure Login and Authentication",
+      "target": "Login Page",
+      "found": false
+    },
+    {
+      "file": "step-6-configure-login-and-authentication_step2.png",
+      "step": 2,
+      "section": "Step 6: Configure Login and Authentication",
+      "target": "Registration Page",
+      "found": false
+    },
+    {
+      "file": "step-6-configure-login-and-authentication_step3.png",
+      "step": 3,
+      "section": "Step 6: Configure Login and Authentication",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-6-configure-login-and-authentication_step4.png",
+      "step": 4,
+      "section": "Step 6: Configure Login and Authentication",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-7-import-your-existing-customers_step1.png",
+      "step": 1,
+      "section": "Step 7: Import Your Existing Customers",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-7-import-your-existing-customers_step2.png",
+      "step": 2,
+      "section": "Step 7: Import Your Existing Customers",
+      "target": "Members",
+      "found": false
+    },
+    {
+      "file": "step-7-import-your-existing-customers_step3.png",
+      "step": 3,
+      "section": "Step 7: Import Your Existing Customers",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-7-import-your-existing-customers_step4.png",
+      "step": 4,
+      "section": "Step 7: Import Your Existing Customers",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-7-import-your-existing-customers_step5.png",
+      "step": 5,
+      "section": "Step 7: Import Your Existing Customers",
+      "target": "",
+      "found": true
+    }
+  ],
+  "validation_issues": [
+    {
+      "section": "Step 1: Create Your Course Content",
+      "step": 3,
+      "target": "Modules",
+      "raw_text": "Recreate your modules, chapters, and lessons within each course.",
+      "issue": "UI element 'Modules' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 2: Design Your Online School",
+      "step": 3,
+      "target": "Course Overview",
+      "raw_text": "Configure the layout for your course overview pages, lesson pages, and navigation elements.",
+      "issue": "UI element 'Course Overview' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "step": 1,
+      "target": "Products",
+      "raw_text": "Click the **Products** tab in Thrive Apprentice.",
+      "issue": "UI element 'Products' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "step": 3,
+      "target": "Appropriate Courses",
+      "raw_text": "Associate the appropriate courses with each product.",
+      "issue": "UI element 'Appropriate Courses' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 3: Set Up Products and Course Bundles",
+      "step": 4,
+      "target": "Payments",
+      "raw_text": "Connect your payment gateway (e.g., ThriveCart, WooCommerce, or SendOwl) to handle purchases.",
+      "issue": "UI element 'Payments' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 4: Configure Access Restrictions",
+      "step": 1,
+      "target": "Access Requirements",
+      "raw_text": "Within each product's settings, define the **Access Requirements**.",
+      "issue": "UI element 'Access Requirements' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 5: Set Up Drip Schedules",
+      "step": 1,
+      "target": "Course You Want",
+      "raw_text": "Open the course you want to drip-release.",
+      "issue": "UI element 'Course You Want' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 5: Set Up Drip Schedules",
+      "step": 2,
+      "target": "Drip",
+      "raw_text": "Navigate to the **Drip** settings within the course.",
+      "issue": "UI element 'Drip' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 5: Set Up Drip Schedules",
+      "step": 3,
+      "target": "When Each Lesson",
+      "raw_text": "Configure when each lesson or module becomes available\u2014based on enrollment date, specific dates, or completion of previous content.",
+      "issue": "UI element 'When Each Lesson' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 5: Set Up Drip Schedules",
+      "step": 4,
+      "target": "Drip",
+      "raw_text": "Save your drip schedule.",
+      "issue": "UI element 'Drip' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 6: Configure Login and Authentication",
+      "step": 1,
+      "target": "Login Page",
+      "raw_text": "Set up a **Login Page** for your students (or use the default WordPress login).",
+      "issue": "UI element 'Login Page' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 6: Configure Login and Authentication",
+      "step": 2,
+      "target": "Registration Page",
+      "raw_text": "Optionally, create a **Registration Page** if you want new students to sign up directly on your site.",
+      "issue": "UI element 'Registration Page' not found on page \u2014 verify step is accurate"
+    },
+    {
+      "section": "Step 7: Import Your Existing Customers",
+      "step": 2,
+      "target": "Members",
+      "raw_text": "In Thrive Apprentice, go to the **Members** tab and click the **Import member** button.",
+      "issue": "UI element 'Members' not found on page \u2014 verify step is accurate"
+    }
+  ]
+}

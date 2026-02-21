@@ -1,0 +1,195 @@
+{
+  "filename": "1-05-creating-a-student-profile-page.md",
+  "title": "How to Create a Student Profile Page in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Step 1: Create the \"My Profile\" Page (Read-Only View)",
+      "heading_slug": "step-1-create-the-my-profile-page-read-only-view",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, go to **Pages** > **Add New**.",
+          "action": "locate",
+          "target": "Pages",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Add New"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Enter a page title such as \"My Profile\" or \"My Account.\"",
+          "action": "type",
+          "target": "My Profile",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Launch Thrive Architect** to open the visual editor.",
+          "action": "click",
+          "target": "Launch Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open the visual editor"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Design the page layout to display the student's information. You can use dynamic text fields to show the logged-in user's name and email address.",
+          "action": "locate",
+          "target": "s information. You can use dynamic text fields to show the logged-in user",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Keep this page read-only—do not add editable form fields here.",
+          "action": "locate",
+          "target": "Editable Form Fields Here",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save Work** when you're finished, then click **Done** to return to WordPress.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "when you're finished, then click Done to return to WordPress"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "**Publish** the page.",
+          "action": "locate",
+          "target": "Publish",
+          "target_bold": true,
+          "has_target": true,
+          "context": "the page"
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Create the \"Edit Profile\" Page (Interactive)",
+      "heading_slug": "step-2-create-the-edit-profile-page-interactive",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, go to **Pages** > **Add New**.",
+          "action": "locate",
+          "target": "Pages",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Add New"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Enter a page title such as \"Edit Profile\" or \"Account Settings.\"",
+          "action": "type",
+          "target": "Edit Profile",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Launch Thrive Architect** to open the visual editor.",
+          "action": "click",
+          "target": "Launch Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open the visual editor"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "From the right sidebar, search for the **User Profile** element and drag it onto the page.",
+          "action": "locate",
+          "target": "User Profile",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element and drag it onto the page"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "The **User Profile** element automatically provides editable fields for the student's name, email, and password. Configure the element settings to match your preferences.",
+          "action": "locate",
+          "target": "User Profile",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element automatically provides editable fields for the student's name, email, an"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save Work** when you're finished, then click **Done** to return to WordPress.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "when you're finished, then click Done to return to WordPress"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "**Publish** the page.",
+          "action": "locate",
+          "target": "Publish",
+          "target_bold": true,
+          "has_target": true,
+          "context": "the page"
+        }
+      ]
+    },
+    {
+      "heading": "Step 3: Add a Menu Link to the Profile Page",
+      "heading_slug": "step-3-add-a-menu-link-to-the-profile-page",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, go to **Appearance** > **Menus**.",
+          "action": "locate",
+          "target": "Appearance",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Menus"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select the menu you want to edit (typically your primary navigation menu).",
+          "action": "click",
+          "target": "Menu You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Under **Pages**, find your \"My Profile\" or \"My Account\" page and click **Add to Menu**.",
+          "action": "locate",
+          "target": "Pages",
+          "target_bold": true,
+          "has_target": true,
+          "context": "find your \"My Profile\" or \"My Account\" page and click Add to Menu"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Optionally, add the \"Edit Profile\" page as a sub-menu item beneath the main profile link.",
+          "action": "locate",
+          "target": "Edit Profile",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save Menu**.",
+          "action": "click",
+          "target": "Save Menu",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

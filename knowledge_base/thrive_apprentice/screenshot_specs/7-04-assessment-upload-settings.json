@@ -1,0 +1,192 @@
+{
+  "filename": "7-04-assessment-upload-settings.md",
+  "title": "How to Manage Assessment Upload Settings in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Step 1: Connect Your Cloud Storage Service",
+      "heading_slug": "step-1-connect-your-cloud-storage-service",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Settings** in the left sidebar.",
+          "action": "click",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Locate the **Assessment Uploads** section.",
+          "action": "locate",
+          "target": "Assessment Uploads",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Connect Service** and choose either **Google Drive** or **Dropbox**.",
+          "action": "click",
+          "target": "Connect Service",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and choose either Google Drive or Dropbox"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Follow the on-screen prompts to authorize Thrive Apprentice to access your cloud storage account.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Once connected, you'll see a confirmation message with the connected service name.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Configure File Type and Size Limits",
+      "heading_slug": "step-2-configure-file-type-and-size-limits",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Assessment Uploads** section, locate the **Allowed File Types** setting.",
+          "action": "locate",
+          "target": "Assessment Uploads",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, locate the Allowed File Types setting"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select the file extensions you want to accept. Common options include:",
+          "action": "click",
+          "target": "File Extensions You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the **Maximum File Size** limit. Choose a value that accommodates your expected submissions without overloading your storage (e.g., 10 MB, 25 MB, or 50 MB).",
+          "action": "click",
+          "target": "Maximum File Size",
+          "target_bold": true,
+          "has_target": true,
+          "context": "limit. Choose a value that accommodates your expected submissions without overlo"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply the settings.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the settings"
+        }
+      ]
+    },
+    {
+      "heading": "Step 3: Choose a Storage Destination Folder",
+      "heading_slug": "step-3-choose-a-storage-destination-folder",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Assessment Uploads** section, click **Select Folder**.",
+          "action": "locate",
+          "target": "Assessment Uploads",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, click Select Folder"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Browse your connected Google Drive or Dropbox account and choose the folder where you want student submissions stored.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Confirm** to set the destination.",
+          "action": "click",
+          "target": "Confirm",
+          "target_bold": true,
+          "has_target": true,
+          "context": "set the destination"
+        }
+      ]
+    },
+    {
+      "heading": "Managing Student Submissions",
+      "heading_slug": "managing-student-submissions",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** > **Assessments**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Assessments"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "You'll see a list of all submissions with their current status: **Pending**, **Passed**, or **Failed**.",
+          "action": "locate",
+          "target": "Pending",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Passed, or Failed"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click on any submission to open the review panel.",
+          "action": "click",
+          "target": "On Any Submission",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "From the review panel, you can:",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** to finalize the review.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "finalize the review"
+        }
+      ]
+    }
+  ]
+}

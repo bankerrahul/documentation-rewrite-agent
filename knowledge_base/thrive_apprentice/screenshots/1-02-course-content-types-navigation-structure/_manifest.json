@@ -1,0 +1,44 @@
+{
+  "filename": "1-02-course-content-types-navigation-structure.md",
+  "title": "How to Use Course Content Types, Navigation, and Progress Tracking in Thrive Apprentice",
+  "total": 4,
+  "captured": 4,
+  "skipped": 0,
+  "errors": 0,
+  "screenshots": [
+    {
+      "file": "structuring-your-course-hierarchy_step1.png",
+      "step": 1,
+      "section": "Structuring Your Course Hierarchy",
+      "target": "Course",
+      "found": true,
+      "bbox": {
+        "x": 964.21875,
+        "y": 62.5,
+        "width": 94.8125,
+        "height": 36
+      }
+    },
+    {
+      "file": "structuring-your-course-hierarchy_step2.png",
+      "step": 2,
+      "section": "Structuring Your Course Hierarchy",
+      "target": "Modules",
+      "found": true
+    },
+    {
+      "file": "structuring-your-course-hierarchy_step3.png",
+      "step": 3,
+      "section": "Structuring Your Course Hierarchy",
+      "target": "Chapters",
+      "found": true
+    },
+    {
+      "file": "structuring-your-course-hierarchy_step4.png",
+      "step": 4,
+      "section": "Structuring Your Course Hierarchy",
+      "target": "Lessons",
+      "found": true
+    }
+  ]
+}

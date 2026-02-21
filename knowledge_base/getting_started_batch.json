@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1_tqb_dashboard",
+        "description": "Thrive Quiz Builder Dashboard",
+        "url": "/wp-admin/admin.php?page=tqb_admin_dashboard",
+        "selector": "viewport",
+        "output_file": "1_tqb_dashboard.png",
+        "annotations": [
+            {
+                "type": "arrow",
+                "selector": "a.tqb-add-quiz-dashboard",
+                "position": "right",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": "2_create_quiz_modal",
+        "description": "Add New Quiz Template Modal",
+        "url": "/wp-admin/admin.php?page=tqb_admin_dashboard",
+        "actions": [
+            {
+                "type": "click",
+                "selector": "a.tqb-add-quiz-dashboard"
+            },
+            {
+                "type": "wait",
+                "ms": 500
+            }
+        ],
+        "selector": "viewport",
+        "output_file": "2_create_quiz_modal.png",
+        "annotations": [
+            {
+                "type": "arrow",
+                "selector": ".tqb-new-quiz-templates .tvd-col:first-child",
+                "position": "right",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": "3_quiz_dashboard_overview",
+        "description": "Quiz Dashboard - Type and Style",
+        "url": "/wp-admin/admin.php?page=tqb_admin_dashboard",
+        "actions": [
+            {
+                "type": "click",
+                "selector": "#tqb-quiz-list .tvd-card:first-child a.tvd-full-btn"
+            },
+            {
+                "type": "wait",
+                "ms": 500
+            }
+        ],
+        "selector": "viewport",
+        "output_file": "3_quiz_dashboard_overview.png",
+        "annotations": [
+            {
+                "type": "arrow",
+                "selector": ".tvd-card:has(.tqb-edit-quiz-type)",
+                "position": "right",
+                "color": "red"
+            }
+        ]
+    }
+]

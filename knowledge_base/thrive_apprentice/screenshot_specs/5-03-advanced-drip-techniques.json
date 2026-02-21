@@ -1,0 +1,477 @@
+{
+  "filename": "5-03-advanced-drip-techniques.md",
+  "title": "How to Use Advanced Drip Techniques in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Creating Cohort-Based Classes",
+      "heading_slug": "creating-cohort-based-classes",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** and open your course.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice and open your course"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Drip** tab and create a new drip campaign using the **Scheduled Repeating** template (or another calendar-based template).",
+          "action": "click",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and create a new drip campaign using the Scheduled Repeating template (or an"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the **Start Date** to the date your first cohort begins.",
+          "action": "click",
+          "target": "Start Date",
+          "target_bold": true,
+          "has_target": true,
+          "context": "date your first cohort begins"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Configure the **Repeat Interval** to match your desired pacing (e.g., one module per week).",
+          "action": "locate",
+          "target": "Repeat Interval",
+          "target_bold": true,
+          "has_target": true,
+          "context": "match your desired pacing (e.g., one module per week)"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** to apply the campaign.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the campaign"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "To run a second cohort, create a separate **Product** for that cohort and assign a new drip campaign with a different start date.",
+          "action": "locate",
+          "target": "Product",
+          "target_bold": true,
+          "has_target": true,
+          "context": "for that cohort and assign a new drip campaign with a different start date"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Use **Decoupled Drip Schedules** (explained below) to link each product to its own drip timeline while keeping a single course.",
+          "action": "locate",
+          "target": "Decoupled Drip Schedules",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(explained below) to link each product to its own drip timeline while keeping a "
+        }
+      ]
+    },
+    {
+      "heading": "Dripping Course Content Only on Weekdays",
+      "heading_slug": "dripping-course-content-only-on-weekdays",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your course and click the **Drip** tab.",
+          "action": "navigate",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Create a new drip campaign using the **Evergreen Repeating** template.",
+          "action": "locate",
+          "target": "Evergreen Repeating",
+          "target_bold": true,
+          "has_target": true,
+          "context": "template"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Enter a **Campaign Name** and click **Continue**.",
+          "action": "type",
+          "target": "Campaign Name",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and click Continue"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Set the **Start Event** to your preferred trigger (e.g., product purchase or enrollment).",
+          "action": "click",
+          "target": "Start Event",
+          "target_bold": true,
+          "has_target": true,
+          "context": "your preferred trigger (e.g., product purchase or enrollment)"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Configure the unlock schedule so that content unlocks every 1 day, but only on weekdays. You can achieve this by setting up multiple campaigns on the same course—one campaign for each weekday—or by using the **Day of the Week or Month** template and selecting Monday through Friday as your unlock days.",
+          "action": "locate",
+          "target": "Day of the Week or Month",
+          "target_bold": true,
+          "has_target": true,
+          "context": "template and selecting Monday through Friday as your unlock days"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply the campaign.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the campaign"
+        }
+      ]
+    },
+    {
+      "heading": "Starting a Course on the First Monday of the Month",
+      "heading_slug": "starting-a-course-on-the-first-monday-of-the-month",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your course and click the **Drip** tab.",
+          "action": "navigate",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Create first Drip Campaign** and select the **Day of the Week or Month** template.",
+          "action": "click",
+          "target": "Create first Drip Campaign",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select the Day of the Week or Month template"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Continue** and enter a **Campaign Name**.",
+          "action": "click",
+          "target": "Continue",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and enter a Campaign Name"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Under the scheduling options, select **First Monday** as the recurring day pattern. This tells Thrive Apprentice to unlock the first lesson on the first Monday of the month.",
+          "action": "locate",
+          "target": "First Monday",
+          "target_bold": true,
+          "has_target": true,
+          "context": "as the recurring day pattern. This tells Thrive Apprentice to unlock the first l"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Configure subsequent lessons to unlock on following Mondays (e.g., second Monday, third Monday) or at your preferred interval.",
+          "action": "locate",
+          "target": "Subsequent Lessons",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply the campaign.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the campaign"
+        }
+      ]
+    },
+    {
+      "heading": "Using Decoupled Drip Schedules",
+      "heading_slug": "using-decoupled-drip-schedules",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** and open your course.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice and open your course"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Drip** tab and create your first drip campaign (e.g., an **Evergreen Repeating** campaign with a monthly interval).",
+          "action": "click",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and create your first drip campaign (e.g., an Evergreen Repeating campaign w"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Add Campaign** to create a second drip campaign for the same course (e.g., an **Evergreen Repeating** campaign with a weekly interval).",
+          "action": "click",
+          "target": "Add Campaign",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create a second drip campaign for the same course (e.g., an Evergreen Repeating "
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Go to the **Products** section in the left sidebar.",
+          "action": "navigate",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the left sidebar"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Create a separate product for each pacing option (e.g., \"Standard Access\" and \"Accelerated Access\").",
+          "action": "locate",
+          "target": "Standard Access",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "When configuring each product's access settings, assign the appropriate drip campaign to each product.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save** on each product.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "each product"
+        }
+      ]
+    },
+    {
+      "heading": "Excluding Lessons from a Drip Campaign",
+      "heading_slug": "excluding-lessons-from-a-drip-campaign",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your drip campaign from the **Drip** tab.",
+          "action": "navigate",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Look for the option to exclude the first set of lessons from the drip schedule.",
+          "action": "locate",
+          "target": "Drip",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Specify how many initial lessons should be immediately accessible (e.g., the first 2 lessons).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save**. Those lessons will be available as soon as a student enrolls, while the remaining lessons follow the drip timeline.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Those lessons will be available as soon as a student enrolls, while the remainin"
+        }
+      ]
+    },
+    {
+      "heading": "Excluding Lessons from a Drip Campaign",
+      "heading_slug": "excluding-lessons-from-a-drip-campaign",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Create a drip campaign using the **Start From Scratch** template.",
+          "action": "locate",
+          "target": "Start From Scratch",
+          "target_bold": true,
+          "has_target": true,
+          "context": "template"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select the **Unlock content at custom intervals** option.",
+          "action": "click",
+          "target": "Unlock content at custom intervals",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "For each lesson you want to make immediately available, set the unlock delay to **0 days** or remove the unlock condition entirely.",
+          "action": "locate",
+          "target": "0 days",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or remove the unlock condition entirely"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Configure drip intervals for the remaining lessons as needed.",
+          "action": "locate",
+          "target": "Drip Intervals",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** to apply the campaign.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the campaign"
+        }
+      ]
+    },
+    {
+      "heading": "Hiding Locked Lessons from the Lesson List",
+      "heading_slug": "hiding-locked-lessons-from-the-lesson-list",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the course where you want to hide locked lessons.",
+          "action": "navigate",
+          "target": "Course Where You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Go to the course's design settings or the **Lesson List** element configuration.",
+          "action": "navigate",
+          "target": "Lesson List",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element configuration"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Locate the option to control locked lesson visibility.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Enable the setting to **hide locked lessons** from the lesson list.",
+          "action": "toggle",
+          "target": "hide locked lessons",
+          "target_bold": true,
+          "has_target": true,
+          "context": "lesson list"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply the change.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the change"
+        }
+      ]
+    },
+    {
+      "heading": "Unlocking Content at Different Time Intervals",
+      "heading_slug": "unlocking-content-at-different-time-intervals",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your course and click the **Drip** tab.",
+          "action": "navigate",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Create a drip campaign using any template (the **Start From Scratch** template gives you the most flexibility).",
+          "action": "locate",
+          "target": "Start From Scratch",
+          "target_bold": true,
+          "has_target": true,
+          "context": "template gives you the most flexibility)"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Once the campaign is created, click on an individual lesson in the drip timeline to open its **Unlock Conditions**.",
+          "action": "locate",
+          "target": "Unlock Conditions",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Set a custom time delay for that lesson (e.g., unlock 2 weeks after the previous lesson is completed instead of the default 1 week).",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Repeat for each lesson that needs a unique interval.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply the changes.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the changes"
+        }
+      ]
+    }
+  ]
+}

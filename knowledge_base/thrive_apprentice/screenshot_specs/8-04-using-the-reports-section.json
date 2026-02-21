@@ -1,0 +1,147 @@
+{
+  "filename": "8-04-using-the-reports-section.md",
+  "title": "How to Use the Reports Section in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Accessing the Reports Section",
+      "heading_slug": "accessing-the-reports-section",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Reports** tab in the left sidebar.",
+          "action": "click",
+          "target": "Reports",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        }
+      ]
+    },
+    {
+      "heading": "Viewing Course-Specific Reports",
+      "heading_slug": "viewing-course-specific-reports",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Reports** section, locate the course list or use the course filter dropdown.",
+          "action": "locate",
+          "target": "Reports",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, locate the course list or use the course filter dropdown"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select the course you want to analyze.",
+          "action": "click",
+          "target": "Course You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Review the course-specific metrics that appear, including:",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Filtering Report Data",
+      "heading_slug": "filtering-report-data",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "At the top of the reports dashboard, locate the filter controls.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Apply filters based on the available criteria:",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Apply** or the filter will update automatically, depending on the interface.",
+          "action": "click",
+          "target": "Apply",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or the filter will update automatically, depending on the interface"
+        }
+      ]
+    },
+    {
+      "heading": "Exporting Report Data",
+      "heading_slug": "exporting-report-data",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to the report view you want to export.",
+          "action": "navigate",
+          "target": "Report View You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Apply any filters to narrow down the data to the set you need.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the **Export** button (typically located near the top-right of the report).",
+          "action": "click",
+          "target": "Export",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button (typically located near the top-right of the report)"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Choose your preferred export format (CSV is the most common).",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save the file to your computer.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

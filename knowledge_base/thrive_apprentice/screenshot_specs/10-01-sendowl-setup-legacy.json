@@ -1,0 +1,297 @@
+{
+  "filename": "10-01-sendowl-setup-legacy.md",
+  "title": "How to Set Up SendOwl with Thrive Apprentice (Legacy)",
+  "sections": [
+    {
+      "heading": "Setting Up the SendOwl Listener",
+      "heading_slug": "setting-up-the-sendowl-listener",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Settings** in the left sidebar.",
+          "action": "click",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Navigate to the **SendOwl** tab.",
+          "action": "navigate",
+          "target": "SendOwl",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "You'll see a **Listener URL**—copy this URL.",
+          "action": "locate",
+          "target": "Listener URL",
+          "target_bold": true,
+          "has_target": true,
+          "context": "copy this URL"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Log in to your **SendOwl account**.",
+          "action": "locate",
+          "target": "SendOwl account",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Go to **Settings** > **Webhooks/Notifications**.",
+          "action": "navigate",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Webhooks/Notifications"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Paste the Listener URL into the webhook field.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Save your SendOwl settings.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Configuring API Key Permissions",
+      "heading_slug": "configuring-api-key-permissions",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your **SendOwl account**, go to **Settings** > **API**.",
+          "action": "locate",
+          "target": "SendOwl account",
+          "target_bold": true,
+          "has_target": true,
+          "context": "go to Settings > API"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate your **API Key** and **API Secret**.",
+          "action": "locate",
+          "target": "API Key",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and API Secret"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Back in **Thrive Apprentice** > **Settings** > **SendOwl**, enter your API credentials.",
+          "action": "locate",
+          "target": "Thrive Apprentice",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Settings > SendOwl, enter your API credentials"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Connect** to verify the connection.",
+          "action": "click",
+          "target": "Connect",
+          "target_bold": true,
+          "has_target": true,
+          "context": "verify the connection"
+        }
+      ]
+    },
+    {
+      "heading": "Creating Products in SendOwl",
+      "heading_slug": "creating-products-in-sendowl",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In **SendOwl**, go to **Products** > **Add Product**.",
+          "action": "locate",
+          "target": "SendOwl",
+          "target_bold": true,
+          "has_target": true,
+          "context": "go to Products > Add Product"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Set the product **Name** to match your course title.",
+          "action": "click",
+          "target": "Name",
+          "target_bold": true,
+          "has_target": true,
+          "context": "match your course title"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the **Price** and payment options (one-time or subscription).",
+          "action": "click",
+          "target": "Price",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and payment options (one-time or subscription)"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Under **Product Type**, select **Digital Product**.",
+          "action": "locate",
+          "target": "Product Type",
+          "target_bold": true,
+          "has_target": true,
+          "context": "select Digital Product"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save the product.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Back in **Thrive Apprentice**, go to **Products** and link the SendOwl product to the corresponding course.",
+          "action": "locate",
+          "target": "Thrive Apprentice",
+          "target_bold": true,
+          "has_target": true,
+          "context": "go to Products and link the SendOwl product to the corresponding course"
+        }
+      ]
+    },
+    {
+      "heading": "Assigning Course Access and Protection",
+      "heading_slug": "assigning-course-access-and-protection",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In **Thrive Apprentice**, go to the **Products** section.",
+          "action": "locate",
+          "target": "Thrive Apprentice",
+          "target_bold": true,
+          "has_target": true,
+          "context": "go to the Products section"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the product linked to your SendOwl item.",
+          "action": "click",
+          "target": "On The Product Linked",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Under **Course Access**, select which courses this product grants access to.",
+          "action": "locate",
+          "target": "Course Access",
+          "target_bold": true,
+          "has_target": true,
+          "context": "select which courses this product grants access to"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Configure **Access Rules** to restrict content to purchasers only.",
+          "action": "locate",
+          "target": "Access Rules",
+          "target_bold": true,
+          "has_target": true,
+          "context": "restrict content to purchasers only"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "The Purchasing Process",
+      "heading_slug": "the-purchasing-process",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "A visitor clicks a **Buy** button on your course page.",
+          "action": "locate",
+          "target": "Buy",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button on your course page"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "They're redirected to the **SendOwl checkout** page.",
+          "action": "locate",
+          "target": "SendOwl checkout",
+          "target_bold": true,
+          "has_target": true,
+          "context": "page"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "The student completes payment through SendOwl.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "SendOwl sends a webhook notification to your **Listener URL**.",
+          "action": "locate",
+          "target": "Listener URL",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Thrive Apprentice receives the notification and **grants course access** to the student.",
+          "action": "locate",
+          "target": "grants course access",
+          "target_bold": true,
+          "has_target": true,
+          "context": "student"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "The student receives a confirmation email with login details.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

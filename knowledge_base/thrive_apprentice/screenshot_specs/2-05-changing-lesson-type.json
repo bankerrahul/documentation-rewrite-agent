@@ -1,0 +1,93 @@
+{
+  "filename": "2-05-changing-lesson-type.md",
+  "title": "How to Change the Lesson Type in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "How to Change a Lesson Type",
+      "heading_slug": "how-to-change-a-lesson-type",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Courses** in the left sidebar and select the course that contains the lesson you want to modify.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar and select the course that contains the lesson you want to modify"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Open the **Content** tab to see all modules, chapters, and lessons.",
+          "action": "navigate",
+          "target": "Content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab to see all modules, chapters, and lessons"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Hover over the lesson you want to change.",
+          "action": "hover",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Edit Details** from the options that appear.",
+          "action": "click",
+          "target": "Edit Details",
+          "target_bold": true,
+          "has_target": true,
+          "context": "options that appear"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "In the lesson details panel, locate the **Lesson Type** setting.",
+          "action": "locate",
+          "target": "Lesson Type",
+          "target_bold": true,
+          "has_target": true,
+          "context": "setting"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Select the new type: **Text**, **Video**, or **Audio**.",
+          "action": "click",
+          "target": "Text",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Video, or Audio"
+        },
+        {
+          "step_num": 8,
+          "raw_text": "If you selected **Video** or **Audio**, add the media source (e.g., a YouTube URL, Vimeo link, or uploaded file).",
+          "action": "locate",
+          "target": "Video",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Audio, add the media source (e.g., a YouTube URL, Vimeo link, or uploaded fil"
+        },
+        {
+          "step_num": 9,
+          "raw_text": "Click **Save** to apply the change.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the change"
+        }
+      ]
+    }
+  ]
+}

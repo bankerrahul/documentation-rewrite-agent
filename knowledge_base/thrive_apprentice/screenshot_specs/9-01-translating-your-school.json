@@ -1,0 +1,195 @@
+{
+  "filename": "9-01-translating-your-school.md",
+  "title": "How to Translate Your Thrive Apprentice Online School",
+  "sections": [
+    {
+      "heading": "Translating Labels in Thrive Apprentice Settings",
+      "heading_slug": "translating-labels-in-thrive-apprentice-settings",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Settings** in the left sidebar.",
+          "action": "click",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the **Labels & Translations** tab.",
+          "action": "click",
+          "target": "Labels & Translations",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "You'll see a list of all default text strings used across your school—button labels, progress messages, navigation text, and access restriction messages.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click on any label to edit it.",
+          "action": "click",
+          "target": "On Any Label",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Enter your translated text in the field.",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save** when you're done.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "when you're done"
+        }
+      ]
+    },
+    {
+      "heading": "Translating Checkout Forms in Thrive Architect",
+      "heading_slug": "translating-checkout-forms-in-thrive-architect",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the page containing your checkout form in **Thrive Architect**.",
+          "action": "navigate",
+          "target": "Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the **Checkout** element to select it.",
+          "action": "click",
+          "target": "Checkout",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element to select it"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the left sidebar, look for the text fields—field labels, placeholder text, button text, and error messages.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Replace each English string with your translated version.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save Work** when finished.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "when finished"
+        }
+      ]
+    },
+    {
+      "heading": "Using the \"Say What\" Plugin for Advanced Translations",
+      "heading_slug": "using-the-say-what-plugin-for-advanced-translations",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Install and activate the **Say What** plugin from the WordPress plugin repository.",
+          "action": "locate",
+          "target": "Say What",
+          "target_bold": true,
+          "has_target": true,
+          "context": "plugin from the WordPress plugin repository"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Go to **Tools** > **Text Changes** in your WordPress dashboard.",
+          "action": "navigate",
+          "target": "Tools",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Text Changes in your WordPress dashboard"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Add New**.",
+          "action": "click",
+          "target": "Add New",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "In the **Original String** field, enter the exact English text you want to replace.",
+          "action": "locate",
+          "target": "Original String",
+          "target_bold": true,
+          "has_target": true,
+          "context": "field, enter the exact English text you want to replace"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "In the **Text Domain** field, enter `thrive-apprentice` (or the relevant plugin's text domain).",
+          "action": "locate",
+          "target": "Text Domain",
+          "target_bold": true,
+          "has_target": true,
+          "context": "field, enter `thrive-apprentice` (or the relevant plugin's text domain)"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "In the **Replacement String** field, enter your translated text.",
+          "action": "locate",
+          "target": "Replacement String",
+          "target_bold": true,
+          "has_target": true,
+          "context": "field, enter your translated text"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save Changes**.",
+          "action": "click",
+          "target": "Save Changes",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

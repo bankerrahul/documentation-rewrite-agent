@@ -1,0 +1,135 @@
+{
+  "filename": "2-09-adding-progress-bar.md",
+  "title": "How to Add a Progress Bar to Your Thrive Apprentice Lessons",
+  "sections": [
+    {
+      "heading": "Adding to a Lesson Template (Recommended)",
+      "heading_slug": "adding-to-a-lesson-template-recommended",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Design** in the left sidebar to access your course templates.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar to access your course templates"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the lesson template you want to edit and click **Edit with Thrive Architect**.",
+          "action": "click",
+          "target": "Edit with Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "In the Thrive Architect editor, click the **Add Element** button (the plus icon) in the right sidebar.",
+          "action": "locate",
+          "target": "Add Element",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button (the plus icon) in the right sidebar"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Search for **Progress Bar** in the element list.",
+          "action": "locate",
+          "target": "Progress Bar",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element list"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Drag the **Progress Bar** element to your desired location within the lesson layout.",
+          "action": "drag",
+          "target": "Progress Bar",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element to your desired location within the lesson layout"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save Work** when you're finished, then click **Done** to return to Thrive Apprentice.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "when you're finished, then click Done to return to Thrive Apprentice"
+        }
+      ]
+    },
+    {
+      "heading": "Adding to an Individual Lesson",
+      "heading_slug": "adding-to-an-individual-lesson",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Navigate to the course and open the lesson you want to edit.",
+          "action": "navigate",
+          "target": "Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Edit Content** to open the lesson in **Thrive Architect**.",
+          "action": "click",
+          "target": "Edit Content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open the lesson in Thrive Architect"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click the **Add Element** button and search for **Progress Bar**.",
+          "action": "click",
+          "target": "Add Element",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button and search for Progress Bar"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Drag it into your lesson content area.",
+          "action": "drag",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save Work**, then click **Done**.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "then click Done"
+        }
+      ]
+    }
+  ]
+}

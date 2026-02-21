@@ -1,0 +1,124 @@
+# ─── Universal Screenshot Agent — Product Configuration Template ───
+#
+# Copy this directory to create a new product:
+#   cp -r products/_template products/my_product
+#
+# Then edit config.yaml with your product's selectors, URLs, and settings.
+# Environment variables use ${VAR:-default} syntax.
+#
+# For simple web apps, GenericWebAppAdapter + this config is sufficient.
+# For complex UIs (multi-step modals, SPA tab switching), create a custom
+# adapter.py in the product directory.
+
+product:
+  name: "My Product"         # Human-readable product name
+  slug: "my_product"         # Directory name / CLI identifier
+
+# ─── Local Development Site ───
+local_site:
+  url: "${WP_URL:-http://localhost}"           # Base URL of local WordPress
+  admin_entry: "/wp-admin/"                    # Path to product's admin page
+  login_path: "/wp-login.php"                  # Login page path
+
+# ─── Production Site (for publishing) ───
+production_site:
+  url: "https://example.com"
+  post_type: "posts"         # WP REST API post type
+  taxonomy: "category"       # Taxonomy for categorization
+
+# ─── Authentication ───
+auth:
+  username_field: "#user_login"
+  password_field: "#user_pass"
+  submit_button: "#wp-submit"
+  success_indicator: "wp-admin"    # URL substring after successful login
+
+# ─── Browser Settings ───
+browser:
+  viewport_width: 1280
+  viewport_height: 800
+  scale_factor: 2                  # 2 for Retina screenshots
+  spa_load_delay_ms: 2000          # Extra wait for SPA frameworks
+
+# ─── Layout Constants (for arrow positioning) ───
+layout:
+  sidebar_width_css: 0             # Product's sidebar width (px)
+  wp_sidebar_width_css: 160        # WP admin sidebar width (px)
+  toolbar_height_css: 32           # WP admin toolbar height (px)
+
+# ─── Section Context Mapping ───
+# Maps section heading keywords to logical page contexts.
+# Sections sharing the same context skip re-navigation.
+section_contexts:
+  - context: "main-page"
+    keywords:
+      - "getting started"
+      - "overview"
+
+  - context: "settings-page"
+    keywords:
+      - "settings"
+      - "configuration"
+
+  # Default (catch-all) — empty keywords list
+  - context: "default"
+    keywords: []
+
+# ─── Navigation Flows ───
+# Define how to navigate to each context.
+# Action types: goto, click, click_first, wait_ms
+navigation_flows:
+  main-page:
+    requires_app: true             # Navigate to admin_entry first?
+    actions: []                    # Already there after navigating to app
+
+  settings-page:
+    requires_app: true
+    actions:
+      - click: "#settings-link"    # CSS selector to click
+        wait_ms: 2000
+
+# ─── CSS Selectors ───
+selectors:
+  sidebar:
+    container: "nav"               # Sidebar container
+    item: "a"                      # Sidebar items
+    item_template: "nav a:has-text('{text}')"
+    known_items: []                # List of known sidebar item names
+
+  modals:
+    overlay: ".modal:visible"      # Modal overlay selector
+    close_button: "button.close:visible"
+    x_button: ".modal .close:visible"
+    save_button: "button.save:visible"
+
+  action_buttons:
+    add_item_selector: ""          # Template for add buttons
+    type_map: {}                   # target_lower → item_type mapping
+
+  wp_admin:
+    menu: "#adminmenu a:has-text('{text}')"
+    admin_bar: "#wpadminbar a:has-text('{text}')"
+    known_items:
+      - "Dashboard"
+      - "Posts"
+      - "Pages"
+      - "Settings"
+
+# ─── Sample Text (for type actions) ───
+sample_text:
+  "title": "Sample Title"
+  "name": "Sample Name"
+  "email": "user@example.com"
+  "url": "https://example.com"
+
+# ─── Articles (for publishing) ───
+# Add your articles here with their slugs and optional post IDs
+articles: []
+  # - slug: "getting-started"
+  #   post_id: 12345
+
+# ─── Categories ───
+categories:
+  prefix_map: {}
+    # "1-": [123]    # Articles starting with "1-" get category ID 123

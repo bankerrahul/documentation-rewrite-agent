@@ -1,0 +1,300 @@
+{
+  "filename": "5-01-getting-started-with-drip.md",
+  "title": "How to Get Started with Drip Content in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Available Drip Campaign Templates",
+      "heading_slug": "available-drip-campaign-templates",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "**Sequential Unlock** — Lessons unlock one after another at set intervals. Each student progresses through the course in a fixed order.",
+          "action": "locate",
+          "target": "Sequential Unlock",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Lessons unlock one after another at set intervals. Each student progresses throu"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "**Evergreen Repeating** — Content unlocks at consistent intervals (e.g., one lesson per week) relative to each student's enrollment or purchase date.",
+          "action": "locate",
+          "target": "Evergreen Repeating",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Content unlocks at consistent intervals (e.g., one lesson per week) relative to "
+        },
+        {
+          "step_num": 3,
+          "raw_text": "**Scheduled Repeating** — Content unlocks at regular intervals starting from a specific calendar date and time that you define.",
+          "action": "locate",
+          "target": "Scheduled Repeating",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Content unlocks at regular intervals starting from a specific calendar date and "
+        },
+        {
+          "step_num": 4,
+          "raw_text": "**Day of the Week or Month** — Lessons unlock on specific recurring days, such as every Monday or the 15th of each month.",
+          "action": "locate",
+          "target": "Day of the Week or Month",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Lessons unlock on specific recurring days, such as every Monday or the 15th of e"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "**Drip on Specific Dates** — Each lesson unlocks on an exact calendar date that you choose.",
+          "action": "locate",
+          "target": "Drip on Specific Dates",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Each lesson unlocks on an exact calendar date that you choose"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "**Start From Scratch** — A blank-slate template that gives you full control over triggers, intervals, and custom unlock conditions.",
+          "action": "locate",
+          "target": "Start From Scratch",
+          "target_bold": true,
+          "has_target": true,
+          "context": "A blank-slate template that gives you full control over triggers, intervals, and"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "**Thrive Automator Unlock** — Content unlocks through automation triggers using Uncanny Automator (formerly Thrive Automator), enabling third-party integration-based scheduling.",
+          "action": "locate",
+          "target": "Thrive Automator Unlock",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Content unlocks through automation triggers using Uncanny Automator (formerly Th"
+        }
+      ]
+    },
+    {
+      "heading": "Setting Up a Drip Campaign",
+      "heading_slug": "setting-up-a-drip-campaign",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Courses** in the left sidebar and open the course you want to drip.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar and open the course you want to drip"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the **Drip** tab at the top of the course overview.",
+          "action": "click",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab at the top of the course overview"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Create first Drip Campaign** (or **Add Campaign** if you already have one).",
+          "action": "click",
+          "target": "Create first Drip Campaign",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(or Add Campaign if you already have one)"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "In the lightbox that appears, select one of the seven drip campaign templates.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Enter a **Campaign Name** to identify this schedule.",
+          "action": "type",
+          "target": "Campaign Name",
+          "target_bold": true,
+          "has_target": true,
+          "context": "identify this schedule"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Continue** to open the campaign configuration screen.",
+          "action": "click",
+          "target": "Continue",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open the campaign configuration screen"
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Configure the **Start Event**—this determines when the drip countdown begins (e.g., on product purchase, on enrollment, or on a specific date).",
+          "action": "locate",
+          "target": "Start Event",
+          "target_bold": true,
+          "has_target": true,
+          "context": "this determines when the drip countdown begins (e.g., on product purchase, on en"
+        },
+        {
+          "step_num": 9,
+          "raw_text": "Set the **Unlock Intervals**—define how much time passes between each content unlock (e.g., 1 day, 1 week, 1 month).",
+          "action": "click",
+          "target": "Unlock Intervals",
+          "target_bold": true,
+          "has_target": true,
+          "context": "define how much time passes between each content unlock (e.g., 1 day, 1 week, 1 "
+        },
+        {
+          "step_num": 10,
+          "raw_text": "Click **Save** to apply the drip schedule to your course.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the drip schedule to your course"
+        }
+      ]
+    },
+    {
+      "heading": "Configuring Unlock Conditions",
+      "heading_slug": "configuring-unlock-conditions",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your course and go to the **Drip** tab.",
+          "action": "navigate",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate the lesson or module you want to customize within the drip timeline.",
+          "action": "locate",
+          "target": "Within The Drip Timeline",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the lesson to open its **Unlock Conditions** settings.",
+          "action": "click",
+          "target": "Unlock Conditions",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Choose a condition type—options include time-based delays, completion of a previous lesson, or a specific calendar date.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "To add multiple conditions, click **Add Condition** and configure each one. When multiple conditions are set, the lesson unlocks only after all conditions are met.",
+          "action": "locate",
+          "target": "Add Condition",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and configure each one. When multiple conditions are set, the lesson unlocks onl"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply the custom unlock conditions.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the custom unlock conditions"
+        }
+      ]
+    },
+    {
+      "heading": "Selling a Dripped Course",
+      "heading_slug": "selling-a-dripped-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Products** in the left sidebar and then click **Add Product**.",
+          "action": "click",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar and then click Add Product"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Name your product and configure the pricing through your payment integration (e.g., WooCommerce, ThriveCart, or SendOwl).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Under the product's **Access** settings, add your dripped course as protected content.",
+          "action": "locate",
+          "target": "Access",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings, add your dripped course as protected content"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Assign the drip campaign to the product—this ensures that students who purchase this product follow the drip schedule you configured.",
+          "action": "locate",
+          "target": "Drip",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Set up **Access Restriction Rules** so that only students who have purchased the product can view the course content.",
+          "action": "click",
+          "target": "Access Restriction Rules",
+          "target_bold": true,
+          "has_target": true,
+          "context": "so that only students who have purchased the product can view the course content"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save** to finalize your product configuration.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "finalize your product configuration"
+        }
+      ]
+    }
+  ]
+}

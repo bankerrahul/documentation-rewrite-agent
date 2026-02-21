@@ -1,0 +1,230 @@
+{
+  "filename": "1-04-creating-a-free-course-funnel.md",
+  "title": "How to Create a Free Course Funnel in Thrive Apprentice",
+  "total": 28,
+  "captured": 28,
+  "skipped": 0,
+  "errors": 0,
+  "screenshots": [
+    {
+      "file": "step-1-create-your-free-course-in-thrive-apprentice_step1.png",
+      "step": 1,
+      "section": "Step 1: Create Your Free Course in Thrive Apprentice",
+      "target": "Thrive Dashboard",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 485,
+        "width": 36,
+        "height": 34
+      }
+    },
+    {
+      "file": "step-1-create-your-free-course-in-thrive-apprentice_step2.png",
+      "step": 2,
+      "section": "Step 1: Create Your Free Course in Thrive Apprentice",
+      "target": "Courses",
+      "found": true,
+      "bbox": {
+        "x": 538,
+        "y": 369,
+        "width": 274,
+        "height": 72
+      }
+    },
+    {
+      "file": "step-1-create-your-free-course-in-thrive-apprentice_step3.png",
+      "step": 3,
+      "section": "Step 1: Create Your Free Course in Thrive Apprentice",
+      "target": "Add Course",
+      "found": true
+    },
+    {
+      "file": "step-1-create-your-free-course-in-thrive-apprentice_step4.png",
+      "step": 4,
+      "section": "Step 1: Create Your Free Course in Thrive Apprentice",
+      "target": "Course Description",
+      "found": true
+    },
+    {
+      "file": "step-1-create-your-free-course-in-thrive-apprentice_step5.png",
+      "step": 5,
+      "section": "Step 1: Create Your Free Course in Thrive Apprentice",
+      "target": "Lessons",
+      "found": true
+    },
+    {
+      "file": "step-1-create-your-free-course-in-thrive-apprentice_step6.png",
+      "step": 6,
+      "section": "Step 1: Create Your Free Course in Thrive Apprentice",
+      "target": "Course Status",
+      "found": true
+    },
+    {
+      "file": "step-2-build-a-landing-page-with-thrive-architect_step1.png",
+      "step": 1,
+      "section": "Step 2: Build a Landing Page with Thrive Architect",
+      "target": "Free Course: [Your Topic]",
+      "found": true
+    },
+    {
+      "file": "step-2-build-a-landing-page-with-thrive-architect_step2.png",
+      "step": 2,
+      "section": "Step 2: Build a Landing Page with Thrive Architect",
+      "target": "Launch Thrive Architect",
+      "found": true
+    },
+    {
+      "file": "step-2-build-a-landing-page-with-thrive-architect_step3.png",
+      "step": 3,
+      "section": "Step 2: Build a Landing Page with Thrive Architect",
+      "target": "Design",
+      "found": true
+    },
+    {
+      "file": "step-2-build-a-landing-page-with-thrive-architect_step4.png",
+      "step": 4,
+      "section": "Step 2: Build a Landing Page with Thrive Architect",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-2-build-a-landing-page-with-thrive-architect_step5.png",
+      "step": 5,
+      "section": "Step 2: Build a Landing Page with Thrive Architect",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-2-build-a-landing-page-with-thrive-architect_step6.png",
+      "step": 6,
+      "section": "Step 2: Build a Landing Page with Thrive Architect",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-3-configure-accessno-product-or-payment-needed_step1.png",
+      "step": 1,
+      "section": "Step 3: Configure Access\u2014No Product or Payment Needed",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-3-configure-accessno-product-or-payment-needed_step2.png",
+      "step": 2,
+      "section": "Step 3: Configure Access\u2014No Product or Payment Needed",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-3-configure-accessno-product-or-payment-needed_step3.png",
+      "step": 3,
+      "section": "Step 3: Configure Access\u2014No Product or Payment Needed",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-4-set-up-the-opt-in-form_step1.png",
+      "step": 1,
+      "section": "Step 4: Set Up the Opt-In Form",
+      "target": "Lead Generation",
+      "found": true
+    },
+    {
+      "file": "step-4-set-up-the-opt-in-form_step2.png",
+      "step": 2,
+      "section": "Step 4: Set Up the Opt-In Form",
+      "target": "API Connection",
+      "found": true
+    },
+    {
+      "file": "step-4-set-up-the-opt-in-form_step3.png",
+      "step": 3,
+      "section": "Step 4: Set Up the Opt-In Form",
+      "target": "Name",
+      "found": true
+    },
+    {
+      "file": "step-4-set-up-the-opt-in-form_step4.png",
+      "step": 4,
+      "section": "Step 4: Set Up the Opt-In Form",
+      "target": "After Submission",
+      "found": true
+    },
+    {
+      "file": "step-5-connect-your-email-service_step1.png",
+      "step": 1,
+      "section": "Step 5: Connect Your Email Service",
+      "target": "Thrive Dashboard",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 485,
+        "width": 36,
+        "height": 34
+      }
+    },
+    {
+      "file": "step-5-connect-your-email-service_step2.png",
+      "step": 2,
+      "section": "Step 5: Connect Your Email Service",
+      "target": "Add New Connection",
+      "found": true
+    },
+    {
+      "file": "step-5-connect-your-email-service_step3.png",
+      "step": 3,
+      "section": "Step 5: Connect Your Email Service",
+      "target": "Connect",
+      "found": true,
+      "bbox": {
+        "x": 538,
+        "y": 396,
+        "width": 274,
+        "height": 40
+      }
+    },
+    {
+      "file": "step-5-connect-your-email-service_step4.png",
+      "step": 4,
+      "section": "Step 5: Connect Your Email Service",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-6-test-the-funnel_step1.png",
+      "step": 1,
+      "section": "Step 6: Test the Funnel",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-6-test-the-funnel_step2.png",
+      "step": 2,
+      "section": "Step 6: Test the Funnel",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-6-test-the-funnel_step3.png",
+      "step": 3,
+      "section": "Step 6: Test the Funnel",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-6-test-the-funnel_step4.png",
+      "step": 4,
+      "section": "Step 6: Test the Funnel",
+      "target": "",
+      "found": true
+    },
+    {
+      "file": "step-6-test-the-funnel_step5.png",
+      "step": 5,
+      "section": "Step 6: Test the Funnel",
+      "target": "",
+      "found": true
+    }
+  ]
+}

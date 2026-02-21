@@ -1,0 +1,228 @@
+{
+  "filename": "2-03-managing-courses.md",
+  "title": "How to Manage Course Status and Bulk Actions",
+  "sections": [
+    {
+      "heading": "How to Change a Course's Status",
+      "heading_slug": "how-to-change-a-courses-status",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Courses** in the left sidebar to view your course list.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar to view your course list"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Hover over the course you want to modify.",
+          "action": "hover",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click the **status indicator** or select **Edit** to open the course settings.",
+          "action": "click",
+          "target": "status indicator",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or select Edit to open the course settings"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Locate the **Status** dropdown and choose the desired status: **Published**, **Draft**, **Hidden**, **Archived**, or **Scheduled**.",
+          "action": "locate",
+          "target": "Status",
+          "target_bold": true,
+          "has_target": true,
+          "context": "dropdown and choose the desired status: Published, Draft, Hidden, Archived, or S"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply the change.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the change"
+        }
+      ]
+    },
+    {
+      "heading": "Scheduling a Course for Future Publication",
+      "heading_slug": "scheduling-a-course-for-future-publication",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** and open the course you want to schedule.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice and open the course you want to schedule"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Content** tab to view all modules and lessons.",
+          "action": "click",
+          "target": "Content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab to view all modules and lessons"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Hover over the **Publish** icon next to the lesson or module you want to schedule.",
+          "action": "hover",
+          "target": "Publish",
+          "target_bold": true,
+          "has_target": true,
+          "context": "icon next to the lesson or module you want to schedule"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Select **Schedule** from the options that appear.",
+          "action": "click",
+          "target": "Schedule",
+          "target_bold": true,
+          "has_target": true,
+          "context": "options that appear"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Set the **date** and **time** you want the content to go live.",
+          "action": "click",
+          "target": "date",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and time you want the content to go live"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to confirm the schedule.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "confirm the schedule"
+        }
+      ]
+    },
+    {
+      "heading": "Hiding Premium Courses from the Course List",
+      "heading_slug": "hiding-premium-courses-from-the-course-list",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice** > **Courses**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Courses"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate the premium course you want to hide.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Change the course status to **Hidden**.",
+          "action": "click",
+          "target": "Hidden",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Share the direct course URL only with authorized members or use your product access settings to control visibility.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "How to Use Bulk Actions",
+      "heading_slug": "how-to-use-bulk-actions",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the course you want to manage and click the **Content** tab.",
+          "action": "navigate",
+          "target": "Content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the checkboxes next to the lessons, modules, or chapters you want to modify.",
+          "action": "click",
+          "target": "Checkboxes Next",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "A **Bulk Actions** toolbar appears at the top of the content list.",
+          "action": "locate",
+          "target": "Bulk Actions",
+          "target_bold": true,
+          "has_target": true,
+          "context": "toolbar appears at the top of the content list"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Choose the action you want to apply from the toolbar options.",
+          "action": "click",
+          "target": "Action You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Confirm the action to apply it to all selected items.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "filename": "1-08-switching-to-thrive-apprentice-from-another-lms.md",
+  "title": "How to Switch to Thrive Apprentice From Another LMS",
+  "sections": [
+    {
+      "heading": "Step 1: Create Your Course Content",
+      "heading_slug": "step-1-create-your-course-content",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Courses** tab and create a new course for each course you're migrating.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and create a new course for each course you're migrating"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Recreate your modules, chapters, and lessons within each course.",
+          "action": "locate",
+          "target": "Modules",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Copy and paste your lesson content from the old platform into each lesson's editor in **Thrive Architect**.",
+          "action": "locate",
+          "target": "Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Re-upload any media files (images, videos, downloadable resources) that were hosted on the previous platform.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Design Your Online School",
+      "heading_slug": "step-2-design-your-online-school",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Click the **Design** tab in Thrive Apprentice.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Choose a school design template or customize your own.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Configure the layout for your course overview pages, lesson pages, and navigation elements.",
+          "action": "locate",
+          "target": "Course Overview",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Set up your branding—logo, colors, and typography—to match your existing school's look.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 3: Set Up Products and Course Bundles",
+      "heading_slug": "step-3-set-up-products-and-course-bundles",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Click the **Products** tab in Thrive Apprentice.",
+          "action": "click",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Create a product for each course or course bundle you want to sell.",
+          "action": "locate",
+          "target": "Product",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Associate the appropriate courses with each product.",
+          "action": "locate",
+          "target": "Appropriate Courses",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Connect your payment gateway (e.g., ThriveCart, WooCommerce, or SendOwl) to handle purchases.",
+          "action": "locate",
+          "target": "Payments",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 4: Configure Access Restrictions",
+      "heading_slug": "step-4-configure-access-restrictions",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Within each product's settings, define the **Access Requirements**.",
+          "action": "locate",
+          "target": "Access Requirements",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Set rules for who can access the content—paid students, free users, or specific membership levels.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Review your content protection priority to ensure rules don't conflict.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 5: Set Up Drip Schedules",
+      "heading_slug": "step-5-set-up-drip-schedules",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the course you want to drip-release.",
+          "action": "navigate",
+          "target": "Course You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Navigate to the **Drip** settings within the course.",
+          "action": "navigate",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings within the course"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Configure when each lesson or module becomes available—based on enrollment date, specific dates, or completion of previous content.",
+          "action": "locate",
+          "target": "When Each Lesson",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save your drip schedule.",
+          "action": "locate",
+          "target": "Drip",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 6: Configure Login and Authentication",
+      "heading_slug": "step-6-configure-login-and-authentication",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Set up a **Login Page** for your students (or use the default WordPress login).",
+          "action": "click",
+          "target": "Login Page",
+          "target_bold": true,
+          "has_target": true,
+          "context": "for your students (or use the default WordPress login)"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Optionally, create a **Registration Page** if you want new students to sign up directly on your site.",
+          "action": "locate",
+          "target": "Registration Page",
+          "target_bold": true,
+          "has_target": true,
+          "context": "if you want new students to sign up directly on your site"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Configure any SSO (Single Sign-On) integrations if your old platform used external authentication.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Test the login flow from a student's perspective.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 7: Import Your Existing Customers",
+      "heading_slug": "step-7-import-your-existing-customers",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Export your student list from your current LMS (typically as a CSV file).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "In Thrive Apprentice, go to the **Members** tab and click the **Import member** button.",
+          "action": "locate",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and click the Import member button"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Upload the CSV file containing your student data.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Map the CSV fields to Thrive Apprentice fields (name, email, purchased products, etc.).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Run the import and verify that students appear with the correct product access.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

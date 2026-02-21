@@ -1,0 +1,228 @@
+{
+  "filename": "7-06-registering-users-autoresponder.md",
+  "title": "How to Register Users and Add Them to an Autoresponder Simultaneously",
+  "sections": [
+    {
+      "heading": "Step 1: Connect Your Email Service",
+      "heading_slug": "step-1-connect-your-email-service",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **API Connections**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> API Connections"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **+ Add New Connection**.",
+          "action": "click",
+          "target": "+ Add New Connection",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select your email marketing service from the list.",
+          "action": "click",
+          "target": "Your Email Marketing Service",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Enter the required API credentials (API key, secret, or OAuth authorization—depending on the service).",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Connect** and wait for the confirmation message.",
+          "action": "click",
+          "target": "Connect",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and wait for the confirmation message"
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Create the Registration Form",
+      "heading_slug": "step-2-create-the-registration-form",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the page where you want the registration form to appear using **Thrive Architect** (or the editor of your choice within the Thrive Suite).",
+          "action": "navigate",
+          "target": "Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(or the editor of your choice within the Thrive Suite)"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Add the **Login & Registration** element to your page by dragging it from the element panel.",
+          "action": "locate",
+          "target": "Login & Registration",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element to your page by dragging it from the element panel"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the **Registration Form** tab in the element settings.",
+          "action": "click",
+          "target": "Registration Form",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the element settings"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Configure the form fields:",
+          "action": "locate",
+          "target": "Form Fields:",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Under the **After Registration** settings, enable the **Add to autoresponder** option.",
+          "action": "locate",
+          "target": "After Registration",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings, enable the Add to autoresponder option"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Select your connected email service from the dropdown.",
+          "action": "click",
+          "target": "Your Connected Email Service",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Choose the specific **Mailing List** or **Tag** you want new registrants added to.",
+          "action": "click",
+          "target": "Mailing List",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Tag you want new registrants added to"
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Optionally, map additional form fields to your autoresponder's custom fields (e.g., first name, last name).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 9,
+          "raw_text": "Save your page.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 3: Configure Post-Registration Behavior",
+      "heading_slug": "step-3-configure-post-registration-behavior",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Login & Registration** element settings, scroll to the **After Successful Registration** section.",
+          "action": "locate",
+          "target": "Login & Registration",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element settings, scroll to the After Successful Registration section"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Choose one of the following options:",
+          "action": "click",
+          "target": "One Of The Following Options:",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Save your settings.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 4: Test the Form",
+      "heading_slug": "step-4-test-the-form",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the page with the registration form in a private/incognito browser window.",
+          "action": "navigate",
+          "target": "Page With The Registration Form",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Fill out the form with a test email address and submit it.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Check that a new WordPress user was created under **Users** in the WordPress admin dashboard.",
+          "action": "toggle",
+          "target": "Users",
+          "target_bold": true,
+          "has_target": true,
+          "context": "WordPress admin dashboard"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Confirm that the test email address appeared in your autoresponder's mailing list.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Verify that the post-registration redirect or success message works as expected.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

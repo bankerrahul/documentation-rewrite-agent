@@ -1,0 +1,135 @@
+{
+  "filename": "4-07-integrating-lesson-course-list-elements.md",
+  "title": "How to Integrate Lesson List and Course List Elements in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Adding the Elements to a Template",
+      "heading_slug": "adding-the-elements-to-a-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the **Design** tab and open your design by clicking **Edit Design**.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and open your design by clicking Edit Design"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Choose the template you want to edit (e.g., **School Homepage** or **Course Overview**).",
+          "action": "click",
+          "target": "School Homepage",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Course Overview)"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Open the template in the visual editor.",
+          "action": "navigate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "From the elements panel on the right side, search for **Course List** or **Lesson List**.",
+          "action": "locate",
+          "target": "Course List",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Lesson List"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Drag the element onto your template and drop it in the desired location.",
+          "action": "drag",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "The element will automatically populate with your course or lesson data.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Adding the Elements to a Standalone Page",
+      "heading_slug": "adding-the-elements-to-a-standalone-page",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the page you want to edit in **Thrive Architect**.",
+          "action": "navigate",
+          "target": "Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "From the elements panel, search for **Course List** or **Lesson List**.",
+          "action": "locate",
+          "target": "Course List",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Lesson List"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Drag the element onto the page.",
+          "action": "drag",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Configure the element settings as needed.",
+          "action": "locate",
+          "target": "Element Settings As Needed",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save and publish the page.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

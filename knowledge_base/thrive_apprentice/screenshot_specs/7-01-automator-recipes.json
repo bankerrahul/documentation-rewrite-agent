@@ -1,0 +1,609 @@
+{
+  "filename": "7-01-automator-recipes.md",
+  "title": "How to Use Thrive Automator Recipes with Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Recipe 1: Enroll Users in a Course Only After They Pass a Quiz",
+      "heading_slug": "recipe-1-enroll-users-in-a-course-only-after-they-pass-a-quiz",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and click **+ Add New**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and click + Add New"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Set the **Start Trigger** to **User completes quiz**.",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "User completes quiz"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Choose the specific quiz from the dropdown.",
+          "action": "click",
+          "target": "Specific Quiz",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Add a **Filter** to check that the user's score meets your passing threshold.",
+          "action": "locate",
+          "target": "Filter",
+          "target_bold": true,
+          "has_target": true,
+          "context": "check that the user's score meets your passing threshold"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Add an **Action** and select **Grant access to product**.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Grant access to product"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Choose the Thrive Apprentice product that contains your course.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save and Activate** to enable the automation.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": "enable the automation"
+        }
+      ]
+    },
+    {
+      "heading": "Recipe 2: Notify Students When New Content Is Unlocked",
+      "heading_slug": "recipe-2-notify-students-when-new-content-is-unlocked",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "First, ensure your course uses a **Drip Schedule** to release content over time. Configure this under **Thrive Dashboard** > **Thrive Apprentice** > **Courses** > your course > **Drip**.",
+          "action": "locate",
+          "target": "Drip Schedule",
+          "target_bold": true,
+          "has_target": true,
+          "context": "release content over time. Configure this under Thrive Dashboard > Thrive Appren"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and click **+ Add New**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and click + Add New"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the **Start Trigger** to **Lesson becomes available**.",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Lesson becomes available"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Select the course from the dropdown.",
+          "action": "click",
+          "target": "Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Add an **Action** and choose **Send email notification** or tag the user in your connected autoresponder to trigger a campaign.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and choose Send email notification or tag the user in your connected autorespond"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Customize the email content or tag name.",
+          "action": "locate",
+          "target": "Email Content",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save and Activate**.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Recipe 3: Revoke Course Access After a Certain Period",
+      "heading_slug": "recipe-3-revoke-course-access-after-a-certain-period",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and click **+ Add New**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and click + Add New"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Set the **Start Trigger** to **User receives access to product**.",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "User receives access to product"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the relevant Thrive Apprentice product.",
+          "action": "click",
+          "target": "Relevant Thrive Apprentice Product",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Add a **Delay** action and set the duration (e.g., 30 days, 90 days).",
+          "action": "locate",
+          "target": "Delay",
+          "target_bold": true,
+          "has_target": true,
+          "context": "action and set the duration (e.g., 30 days, 90 days)"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "After the delay, add an **Action** and select **Remove access from product**.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Remove access from product"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Choose the same product you selected in the trigger.",
+          "action": "click",
+          "target": "Same Product You Selected",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save and Activate**.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Recipe 4: Grant Access to Multiple Free Courses at Once",
+      "heading_slug": "recipe-4-grant-access-to-multiple-free-courses-at-once",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and click **+ Add New**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and click + Add New"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Set the **Start Trigger** to **User registers** (or another trigger that fits your workflow).",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "User registers (or another trigger that fits your workflow)"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Add an **Action** and select **Grant access to product**. Choose your first free course product.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Grant access to product. Choose your first free course product"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **+ Add another action** and select **Grant access to product** again. Choose your second free course product.",
+          "action": "click",
+          "target": "+ Add another action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Grant access to product again. Choose your second free course product"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Repeat for each additional free course you want to include.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save and Activate**.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Recipe 5: Unlock a Premium Lesson When a User Completes a Free Course",
+      "heading_slug": "recipe-5-unlock-a-premium-lesson-when-a-user-completes-a-free-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Create a premium course with its first lesson accessible and remaining content locked behind a purchase.",
+          "action": "locate",
+          "target": "Premium Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and click **+ Add New**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and click + Add New"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the **Start Trigger** to **User completes course**.",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "User completes course"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Select the free course from the dropdown.",
+          "action": "click",
+          "target": "Free Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Add an **Action** and select **Grant access to product**.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Grant access to product"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Choose the premium course product. Configure it so the user receives access only to the introductory content.",
+          "action": "click",
+          "target": "Premium Course Product",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save and Activate**.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Recipe 6: Remove Users from a Premium Course After a Free Trial Expires",
+      "heading_slug": "recipe-6-remove-users-from-a-premium-course-after-a-free-trial-expires",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and click **+ Add New**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and click + Add New"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Set the **Start Trigger** to **User receives access to product**.",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "User receives access to product"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the premium course product you're offering as a trial.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Add a **Delay** action and specify the trial duration (e.g., 7 days, 14 days).",
+          "action": "locate",
+          "target": "Delay",
+          "target_bold": true,
+          "has_target": true,
+          "context": "action and specify the trial duration (e.g., 7 days, 14 days)"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "After the delay, add an **Action** and select **Remove access from product**.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Remove access from product"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Choose the same premium product.",
+          "action": "click",
+          "target": "Same Premium Product",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save and Activate**.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Recipe 7: Send a Thank-You Email After a Course Purchase",
+      "heading_slug": "recipe-7-send-a-thank-you-email-after-a-course-purchase",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and click **+ Add New**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and click + Add New"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Set the **Start Trigger** to **User purchases product**.",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "User purchases product"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the Thrive Apprentice product from the dropdown.",
+          "action": "click",
+          "target": "Thrive Apprentice Product",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Add an **Action** and select **Send email notification**.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Send email notification"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Write your thank-you message in the email body. Include the course name, login link, and any getting-started instructions.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save and Activate**.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Recipe 8: Send a Discount Code After a Course Is Purchased",
+      "heading_slug": "recipe-8-send-a-discount-code-after-a-course-is-purchased",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Create a discount code in your payment or coupon system for the upsell course.",
+          "action": "locate",
+          "target": "Discount Code",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Set up an email in your autoresponder that contains the discount code and a link to the upsell course sales page.",
+          "action": "click",
+          "target": "An Email",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and click **+ Add New**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and click + Add New"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Set the **Start Trigger** to **User purchases product**.",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "User purchases product"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Select the Thrive Apprentice product from the dropdown.",
+          "action": "click",
+          "target": "Thrive Apprentice Product",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Add an **Action** and choose **Tag user in autoresponder**. Select the tag that triggers your discount email campaign.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and choose Tag user in autoresponder. Select the tag that triggers your discount"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save and Activate**.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Recipe 9: Grant Access via Digistore24 Purchases",
+      "heading_slug": "recipe-9-grant-access-via-digistore24-purchases",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Ensure the Digistore24 integration is connected in **Thrive Dashboard** > **Thrive Automator** > **Connections**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator > Connections"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **+ Add New** to create a new automation.",
+          "action": "click",
+          "target": "+ Add New",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create a new automation"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the **Start Trigger** to the Digistore24 purchase event.",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Digistore24 purchase event"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Use **Advanced Data Mapping** to map the Digistore24 product to the correct Thrive Apprentice product. This is especially important if you sell multiple products through Digistore24.",
+          "action": "locate",
+          "target": "Advanced Data Mapping",
+          "target_bold": true,
+          "has_target": true,
+          "context": "map the Digistore24 product to the correct Thrive Apprentice product. This is es"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Add an **Action** and select **Grant access to product**.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Grant access to product"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Choose the corresponding Thrive Apprentice product.",
+          "action": "click",
+          "target": "Corresponding Thrive Apprentice Product",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save and Activate**.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

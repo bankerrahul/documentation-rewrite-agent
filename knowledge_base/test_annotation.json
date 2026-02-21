@@ -1,0 +1,23 @@
+[
+    {
+        "id": "annotation-test",
+        "description": "Test annotation on dashboard",
+        "url": "/wp-admin/",
+        "selector": "body",
+        "output_file": "annotation_test.png",
+        "annotations": [
+            {
+                "type": "arrow",
+                "selector": "#menu-dashboard",
+                "position": "right",
+                "color": "red"
+            },
+            {
+                "type": "arrow",
+                "selector": "#wp-admin-bar-my-account",
+                "position": "bottom",
+                "color": "blue"
+            }
+        ]
+    }
+]

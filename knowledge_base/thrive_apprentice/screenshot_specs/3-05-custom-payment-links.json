@@ -1,0 +1,159 @@
+{
+  "filename": "3-05-custom-payment-links.md",
+  "title": "How to Set Up Custom Payment Links in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Setting Up Custom Payment Links",
+      "heading_slug": "setting-up-custom-payment-links",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** > **Products**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Products"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on the product you want to connect to an external checkout.",
+          "action": "click",
+          "target": "On The Product You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Open the **Access Requirements** section of the product settings.",
+          "action": "navigate",
+          "target": "Access Requirements",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section of the product settings"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Select **Custom Payments** as the access method.",
+          "action": "click",
+          "target": "Custom Payments",
+          "target_bold": true,
+          "has_target": true,
+          "context": "as the access method"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "In the **Payment Link URL** field, enter the full URL of your external checkout page or sales page.",
+          "action": "locate",
+          "target": "Payment Link URL",
+          "target_bold": true,
+          "has_target": true,
+          "context": "field, enter the full URL of your external checkout page or sales page"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply"
+        }
+      ]
+    },
+    {
+      "heading": "Obtaining and Using the Custom Payment Link",
+      "heading_slug": "obtaining-and-using-the-custom-payment-link",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the product settings under **Custom Payments**, locate the **Product Access Link** section.",
+          "action": "locate",
+          "target": "Custom Payments",
+          "target_bold": true,
+          "has_target": true,
+          "context": "locate the Product Access Link section"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Copy the generated link.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Use this link on your sales page, in email campaigns, or anywhere you promote your course.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Testing the Checkout Flow",
+      "heading_slug": "testing-the-checkout-flow",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Visit a restricted course page as a logged-out user.",
+          "action": "navigate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the call-to-action button (e.g., **Buy Now** or **Enroll**).",
+          "action": "click",
+          "target": "Buy Now",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Enroll)"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Verify that you're redirected to the correct external checkout page.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Complete a test purchase using your payment processor's test or sandbox mode.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Confirm that product access is granted in Thrive Apprentice after the test purchase.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Log in as the test student and verify that all course content is accessible.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "filename": "6-01-choosing-an-integration.md",
+  "title": "How to Choose the Right Integration for Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Making Your Decision",
+      "heading_slug": "making-your-decision",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "**Selling courses only?** Use **Stripe**. It's built in, fast to set up, and handles subscriptions.",
+          "action": "locate",
+          "target": "Selling courses only?",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Use Stripe. It's built in, fast to set up, and handles subscriptions"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "**Selling courses + physical products?** Use **WooCommerce**.",
+          "action": "locate",
+          "target": "Selling courses + physical products?",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Use WooCommerce"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "**Need advanced sales funnels?** Use **ThriveCart**.",
+          "action": "locate",
+          "target": "Need advanced sales funnels?",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Use ThriveCart"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "**Already on Square?** Use **Square**.",
+          "action": "locate",
+          "target": "Already on Square?",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Use Square"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "**Running a multi-tier membership site?** Use **WishList Member** or **MemberPress**.",
+          "action": "locate",
+          "target": "Running a multi-tier membership site?",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Use WishList Member or MemberPress"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "**Need both checkout and membership management?** Pair a checkout tool (Stripe, WooCommerce, or ThriveCart) with a membership plugin (WishList Member or MemberPress).",
+          "action": "locate",
+          "target": "Need both checkout and membership management?",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Pair a checkout tool (Stripe, WooCommerce, or ThriveCart) with a membership plug"
+        }
+      ]
+    }
+  ]
+}

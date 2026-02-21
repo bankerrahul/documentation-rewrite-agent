@@ -1,0 +1,144 @@
+{
+  "filename": "2-01-settings-guide.md",
+  "title": "How to Navigate and Configure Thrive Apprentice Settings",
+  "total": 14,
+  "captured": 6,
+  "skipped": 8,
+  "errors": 0,
+  "screenshots": [
+    {
+      "file": "course-page-selection_step1.png",
+      "step": 1,
+      "section": "Course Page Selection",
+      "target": "General",
+      "found": false
+    },
+    {
+      "file": "course-page-selection_step2.png",
+      "step": 2,
+      "section": "Course Page Selection",
+      "target": "Course Page",
+      "found": false
+    },
+    {
+      "file": "course-page-selection_step4.png",
+      "step": 4,
+      "section": "Course Page Selection",
+      "target": "Save",
+      "found": false
+    },
+    {
+      "file": "url-slugs_step1.png",
+      "step": 1,
+      "section": "URL Slugs",
+      "target": "URL Slugs",
+      "found": false
+    },
+    {
+      "file": "url-slugs_step3.png",
+      "step": 3,
+      "section": "URL Slugs",
+      "target": "Save",
+      "found": false
+    },
+    {
+      "file": "auto-login_step1.png",
+      "step": 1,
+      "section": "Auto-Login",
+      "target": "General",
+      "found": true,
+      "bbox": {
+        "x": 396,
+        "y": 220,
+        "width": 470,
+        "height": 37
+      }
+    },
+    {
+      "file": "auto-login_step2.png",
+      "step": 2,
+      "section": "Auto-Login",
+      "target": "Automatic Login",
+      "found": true,
+      "bbox": {
+        "x": 396,
+        "y": 557,
+        "width": 470,
+        "height": 32
+      }
+    },
+    {
+      "file": "auto-login_step3.png",
+      "step": 3,
+      "section": "Auto-Login",
+      "target": "Save",
+      "found": false
+    },
+    {
+      "file": "course-comments_step1.png",
+      "step": 1,
+      "section": "Course Comments",
+      "target": "Enable Comments for Courses",
+      "found": true,
+      "bbox": {
+        "x": 396,
+        "y": 614.796875,
+        "width": 350,
+        "height": 16
+      }
+    },
+    {
+      "file": "course-comments_step2.png",
+      "step": 2,
+      "section": "Course Comments",
+      "target": "On",
+      "found": true,
+      "bbox": {
+        "x": 396,
+        "y": 614.796875,
+        "width": 470,
+        "height": 16
+      }
+    },
+    {
+      "file": "course-comments_step3.png",
+      "step": 3,
+      "section": "Course Comments",
+      "target": "Save",
+      "found": false
+    },
+    {
+      "file": "where-to-find-dynamic-labels_step1.png",
+      "step": 1,
+      "section": "Where to Find Dynamic Labels",
+      "target": "Settings",
+      "found": true,
+      "bbox": {
+        "x": 0,
+        "y": 406,
+        "width": 36,
+        "height": 34
+      }
+    },
+    {
+      "file": "where-to-find-dynamic-labels_step2.png",
+      "step": 2,
+      "section": "Where to Find Dynamic Labels",
+      "target": "Access Restrictions",
+      "found": true,
+      "bbox": {
+        "x": 366,
+        "y": 73.59375,
+        "width": 187.609375,
+        "height": 36
+      }
+    },
+    {
+      "file": "customizing-dynamic-labels_step4.png",
+      "step": 4,
+      "section": "Customizing Dynamic Labels",
+      "target": "Save",
+      "found": false
+    }
+  ]
+}

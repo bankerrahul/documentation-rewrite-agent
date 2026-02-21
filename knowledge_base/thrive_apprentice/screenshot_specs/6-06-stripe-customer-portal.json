@@ -1,0 +1,168 @@
+{
+  "filename": "6-06-stripe-customer-portal.md",
+  "title": "How to Enable the Stripe Customer Portal for Thrive Apprentice Members",
+  "sections": [
+    {
+      "heading": "Step 1: Enable the Customer Portal in Thrive Apprentice",
+      "heading_slug": "step-1-enable-the-customer-portal-in-thrive-apprentice",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Settings** in the left sidebar.",
+          "action": "click",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select **Payment processors** from the settings menu.",
+          "action": "click",
+          "target": "Payment processors",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings menu"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Find the **Stripe** section and locate the **Customer Portal** toggle.",
+          "action": "locate",
+          "target": "Stripe",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section and locate the Customer Portal toggle"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Turn the toggle **On** to enable the Customer Portal.",
+          "action": "locate",
+          "target": "On",
+          "target_bold": true,
+          "has_target": true,
+          "context": "enable the Customer Portal"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save your settings.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Configure the Customer Portal in Stripe",
+      "heading_slug": "step-2-configure-the-customer-portal-in-stripe",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Log in to your **Stripe dashboard** at [dashboard.stripe.com](https://dashboard.stripe.com).",
+          "action": "locate",
+          "target": "Stripe dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "[dashboard.stripe.com](https://dashboard.stripe.com)"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Go to **Settings** > **Billing** > **Customer portal**.",
+          "action": "navigate",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Billing > Customer portal"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Configure the following options:",
+          "action": "locate",
+          "target": "Following Options:",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save your Customer Portal settings in Stripe.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 3: Test the Customer Portal",
+      "heading_slug": "step-3-test-the-customer-portal",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Create a test subscription using Stripe's **Test mode** and a test card.",
+          "action": "locate",
+          "target": "Test mode",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and a test card"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Log in to your site as the test student.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Navigate to the Customer Portal link within Thrive Apprentice.",
+          "action": "navigate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Verify that the portal loads and displays the correct subscription details.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Test updating a payment method and cancelling the subscription.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Confirm that Thrive Apprentice updates the student's course access based on the portal actions.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "filename": "8-02-course-completion-behavior.md",
+  "title": "How to Set Up Course Completion Behavior in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Accessing Completion Settings",
+      "heading_slug": "accessing-completion-settings",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Courses** tab in the left sidebar.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Open the course you want to configure by clicking on it.",
+          "action": "navigate",
+          "target": "Course You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Locate the **Completion** section in the course settings panel.",
+          "action": "locate",
+          "target": "Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the course settings panel"
+        }
+      ]
+    },
+    {
+      "heading": "Configuring Redirect Options",
+      "heading_slug": "configuring-redirect-options",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Completion** section, select your preferred redirect option.",
+          "action": "locate",
+          "target": "Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, select your preferred redirect option"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "If you chose **Redirect to a Specific URL**, enter the destination URL in the field that appears.",
+          "action": "locate",
+          "target": "Redirect to a Specific URL",
+          "target_bold": true,
+          "has_target": true,
+          "context": "enter the destination URL in the field that appears"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "If you chose **Redirect to Next Course**, select the target course from the dropdown.",
+          "action": "locate",
+          "target": "Redirect to Next Course",
+          "target_bold": true,
+          "has_target": true,
+          "context": "select the target course from the dropdown"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply your settings.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply your settings"
+        }
+      ]
+    },
+    {
+      "heading": "Setting Up a Completion Message",
+      "heading_slug": "setting-up-a-completion-message",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Completion** section, look for the **Completion Message** option.",
+          "action": "locate",
+          "target": "Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, look for the Completion Message option"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Toggle it on to enable a message overlay or notification.",
+          "action": "toggle",
+          "target": "Message Overlay",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Enter your congratulations text. For example: \"Congratulations! You've completed the course. Download your certificate below.\"",
+          "action": "type",
+          "target": "Congratulations! You've completed the course. Download your certificate below.",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Customize the appearance and style of the message if options are available.",
+          "action": "locate",
+          "target": "Appearance",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** to apply.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply"
+        }
+      ]
+    },
+    {
+      "heading": "Displaying the Certificate on Completion",
+      "heading_slug": "displaying-the-certificate-on-completion",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Make sure a certificate template is assigned to the course (see [How to Issue Course Completion Certificates](8-01-certificates.md)).",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "In the **Completion** section, enable the option to display the certificate or include a download link in the completion message.",
+          "action": "locate",
+          "target": "Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, enable the option to display the certificate or include a download link"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Save** to apply.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply"
+        }
+      ]
+    },
+    {
+      "heading": "Suggesting the Next Course",
+      "heading_slug": "suggesting-the-next-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Completion** section, look for the **Next Course** option.",
+          "action": "locate",
+          "target": "Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, look for the Next Course option"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select the course you want to recommend from the dropdown list.",
+          "action": "click",
+          "target": "Course You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Optionally, customize the call-to-action text that appears alongside the suggestion (e.g., \"Ready for the next step? Start Course 2!\").",
+          "action": "locate",
+          "target": "Ready for the next step? Start Course 2!",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to apply.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply"
+        }
+      ]
+    }
+  ]
+}

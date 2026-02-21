@@ -1,0 +1,357 @@
+{
+  "filename": "7-02-using-quizzes.md",
+  "title": "How to Use Quizzes in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Using the \"Mark as Complete\" Feature on a Quiz",
+      "heading_slug": "using-the-mark-as-complete-feature-on-a-quiz",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** and open the course you want to edit.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice and open the course you want to edit"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select the lesson that contains your quiz.",
+          "action": "click",
+          "target": "Lesson That Contains Your Quiz",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Open the lesson settings and locate the **Completion** section.",
+          "action": "navigate",
+          "target": "Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Set the **Mark as Complete** behavior to require quiz completion.",
+          "action": "click",
+          "target": "Mark as Complete",
+          "target_bold": true,
+          "has_target": true,
+          "context": "behavior to require quiz completion"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Enabling \"Mark as Complete\" Only After the User Passes the Quiz",
+      "heading_slug": "enabling-mark-as-complete-only-after-the-user-passes-the-quiz",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** and open your course.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice and open your course"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select the lesson with the quiz.",
+          "action": "click",
+          "target": "Lesson With The Quiz",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the lesson's **Completion** settings, set the behavior to **Quiz must be passed**.",
+          "action": "locate",
+          "target": "Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings, set the behavior to Quiz must be passed"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Define the passing score threshold in Thrive Quiz Builder (e.g., 70% or higher).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your settings.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Unlocking the Next Lesson Only After a Student Passes the Quiz",
+      "heading_slug": "unlocking-the-next-lesson-only-after-a-student-passes-the-quiz",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** and open your course.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice and open your course"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Go to **Courses** in the sidebar and select your course.",
+          "action": "navigate",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "sidebar and select your course"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Add your quiz to the lesson content using Thrive Quiz Builder.",
+          "action": "locate",
+          "target": "Quiz",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Open the **Drip** settings for the course.",
+          "action": "navigate",
+          "target": "Drip",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings for the course"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Create a new **Drip Schedule** and set the unlock condition to **After previous lesson is completed**.",
+          "action": "locate",
+          "target": "Drip Schedule",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and set the unlock condition to After previous lesson is completed"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Link the drip schedule to your course's product under the **Access Restrictions** settings.",
+          "action": "locate",
+          "target": "Access Restrictions",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Save and publish.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Enrolling Users in a Course After They Complete a Quiz",
+      "heading_slug": "enrolling-users-in-a-course-after-they-complete-a-quiz",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Create your quiz in Thrive Quiz Builder and add a **WordPress account connection** to the quiz's opt-in gate. This ensures quiz takers are registered as WordPress users.",
+          "action": "locate",
+          "target": "WordPress account connection",
+          "target_bold": true,
+          "has_target": true,
+          "context": "quiz's opt-in gate. This ensures quiz takers are registered as WordPress users"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and click **+ Add New**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and click + Add New"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set the **Start Trigger** to **User completes quiz**.",
+          "action": "click",
+          "target": "Start Trigger",
+          "target_bold": true,
+          "has_target": true,
+          "context": "User completes quiz"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Select the specific quiz from the dropdown.",
+          "action": "click",
+          "target": "Specific Quiz",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Add an **Action** and select **Grant access to product**.",
+          "action": "locate",
+          "target": "Action",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and select Grant access to product"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Choose the Thrive Apprentice product that contains the course you want to enroll them in.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save and Activate**.",
+          "action": "click",
+          "target": "Save and Activate",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Unlocking Lesson Content After Students Pass the Final Exam",
+      "heading_slug": "unlocking-lesson-content-after-students-pass-the-final-exam",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Create the final exam quiz in Thrive Quiz Builder with a defined passing score.",
+          "action": "locate",
+          "target": "Final Exam Quiz",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "In Thrive Apprentice, add the bonus content as a separate lesson or module that is initially locked.",
+          "action": "locate",
+          "target": "Bonus Content As A Separate Lesson",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Set up a **Drip Schedule** with an unlock condition tied to quiz completion.",
+          "action": "click",
+          "target": "Drip Schedule",
+          "target_bold": true,
+          "has_target": true,
+          "context": "with an unlock condition tied to quiz completion"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Automator** and create an automation where:",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Automator and create an automation where:"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save and activate the automation.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Changing the \"Mark Lesson as Complete\" Notification Message",
+      "heading_slug": "changing-the-mark-lesson-as-complete-notification-message",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the course and select the lesson whose notification you want to change.",
+          "action": "navigate",
+          "target": "Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Go to the lesson's **Completion** settings.",
+          "action": "navigate",
+          "target": "Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Locate the **Notification Message** field.",
+          "action": "locate",
+          "target": "Notification Message",
+          "target_bold": true,
+          "has_target": true,
+          "context": "field"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Edit the text to display your preferred message. For example, you might change it from the default to something like \"Great job! You've passed the quiz. Click below to continue to the next lesson.\"",
+          "action": "locate",
+          "target": "Great job! You've passed the quiz. Click below to continue to the next lesson.",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

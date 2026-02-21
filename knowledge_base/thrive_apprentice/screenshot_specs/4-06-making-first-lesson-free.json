@@ -1,0 +1,75 @@
+{
+  "filename": "4-06-making-first-lesson-free.md",
+  "title": "How to Make the First Lesson of a Paid Course Free",
+  "sections": [
+    {
+      "heading": "Making the First Lesson Free",
+      "heading_slug": "making-the-first-lesson-free",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "From your WordPress admin area, navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the course that contains the lesson you want to make free.",
+          "action": "navigate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Locate the first lesson in the course curriculum.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click on the lesson to open its settings.",
+          "action": "click",
+          "target": "On The Lesson",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Look for the **Access** or **Restriction** settings for the lesson.",
+          "action": "locate",
+          "target": "Access",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Restriction settings for the lesson"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Set the lesson access to **Free** or remove the access restriction for this specific lesson, while keeping the rest of the course restricted.",
+          "action": "click",
+          "target": "Free",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or remove the access restriction for this specific lesson, while keeping the res"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

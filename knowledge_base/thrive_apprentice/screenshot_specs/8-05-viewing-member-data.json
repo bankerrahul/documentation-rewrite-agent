@@ -1,0 +1,87 @@
+{
+  "filename": "8-05-viewing-member-data.md",
+  "title": "How to View Member Related Data in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Accessing the Members Section",
+      "heading_slug": "accessing-the-members-section",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Members** tab in the left sidebar.",
+          "action": "click",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        }
+      ]
+    },
+    {
+      "heading": "Viewing an Individual Member's Profile",
+      "heading_slug": "viewing-an-individual-members-profile",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Members** list, click on the student's name to open their profile.",
+          "action": "locate",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "list, click on the student's name to open their profile"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "The member profile page displays all relevant data for that student.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Searching and Filtering Members",
+      "heading_slug": "searching-and-filtering-members",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Use the **Search** bar at the top of the Members list to find students by name or email.",
+          "action": "locate",
+          "target": "Search",
+          "target_bold": true,
+          "has_target": true,
+          "context": "bar at the top of the Members list to find students by name or email"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Use the available filters to narrow the list:",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "The list updates automatically as you apply filters.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

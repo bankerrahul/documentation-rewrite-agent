@@ -1,0 +1,195 @@
+{
+  "filename": "8-03-conditional-lesson-unlocking.md",
+  "title": "How to Set Up Conditional Lesson Unlocking in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Unlocking Lessons After Previous Completion",
+      "heading_slug": "unlocking-lessons-after-previous-completion",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In your WordPress dashboard, navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "locate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Courses** tab and open the course you want to configure.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab and open the course you want to configure"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the course structure panel, locate the lesson you want to restrict.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click on the lesson to open its settings.",
+          "action": "click",
+          "target": "On The Lesson",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Find the **Access Restriction** or **Unlock Condition** setting.",
+          "action": "locate",
+          "target": "Access Restriction",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Unlock Condition setting"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Select **Unlock after previous lesson is completed**.",
+          "action": "click",
+          "target": "Unlock after previous lesson is completed",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Click **Save** to apply the setting.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the setting"
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Repeat for each lesson that should follow a sequential order.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Unlocking Lessons Across Courses After Module Completion",
+      "heading_slug": "unlocking-lessons-across-courses-after-module-completion",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to the course that contains the lesson you want to conditionally unlock.",
+          "action": "navigate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the lesson settings for the target lesson.",
+          "action": "navigate",
+          "target": "Lesson Settings",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the **Unlock Condition** settings, look for the option to set a cross-course condition.",
+          "action": "locate",
+          "target": "Unlock Condition",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings, look for the option to set a cross-course condition"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Select the source course and the specific module that must be completed.",
+          "action": "click",
+          "target": "Source Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Define the condition: the student must complete all lessons in the selected module.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply"
+        }
+      ]
+    },
+    {
+      "heading": "Granting Access Using Custom User Roles",
+      "heading_slug": "granting-access-using-custom-user-roles",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to the course and open the lesson you want to restrict.",
+          "action": "navigate",
+          "target": "Course",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "In the lesson settings, locate the **Access Restriction** options.",
+          "action": "locate",
+          "target": "Access Restriction",
+          "target_bold": true,
+          "has_target": true,
+          "context": "options"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the option to restrict by **User Role**.",
+          "action": "click",
+          "target": "User Role",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Choose the WordPress user role(s) that should have access to this lesson (e.g., \"Premium Student\", \"VIP Member\", or any custom role you've created).",
+          "action": "click",
+          "target": "Premium Student",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** to apply the restriction.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the restriction"
+        }
+      ]
+    }
+  ]
+}

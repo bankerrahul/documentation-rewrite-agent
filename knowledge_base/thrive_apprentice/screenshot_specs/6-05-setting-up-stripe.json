@@ -1,0 +1,279 @@
+{
+  "filename": "6-05-setting-up-stripe.md",
+  "title": "How to Set Up Stripe in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Step 1: Connect Your Stripe Account",
+      "heading_slug": "step-1-connect-your-stripe-account",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Settings** in the left sidebar.",
+          "action": "click",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select **Payment processors** from the settings menu.",
+          "action": "click",
+          "target": "Payment processors",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings menu"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click the **Connect with Stripe** button.",
+          "action": "click",
+          "target": "Connect with Stripe",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "You'll be redirected to Stripe's authorization page. Log in to your Stripe account (or create one if needed).",
+          "action": "locate",
+          "target": "ll be redirected to Stripe",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Authorize the connection by granting Thrive Apprentice access to your Stripe account.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Once authorized, you'll be redirected back to Thrive Apprentice. A success message confirms the connection.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Create a Product with Stripe Pricing",
+      "heading_slug": "step-2-create-a-product-with-stripe-pricing",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Products** in the left sidebar.",
+          "action": "click",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select an existing product or click **Add New** to create one.",
+          "action": "click",
+          "target": "Add New",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create one"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click the **Access requirements** tab.",
+          "action": "click",
+          "target": "Access requirements",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Choose **Stripe** as the payment method.",
+          "action": "click",
+          "target": "Stripe",
+          "target_bold": true,
+          "has_target": true,
+          "context": "as the payment method"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Configure your pricing:",
+          "action": "locate",
+          "target": "Pricing:",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 3: Configure Payment Settings",
+      "heading_slug": "step-3-configure-payment-settings",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Settings** > **Payment processors** in Thrive Apprentice.",
+          "action": "navigate",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Payment processors in Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Review the following settings:",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "How Access Works with Stripe",
+      "heading_slug": "how-access-works-with-stripe",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "A visitor clicks the purchase button on your course or product page.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "A Stripe checkout form appears (either embedded on your page or as a Stripe-hosted page).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "The customer enters their payment information and completes the purchase.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Stripe processes the payment and notifies Thrive Apprentice.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Thrive Apprentice automatically creates a user account (if needed) and grants course access.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "The customer can immediately start learning.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Testing Your Setup",
+      "heading_slug": "testing-your-setup",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Switch your Stripe connection to **Test mode** in the payment processor settings.",
+          "action": "toggle",
+          "target": "Test mode",
+          "target_bold": true,
+          "has_target": true,
+          "context": "payment processor settings"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Use Stripe's test card number (4242 4242 4242 4242) with any future expiration date and any CVC.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Complete a test purchase on your site.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Verify that course access was granted to the test account.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Switch back to **Live mode** when you're ready to accept real payments.",
+          "action": "toggle",
+          "target": "Live mode",
+          "target_bold": true,
+          "has_target": true,
+          "context": "when you're ready to accept real payments"
+        }
+      ]
+    }
+  ]
+}

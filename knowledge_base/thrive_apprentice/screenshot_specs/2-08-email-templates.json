@@ -1,0 +1,132 @@
+{
+  "filename": "2-08-email-templates.md",
+  "title": "How to Set Up Thrive Apprentice Email Templates",
+  "sections": [
+    {
+      "heading": "Accessing Email Templates",
+      "heading_slug": "accessing-email-templates",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Settings** in the left sidebar.",
+          "action": "click",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select **Email Templates** from the settings menu.",
+          "action": "click",
+          "target": "Email Templates",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings menu"
+        }
+      ]
+    },
+    {
+      "heading": "Customizing an Email Template",
+      "heading_slug": "customizing-an-email-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "On the **Email Templates** screen, click the template you want to edit.",
+          "action": "locate",
+          "target": "Email Templates",
+          "target_bold": true,
+          "has_target": true,
+          "context": "screen, click the template you want to edit"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Modify the **Subject Line** to reflect your branding or messaging.",
+          "action": "locate",
+          "target": "Subject Line",
+          "target_bold": true,
+          "has_target": true,
+          "context": "reflect your branding or messaging"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Edit the **Email Body** using the built-in editor. You can adjust text, formatting, and layout.",
+          "action": "locate",
+          "target": "Email Body",
+          "target_bold": true,
+          "has_target": true,
+          "context": "using the built-in editor. You can adjust text, formatting, and layout"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Insert **Dynamic Tags** (also called merge fields) to personalize each email automatically.",
+          "action": "locate",
+          "target": "Dynamic Tags",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(also called merge fields) to personalize each email automatically"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** when you're finished.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "when you're finished"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Your Emails",
+      "heading_slug": "testing-your-emails",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "After editing a template, click the **Send Test Email** button.",
+          "action": "locate",
+          "target": "Send Test Email",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Enter an email address where you'd like to receive the test.",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Check your inbox for the test email and review the content, formatting, and dynamic tag output.",
+          "action": "toggle",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Make any necessary adjustments and save again.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

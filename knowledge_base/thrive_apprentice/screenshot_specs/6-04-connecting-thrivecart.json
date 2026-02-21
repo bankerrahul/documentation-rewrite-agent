@@ -1,0 +1,228 @@
+{
+  "filename": "6-04-connecting-thrivecart.md",
+  "title": "How to Connect ThriveCart to Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Part 1: Generate an API Key in Thrive Apprentice",
+      "heading_slug": "part-1-generate-an-api-key-in-thrive-apprentice",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Settings** in the left sidebar.",
+          "action": "click",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select **API keys** from the settings menu.",
+          "action": "click",
+          "target": "API keys",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings menu"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Add API** to generate a new API key.",
+          "action": "click",
+          "target": "Add API",
+          "target_bold": true,
+          "has_target": true,
+          "context": "generate a new API key"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Copy the generated API key—you'll need it in the next step.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Part 2: Add the API Key in ThriveCart",
+      "heading_slug": "part-2-add-the-api-key-in-thrivecart",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Log in to your **ThriveCart** account.",
+          "action": "locate",
+          "target": "ThriveCart",
+          "target_bold": true,
+          "has_target": true,
+          "context": "account"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Navigate to **Settings** > **API & Webhooks** (or the equivalent section in your ThriveCart dashboard).",
+          "action": "navigate",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> API & Webhooks (or the equivalent section in your ThriveCart dashboard)"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Look for the Thrive Apprentice integration option.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Paste the API key you copied from Thrive Apprentice.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Enter your website URL when prompted.",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save the connection.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Part 3: Set Up Access Restriction Rules",
+      "heading_slug": "part-3-set-up-access-restriction-rules",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Products** in the left sidebar.",
+          "action": "click",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the product that contains the course(s) you want to protect.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click the **Access requirements** tab.",
+          "action": "click",
+          "target": "Access requirements",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "In the access requirements panel, locate the ThriveCart protection options.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Select the ThriveCart product that should grant access to this Thrive Apprentice product.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "How the Access Flow Works",
+      "heading_slug": "how-the-access-flow-works",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "The customer visits your ThriveCart checkout page and completes the purchase.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "ThriveCart processes the payment and sends a notification to Thrive Apprentice via the API.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Thrive Apprentice creates a user account (if one doesn't exist) and grants access to the linked course(s).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "The customer receives an email with login details and can access the course immediately.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

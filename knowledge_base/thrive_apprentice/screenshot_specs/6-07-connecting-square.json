@@ -1,0 +1,417 @@
+{
+  "filename": "6-07-connecting-square.md",
+  "title": "How to Connect Square to Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Step 1: Connect Your Square Account",
+      "heading_slug": "step-1-connect-your-square-account",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Settings** in the left sidebar.",
+          "action": "click",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select **Payment processors** from the settings menu.",
+          "action": "click",
+          "target": "Payment processors",
+          "target_bold": true,
+          "has_target": true,
+          "context": "settings menu"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Find the **Square** option and click **Connect**.",
+          "action": "locate",
+          "target": "Square",
+          "target_bold": true,
+          "has_target": true,
+          "context": "option and click Connect"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "You'll be redirected to Square's authorization page. Log in to your Square account.",
+          "action": "locate",
+          "target": "ll be redirected to Square",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Authorize the connection by granting Thrive Apprentice the required permissions.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Once authorized, you'll be redirected back to Thrive Apprentice with a confirmation message.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 2: Connect Your Square Sandbox (Optional but Recommended)",
+      "heading_slug": "step-2-connect-your-square-sandbox-optional-but-recommended",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Log in to the **Square Developer Dashboard** at [developer.squareup.com](https://developer.squareup.com).",
+          "action": "locate",
+          "target": "Square Developer Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "[developer.squareup.com](https://developer.squareup.com)"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Create or select a sandbox application.",
+          "action": "locate",
+          "target": "Sandbox Application",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Copy your **Sandbox Application ID** and **Sandbox Access Token**.",
+          "action": "locate",
+          "target": "Sandbox Application ID",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and Sandbox Access Token"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "In Thrive Apprentice, go to **Settings** > **Payment processors** > **Square**.",
+          "action": "locate",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Payment processors > Square"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Toggle to **Sandbox mode** and enter your sandbox credentials.",
+          "action": "toggle",
+          "target": "Sandbox mode",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and enter your sandbox credentials"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save your settings.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 3: Create an Item in Your Square Account",
+      "heading_slug": "step-3-create-an-item-in-your-square-account",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Log in to your **Square dashboard**.",
+          "action": "locate",
+          "target": "Square dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Go to **Items** (or **Item Library**).",
+          "action": "navigate",
+          "target": "Items",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(or Item Library)"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Create an Item**.",
+          "action": "click",
+          "target": "Create an Item",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Enter a name and description that matches your course product.",
+          "action": "type",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Set the price for the item.",
+          "action": "click",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Save the item.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 4: Create a Webhook in Square",
+      "heading_slug": "step-4-create-a-webhook-in-square",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to the **Square Developer Dashboard**.",
+          "action": "navigate",
+          "target": "Square Developer Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Select your application.",
+          "action": "click",
+          "target": "Your Application",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Navigate to **Webhooks** in the left sidebar.",
+          "action": "navigate",
+          "target": "Webhooks",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Add Webhook** (or **Subscribe to Events**).",
+          "action": "click",
+          "target": "Add Webhook",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(or Subscribe to Events)"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Enter the webhook URL provided by Thrive Apprentice. You'll find this in **Settings** > **Payment processors** > **Square** within Thrive Apprentice.",
+          "action": "type",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Payment processors > Square within Thrive Apprentice"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Select the relevant events to subscribe to—at minimum, subscribe to **payment.completed** events.",
+          "action": "click",
+          "target": "payment.completed",
+          "target_bold": true,
+          "has_target": true,
+          "context": "events"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Save the webhook.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 5: Configure Access Restrictions",
+      "heading_slug": "step-5-configure-access-restrictions",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Products** in the left sidebar.",
+          "action": "click",
+          "target": "Products",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the product you want to protect.",
+          "action": "click",
+          "target": "Product You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click the **Access requirements** tab.",
+          "action": "click",
+          "target": "Access requirements",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Choose **Square** as the payment method.",
+          "action": "click",
+          "target": "Square",
+          "target_bold": true,
+          "has_target": true,
+          "context": "as the payment method"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Select the Square item you created in Step 3.",
+          "action": "click",
+          "target": "Square Item You Created",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 6: Display the Square Buy Button",
+      "heading_slug": "step-6-display-the-square-buy-button",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open the course or product page in **Thrive Architect** (or your page editor).",
+          "action": "navigate",
+          "target": "Thrive Architect",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(or your page editor)"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Add or configure the purchase button element.",
+          "action": "locate",
+          "target": "Purchase Button Element",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Link the button to the Square checkout for the item you've set up.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save and publish the page.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Step 7: Set Up Transactional Emails",
+      "heading_slug": "step-7-set-up-transactional-emails",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In Thrive Apprentice, go to **Settings** > **Email notifications** (or your email settings).",
+          "action": "locate",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Email notifications (or your email settings)"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Verify that transactional emails are enabled for new enrollments and purchases.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Customize the email content if needed—include the course name, login link, and any getting-started instructions.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Send a test email to confirm everything looks correct.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

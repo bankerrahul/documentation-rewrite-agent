@@ -1,0 +1,10 @@
+[
+    {
+        "id": "dashboard-check",
+        "description": "Simple dashboard check",
+        "url": "/wp-admin/",
+        "actions": [],
+        "selector": "body",
+        "output_file": "dashboard.png"
+    }
+]

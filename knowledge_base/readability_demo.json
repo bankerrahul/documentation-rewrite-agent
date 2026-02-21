@@ -1,0 +1,33 @@
+[
+    {
+        "id": "macro-viewport",
+        "description": "Macro view: Whole viewport (Dashboard)",
+        "url": "/wp-admin/admin.php?page=tve_dash_section",
+        "selector": "viewport",
+        "output_file": "demo_macro_viewport.png",
+        "annotations": [
+            {
+                "type": "arrow",
+                "selector": "a.tvd-btn-green[href*='page=tve_dash_general_settings_section']",
+                "position": "right",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": "micro-element-smart",
+        "description": "Micro view: Smart-Cropped Card",
+        "url": "/wp-admin/admin.php?page=tve_dash_section",
+        "selector": ".tvd-card:has(a[href*='page=tve_dash_general_settings_section'])",
+        "padding": 50,
+        "output_file": "demo_micro_element_smart.png",
+        "annotations": [
+            {
+                "type": "arrow",
+                "selector": "a.tvd-btn-green[href*='page=tve_dash_general_settings_section']",
+                "position": "right",
+                "color": "red"
+            }
+        ]
+    }
+]

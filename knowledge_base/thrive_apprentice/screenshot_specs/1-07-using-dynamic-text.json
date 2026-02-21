@@ -1,0 +1,204 @@
+{
+  "filename": "1-07-using-dynamic-text.md",
+  "title": "How to Use Dynamic Text in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "How to Access Dynamic Text",
+      "heading_slug": "how-to-access-dynamic-text",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Design** tab in the left sidebar.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the online school design you want to edit.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click the **Manage Templates** button in the **Template Editor** card.",
+          "action": "click",
+          "target": "Manage Templates",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button in the Template Editor card"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Find the template you want to modify (e.g., **Lesson Template**, **Course Overview Template**, or **Module Template**).",
+          "action": "locate",
+          "target": "Lesson Template",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Course Overview Template, or Module Template)"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Edit** to open the template in Thrive Architect.",
+          "action": "click",
+          "target": "Edit",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open the template in Thrive Architect"
+        }
+      ]
+    },
+    {
+      "heading": "Inserting Dynamic Text Tags",
+      "heading_slug": "inserting-dynamic-text-tags",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Click on a **Text** element in your template (or add a new one).",
+          "action": "click",
+          "target": "Text",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element in your template (or add a new one)"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Place your cursor where you want the dynamic content to appear.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the text editing toolbar, click the **Dynamic Text** icon (or look for the **Insert Dynamic Field** option).",
+          "action": "locate",
+          "target": "Dynamic Text",
+          "target_bold": true,
+          "has_target": true,
+          "context": "icon (or look for the Insert Dynamic Field option)"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Browse the available dynamic text categories and select the tag you want to insert.",
+          "action": "locate",
+          "target": "Tag You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "The tag will appear as a placeholder in the editor—it will display the actual personalized content on the front end.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Walkthrough: Adding Dynamic Text to a Lesson Template",
+      "heading_slug": "walkthrough-adding-dynamic-text-to-a-lesson-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice** > **Design**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Design"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Manage Templates** and find your **Lesson Template**.",
+          "action": "click",
+          "target": "Manage Templates",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and find your Lesson Template"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Edit** to open the template in Thrive Architect.",
+          "action": "click",
+          "target": "Edit",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open the template in Thrive Architect"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Add a **Text** element at the top of the lesson area.",
+          "action": "locate",
+          "target": "Text",
+          "target_bold": true,
+          "has_target": true,
+          "context": "element at the top of the lesson area"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Type \"Welcome back, \" and then click the **Dynamic Text** icon.",
+          "action": "type",
+          "target": "Dynamic Text",
+          "target_bold": true,
+          "has_target": true,
+          "context": "icon"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Select **Student First Name** from the student information category.",
+          "action": "click",
+          "target": "Student First Name",
+          "target_bold": true,
+          "has_target": true,
+          "context": "student information category"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Continue typing \"! You've completed \" and insert the **Course Progress** tag.",
+          "action": "locate",
+          "target": "Course Progress",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tag"
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Finish with \"% of this course.\"",
+          "action": "locate",
+          "target": "% of this course.",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 9,
+          "raw_text": "Click **Save Work**, then click **Done** to return to Thrive Apprentice.",
+          "action": "click",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "then click Done to return to Thrive Apprentice"
+        }
+      ]
+    }
+  ]
+}

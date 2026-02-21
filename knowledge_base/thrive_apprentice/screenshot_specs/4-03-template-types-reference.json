@@ -1,0 +1,387 @@
+{
+  "filename": "4-03-template-types-reference.md",
+  "title": "Thrive Apprentice Template Types Reference",
+  "sections": [
+    {
+      "heading": "How to Add Any Template",
+      "heading_slug": "how-to-add-any-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Design** tab in the left sidebar.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Edit Design** on the design you want to modify.",
+          "action": "click",
+          "target": "Edit Design",
+          "target_bold": true,
+          "has_target": true,
+          "context": "design you want to modify"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Navigate to the template type you want to add.",
+          "action": "navigate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click the option to add a new template.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Choose whether to start from a pre-built template or build from scratch.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Customize the template using the visual editor.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Save your changes.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "1. Course Overview Template",
+      "heading_slug": "1-course-overview-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your design and navigate to the **Course Overview** section in the template editor.",
+          "action": "navigate",
+          "target": "Course Overview",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the template editor"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "A default Course Overview template is included. Click the option to add a new one if needed.",
+          "action": "locate",
+          "target": "Course Overview",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Customize the layout to include the elements you want—such as course title, description, video, lesson list, and call-to-action buttons.",
+          "action": "locate",
+          "target": "Course Title",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save your template.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "2. Lesson Template",
+      "heading_slug": "2-lesson-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your design and navigate to the **Lesson** section in the template editor.",
+          "action": "navigate",
+          "target": "Lesson",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the template editor"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the option to add a new Lesson template.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Choose a pre-built lesson layout or start from scratch.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Customize elements such as the content area, video placement, progress indicators, and navigation buttons.",
+          "action": "locate",
+          "target": "Elements Such As The Content Area",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Save your template.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "3. Module Template",
+      "heading_slug": "3-module-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your design and navigate to the **Module** section in the template editor.",
+          "action": "navigate",
+          "target": "Module",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the template editor"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the option to add a new Module template.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Design the layout to show the module title, description, and a list of lessons within it.",
+          "action": "locate",
+          "target": "Module Title",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save your template.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "4. Course Completion Template",
+      "heading_slug": "4-course-completion-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your design and navigate to the **Course Completion** section in the template editor.",
+          "action": "navigate",
+          "target": "Course Completion",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the template editor"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the option to add a new Course Completion template.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Add elements such as a congratulations message, certificate download link, social sharing buttons, or links to related courses.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save your template.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "5. Access Restricted Template",
+      "heading_slug": "5-access-restricted-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your design and navigate to the **Access Restricted** section in the template editor.",
+          "action": "navigate",
+          "target": "Access Restricted",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the template editor"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the option to add a new Access Restricted template, or customize the default one.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Design the page to include a clear message explaining why access is restricted, along with a call-to-action button (e.g., **Buy Now** or **Enroll**).",
+          "action": "locate",
+          "target": "Buy Now",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or Enroll)"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save your template.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "6. Certificate Verification Template",
+      "heading_slug": "6-certificate-verification-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your design and navigate to the **Certificate Verification** section in the template editor.",
+          "action": "navigate",
+          "target": "Certificate Verification",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the template editor"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the option to add a new Certificate Verification template, or modify the default one.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Customize the page to display verification details—such as the student's name, the course completed, and the date of completion.",
+          "action": "locate",
+          "target": "Page",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save your template.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "7. School Homepage Template",
+      "heading_slug": "7-school-homepage-template",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your design and navigate to the **School Homepage** section in the template editor.",
+          "action": "navigate",
+          "target": "School Homepage",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in the template editor"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the option to add a new School Homepage template.",
+          "action": "click",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Design the page with elements like a course list, featured courses, welcome text, and branding elements.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save your template.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

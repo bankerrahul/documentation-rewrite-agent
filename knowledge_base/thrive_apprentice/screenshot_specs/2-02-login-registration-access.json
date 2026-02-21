@@ -1,0 +1,285 @@
+{
+  "filename": "2-02-login-registration-access.md",
+  "title": "How to Set Up Login, Registration, and Access Restrictions",
+  "sections": [
+    {
+      "heading": "Setting Up a Login and Registration Page",
+      "heading_slug": "setting-up-a-login-and-registration-page",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Navigate to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Settings** in the left sidebar.",
+          "action": "click",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the **Login & Access Restriction** tab.",
+          "action": "click",
+          "target": "Login & Access Restriction",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "In the **Login Page** section, click **Add a Login Page** (or select an existing page from the dropdown).",
+          "action": "locate",
+          "target": "Login Page",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, click Add a Login Page (or select an existing page from the dropdown)"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Customize your login page settings—including form fields, branding, and redirect behavior.",
+          "action": "locate",
+          "target": "Design",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 6,
+          "raw_text": "In the **Registration** section, enable registration if you want new users to create accounts on their own.",
+          "action": "locate",
+          "target": "Registration",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, enable registration if you want new users to create accounts on their o"
+        },
+        {
+          "step_num": 7,
+          "raw_text": "Configure registration fields and any welcome email preferences.",
+          "action": "locate",
+          "target": "Registration Fields",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 8,
+          "raw_text": "Click **Save** to apply your changes.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply your changes"
+        }
+      ]
+    },
+    {
+      "heading": "Configuring Access Restriction Rules",
+      "heading_slug": "configuring-access-restriction-rules",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice** > **Settings**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice > Settings"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Open the **Login & Access Restriction** tab.",
+          "action": "navigate",
+          "target": "Login & Access Restriction",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Scroll to the **Access Restriction Rules** section.",
+          "action": "scroll",
+          "target": "Access Restriction Rules",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Choose how you want to restrict content. Common options include:",
+          "action": "click",
+          "target": "How You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Configuring Access Restriction Rules",
+      "heading_slug": "configuring-access-restriction-rules",
+      "steps": [
+        {
+          "step_num": 5,
+          "raw_text": "Configure the **restriction message** that visitors see when they don't have access. This message can include a link to your login or purchase page.",
+          "action": "locate",
+          "target": "restriction message",
+          "target_bold": true,
+          "has_target": true,
+          "context": "that visitors see when they don't have access. This message can include a link t"
+        },
+        {
+          "step_num": 6,
+          "raw_text": "Click **Save** to apply the rules.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the rules"
+        }
+      ]
+    },
+    {
+      "heading": "What Non-Logged-In Users See",
+      "heading_slug": "what-non-logged-in-users-see",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open **Settings** > **Login & Access Restriction**.",
+          "action": "navigate",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Login & Access Restriction"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Locate the **Restricted Content Message** area.",
+          "action": "locate",
+          "target": "Restricted Content Message",
+          "target_bold": true,
+          "has_target": true,
+          "context": "area"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Edit the text to communicate what the visitor needs to do—whether that's logging in, registering, or purchasing access.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Optionally, include a link or button that directs visitors to your login page, registration form, or sales page.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save**.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Self-Registration",
+      "heading_slug": "self-registration",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Ensure registration is enabled under **Settings** > **Login & Access Restriction**.",
+          "action": "locate",
+          "target": "Settings",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Login & Access Restriction"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Verify that your registration page is published and accessible.",
+          "action": "locate",
+          "target": "Publish",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "When a visitor registers, Thrive Apprentice creates a new WordPress user account for them.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "The new user receives a welcome email with their login details.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Manually Granting Access",
+      "heading_slug": "manually-granting-access",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to the **Members** section in Thrive Apprentice.",
+          "action": "navigate",
+          "target": "Members",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section in Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Add Member** or locate an existing WordPress user.",
+          "action": "click",
+          "target": "Add Member",
+          "target_bold": true,
+          "has_target": true,
+          "context": "or locate an existing WordPress user"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Select the products you want to grant them access to.",
+          "action": "click",
+          "target": "Products You Want",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Save the changes. The user now has access to all courses within those products.",
+          "action": "locate",
+          "target": "Save",
+          "target_bold": false,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    }
+  ]
+}

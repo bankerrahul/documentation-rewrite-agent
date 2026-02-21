@@ -1,0 +1,99 @@
+{
+  "filename": "2-11-enabling-course-grading.md",
+  "title": "How to Enable Course-Level Grading in Thrive Apprentice",
+  "sections": [
+    {
+      "heading": "Enabling Course-Level Grading",
+      "heading_slug": "enabling-course-level-grading",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go to **Thrive Dashboard** > **Thrive Apprentice**.",
+          "action": "navigate",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "> Thrive Apprentice"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Courses** in the left sidebar and open the course you want to grade.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar and open the course you want to grade"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "In the course settings, locate the **Grading** section.",
+          "action": "locate",
+          "target": "Grading",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Toggle the **Enable Overall Grade** switch to the on position.",
+          "action": "toggle",
+          "target": "Enable Overall Grade",
+          "target_bold": true,
+          "has_target": true,
+          "context": "switch to the on position"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** to apply the change.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "apply the change"
+        }
+      ]
+    },
+    {
+      "heading": "Assessment Weighting",
+      "heading_slug": "assessment-weighting",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "In the **Grading** section, click **Set Assessment Weighting**.",
+          "action": "locate",
+          "target": "Grading",
+          "target_bold": true,
+          "has_target": true,
+          "context": "section, click Set Assessment Weighting"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Assign a weight percentage to each assessment (e.g., midterm quiz at 30%, final exam at 70%).",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Ensure the total weight adds up to 100%.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Click **Save** to confirm your settings.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "confirm your settings"
+        }
+      ]
+    }
+  ]
+}

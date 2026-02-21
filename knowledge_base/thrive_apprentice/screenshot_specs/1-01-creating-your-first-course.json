@@ -1,0 +1,249 @@
+{
+  "filename": "1-01-creating-your-first-course.md",
+  "title": "How to Create Your First Thrive Apprentice Course",
+  "sections": [
+    {
+      "heading": "Accessing Thrive Apprentice",
+      "heading_slug": "accessing-thrive-apprentice",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Log in to your WordPress dashboard.",
+          "action": "locate",
+          "target": "",
+          "target_bold": false,
+          "has_target": false,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Hover over **Thrive Dashboard** in the left sidebar menu.",
+          "action": "hover",
+          "target": "Thrive Dashboard",
+          "target_bold": true,
+          "has_target": true,
+          "context": "left sidebar menu"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Thrive Apprentice**.",
+          "action": "click",
+          "target": "Thrive Apprentice",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Running the Setup Wizard",
+      "heading_slug": "running-the-setup-wizard",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Click **Get Started** on the welcome lightbox.",
+          "action": "click",
+          "target": "Get Started",
+          "target_bold": true,
+          "has_target": true,
+          "context": "welcome lightbox"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Choose a page where your courses will be listed, or click **Add New Page** to create one. Then click **Continue**.",
+          "action": "click",
+          "target": "Add New Page",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create one. Then click Continue"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Enter a name for your school design (e.g., \"My School\") and click **Create new design**.",
+          "action": "type",
+          "target": "Create new design",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        }
+      ]
+    },
+    {
+      "heading": "Creating Your First Course",
+      "heading_slug": "creating-your-first-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Click the **Courses** tab in the left sidebar.",
+          "action": "click",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab in the left sidebar"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click the **Add course** button at the top of the page.",
+          "action": "click",
+          "target": "Add course",
+          "target_bold": true,
+          "has_target": true,
+          "context": "button at the top of the page"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Enter a **Course Title** (e.g., \"Introduction to Email Marketing\").",
+          "action": "type",
+          "target": "Course Title",
+          "target_bold": true,
+          "has_target": true,
+          "context": "(e.g., \"Introduction to Email Marketing\")"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "Optionally, add a **Course Description** to explain what students will learn.",
+          "action": "locate",
+          "target": "Course Description",
+          "target_bold": true,
+          "has_target": true,
+          "context": "explain what students will learn"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "Click **Save** to create the course.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create the course"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Modules and Chapters",
+      "heading_slug": "adding-modules-and-chapters",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Open your course by clicking on it in the **Courses** list.",
+          "action": "navigate",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "list"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click **Add Module** to create a top-level section (e.g., \"Module 1: The Basics\").",
+          "action": "click",
+          "target": "Add Module",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create a top-level section (e.g., \"Module 1: The Basics\")"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Enter a **Module Title** and click **Save**.",
+          "action": "type",
+          "target": "Module Title",
+          "target_bold": true,
+          "has_target": true,
+          "context": "and click Save"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "To add chapters within a module, click **Add Chapter** underneath the module.",
+          "action": "locate",
+          "target": "Add Chapter",
+          "target_bold": true,
+          "has_target": true,
+          "context": "underneath the module"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Your First Lesson",
+      "heading_slug": "adding-your-first-lesson",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Inside your course (or within a module), click **Add Lesson**.",
+          "action": "locate",
+          "target": "Add Lesson",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Enter a **Lesson Title**.",
+          "action": "type",
+          "target": "Lesson Title",
+          "target_bold": true,
+          "has_target": true,
+          "context": ""
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click **Save** to create the lesson.",
+          "action": "click",
+          "target": "Save",
+          "target_bold": true,
+          "has_target": true,
+          "context": "create the lesson"
+        },
+        {
+          "step_num": 4,
+          "raw_text": "To add content to the lesson, click **Add content**—this opens the lesson in **Thrive Architect**, where you can add text, images, videos, and other elements.",
+          "action": "locate",
+          "target": "Add content",
+          "target_bold": true,
+          "has_target": true,
+          "context": "this opens the lesson in Thrive Architect, where you can add text, images, video"
+        },
+        {
+          "step_num": 5,
+          "raw_text": "When you're done editing, click **Save Work** in Thrive Architect, then click **Done** to return to Thrive Apprentice.",
+          "action": "locate",
+          "target": "Save Work",
+          "target_bold": true,
+          "has_target": true,
+          "context": "Thrive Architect, then click Done to return to Thrive Apprentice"
+        }
+      ]
+    },
+    {
+      "heading": "Publishing Your Course",
+      "heading_slug": "publishing-your-course",
+      "steps": [
+        {
+          "step_num": 1,
+          "raw_text": "Go back to the **Courses** tab.",
+          "action": "locate",
+          "target": "Courses",
+          "target_bold": true,
+          "has_target": true,
+          "context": "tab"
+        },
+        {
+          "step_num": 2,
+          "raw_text": "Click on **your course** to open it.",
+          "action": "click",
+          "target": "your course",
+          "target_bold": true,
+          "has_target": true,
+          "context": "open it"
+        },
+        {
+          "step_num": 3,
+          "raw_text": "Click the **Unpublished** dropdown in the top-right corner and select **Publish**.",
+          "action": "click",
+          "target": "Unpublished",
+          "target_bold": true,
+          "has_target": true,
+          "context": "dropdown in the top-right corner and select Publish"
+        }
+      ]
+    }
+  ]
+}
