@@ -3,8 +3,18 @@
 SEO metadata publisher for the Universal Screenshot Agent.
 
 Publishes SEO metadata (title, description, keyphrases) to WordPress posts
-via the AIOSEO REST API addon, using the same WebSocket bridge pattern as
-the screenshot publisher.
+via AIOSEO, using the same WebSocket bridge pattern as the screenshot publisher.
+
+Two strategies are supported (Chrome JS client auto-detects which works):
+
+1. AIOSEO Internal API (default, works on ALL AIOSEO installations):
+   POST /wp-json/aioseo/v1/post
+   Uses AIOSEO's own REST endpoint that the editor Vue app calls.
+   No addon required.
+
+2. WP REST API + AIOSEO addon (fallback):
+   PUT /wp-json/wp/v2/{post_type}/{id} with aioseo_meta_data field.
+   Requires the AIOSEO REST API addon (Plus plan or above).
 
 Reads seo_meta.json from the product directory and pushes each article's
 SEO data to the corresponding WordPress post.
@@ -12,7 +22,7 @@ SEO data to the corresponding WordPress post.
 Usage:
     1. Run via CLI: python -m universal_screenshot_agent.run -p my_product publish-seo
     2. Inject the WebSocket client JS into Chrome (on the production site's wp-admin)
-    3. SEO metadata is pushed automatically via AIOSEO REST API fields
+    3. SEO metadata is pushed automatically
 """
 
 import asyncio
@@ -30,7 +40,7 @@ class SeoPublisher:
     """WebSocket-based SEO metadata publisher.
 
     Reads seo_meta.json and sends AIOSEO update commands to Chrome,
-    which uses the WP REST API to update post SEO fields.
+    which uses the AIOSEO internal API or WP REST API to update post SEO fields.
     """
 
     def __init__(self, config: dict, adapter, seo_meta_path: str):
@@ -46,9 +56,10 @@ class SeoPublisher:
             return json.load(f)
 
     def _build_aioseo_payload(self, entry: dict) -> dict:
-        """Build the aioseo_meta_data payload for a single article.
+        """Build the SEO payload for a single article.
 
-        Constructs the nested structure that AIOSEO REST API expects.
+        Returns a dict with title, description, and keyphrases in the
+        format that AIOSEO's internal API expects.
         """
         brand_suffix = self.seo_config.get("brand_suffix", "")
         seo_title = entry["seo_title"]
@@ -60,7 +71,7 @@ class SeoPublisher:
             "description": entry["meta_description"],
         }
 
-        # Build keyphrases structure
+        # Build keyphrases structure matching AIOSEO's internal format
         focus_kp = entry.get("focus_keyphrase", "")
         additional_kps = entry.get("additional_keyphrases", [])
 
@@ -69,13 +80,16 @@ class SeoPublisher:
                 "focus": {
                     "keyphrase": focus_kp,
                     "score": 0,
+                    "analysis": {},
                 },
+                "additional": [],
             }
-            if additional_kps:
-                keyphrases["additional"] = [
-                    {"keyphrase": kp, "score": 0}
-                    for kp in additional_kps
-                ]
+            for kp in additional_kps:
+                keyphrases["additional"].append({
+                    "keyphrase": kp,
+                    "score": 0,
+                    "analysis": {},
+                })
             payload["keyphrases"] = keyphrases
 
         return payload
@@ -100,7 +114,7 @@ class SeoPublisher:
             return
 
         print(f"\n{'=' * 60}", flush=True)
-        print("Updating SEO metadata via AIOSEO REST API", flush=True)
+        print("Updating SEO metadata via AIOSEO", flush=True)
         print(f"{'=' * 60}\n", flush=True)
 
         success_count = 0
@@ -122,14 +136,15 @@ class SeoPublisher:
                 "type": "update_seo",
                 "post_id": post_id,
                 "post_type": self.post_type,
-                "aioseo_meta_data": aioseo_data,
+                "seo_data": aioseo_data,
             }))
 
             response = await websocket.recv()
             result = json.loads(response)
 
             if result.get("status") == "ok":
-                print(f"    -> OK", flush=True)
+                method = result.get("method", "unknown")
+                print(f"    -> OK (via {method})", flush=True)
                 success_count += 1
             else:
                 error = result.get("error", "unknown")
@@ -164,19 +179,79 @@ class SeoPublisher:
 def get_chrome_client_js(post_type: str = "ht-kb") -> str:
     """Return the JavaScript code to inject into Chrome for SEO publishing.
 
-    This handles the WebSocket client side: connects to the Python server,
-    receives update_seo commands, and uses fetch() to PUT aioseo_meta_data
-    to the WP REST API.
+    The client tries two strategies in order:
+    1. AIOSEO Internal API: POST /wp-json/aioseo/v1/post
+       Works on all AIOSEO installations (free & pro), no addon needed.
+    2. WP REST API fallback: PUT /wp-json/wp/v2/{post_type}/{id}
+       with aioseo_meta_data field. Requires AIOSEO REST API addon.
+
+    The client auto-detects which method works on the first request and
+    uses that method for all subsequent requests.
     """
     return f"""
 (async () => {{
     const ws = new WebSocket('ws://localhost:{PORT}');
     const postType = '{post_type}';
 
-    // Store upload results for resume capability
     if (!window._seoResults) window._seoResults = {{}};
 
+    // Track which method works (auto-detected on first request)
+    let preferredMethod = null; // 'internal' or 'addon'
+
     ws.onopen = () => console.log('[SEO] Connected to server');
+
+    // Strategy 1: AIOSEO internal API (works on all installations)
+    async function tryInternalApi(postId, seoData) {{
+        const resp = await fetch('/wp-json/aioseo/v1/post', {{
+            method: 'POST',
+            headers: {{
+                'X-WP-Nonce': wpApiSettings.nonce,
+                'Content-Type': 'application/json',
+            }},
+            body: JSON.stringify({{
+                id: postId,
+                title: seoData.title || '',
+                description: seoData.description || '',
+                keyphrases: seoData.keyphrases ? JSON.stringify(seoData.keyphrases) : '',
+            }}),
+        }});
+
+        if (!resp.ok) {{
+            const text = await resp.text();
+            throw new Error(`Internal API HTTP ${{resp.status}}: ${{text.slice(0, 200)}}`);
+        }}
+
+        return await resp.json();
+    }}
+
+    // Strategy 2: WP REST API + AIOSEO addon (fallback)
+    async function tryAddonApi(postId, seoData) {{
+        const endpoint = `/wp-json/wp/v2/${{postType}}/${{postId}}`;
+        const aioseoPayload = {{
+            title: seoData.title || '',
+            description: seoData.description || '',
+        }};
+
+        if (seoData.keyphrases) {{
+            aioseoPayload.keyphrases = seoData.keyphrases;
+        }}
+
+        const resp = await fetch(endpoint, {{
+            method: 'PUT',
+            headers: {{
+                'X-WP-Nonce': wpApiSettings.nonce,
+                'Content-Type': 'application/json',
+            }},
+            body: JSON.stringify({{ aioseo_meta_data: aioseoPayload }}),
+        }});
+
+        if (!resp.ok) {{
+            const text = await resp.text();
+            throw new Error(`Addon API HTTP ${{resp.status}}: ${{text.slice(0, 200)}}`);
+        }}
+
+        return await resp.json();
+    }}
 
     ws.onmessage = async (event) => {{
         const msg = JSON.parse(event.data);
@@ -186,28 +261,50 @@ def get_chrome_client_js(post_type: str = "ht-kb") -> str:
         }}
 
         else if (msg.type === 'update_seo') {{
-            const {{ post_id, post_type: pt, aioseo_meta_data }} = msg;
-            const endpoint = `/wp-json/wp/v2/${{pt || postType}}/${{post_id}}`;
+            const {{ post_id, seo_data }} = msg;
 
             try {{
-                const resp = await fetch(endpoint, {{
-                    method: 'PUT',
-                    headers: {{
-                        'X-WP-Nonce': wpApiSettings.nonce,
-                        'Content-Type': 'application/json',
-                    }},
-                    body: JSON.stringify({{ aioseo_meta_data }}),
-                }});
+                let result;
+                let method;
 
-                if (!resp.ok) {{
-                    const text = await resp.text();
-                    throw new Error(`HTTP ${{resp.status}}: ${{text.slice(0, 200)}}`);
+                if (preferredMethod === 'addon') {{
+                    // Already know addon works
+                    result = await tryAddonApi(post_id, seo_data);
+                    method = 'addon';
+                }} else {{
+                    // Try internal API first (or if it's the preferred method)
+                    try {{
+                        result = await tryInternalApi(post_id, seo_data);
+                        method = 'internal';
+                        if (!preferredMethod) {{
+                            preferredMethod = 'internal';
+                            console.log('[SEO] Using AIOSEO internal API (no addon needed)');
+                        }}
+                    }} catch (internalErr) {{
+                        // Internal API failed — try addon fallback
+                        if (!preferredMethod) {{
+                            console.log('[SEO] Internal API failed, trying WP REST API addon fallback...');
+                            console.log('[SEO] Internal error:', internalErr.message);
+                        }}
+                        try {{
+                            result = await tryAddonApi(post_id, seo_data);
+                            method = 'addon';
+                            if (!preferredMethod) {{
+                                preferredMethod = 'addon';
+                                console.log('[SEO] Using WP REST API + AIOSEO addon');
+                            }}
+                        }} catch (addonErr) {{
+                            // Both failed
+                            throw new Error(
+                                `Both methods failed. Internal: ${{internalErr.message}} | Addon: ${{addonErr.message}}`
+                            );
+                        }}
+                    }}
                 }}
 
-                const data = await resp.json();
-                window._seoResults[post_id] = {{ status: 'ok', id: data.id }};
-                ws.send(JSON.stringify({{ status: 'ok', post_id: data.id }}));
-                console.log(`[SEO] Updated post ${{post_id}}`);
+                window._seoResults[post_id] = {{ status: 'ok', method }};
+                ws.send(JSON.stringify({{ status: 'ok', post_id, method }}));
+                console.log(`[SEO] Updated post ${{post_id}} via ${{method}}`);
             }} catch (err) {{
                 window._seoResults[post_id] = {{ status: 'error', error: err.message }};
                 ws.send(JSON.stringify({{ status: 'error', error: err.message }}));

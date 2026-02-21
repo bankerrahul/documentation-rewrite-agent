@@ -212,7 +212,9 @@ Generates and publishes SEO metadata (title, meta description, focus keyphrase, 
 
 **Generate:** Reads article content from `wp_posts.json` (or markdown docs), calls an LLM to produce optimized SEO fields, and writes `seo_meta.json` to the product directory. Existing entries are preserved — regeneration only fills in missing articles.
 
-**Publish:** Uses the same WebSocket bridge as the screenshot publisher. Python sends `update_seo` commands to Chrome, which PUTs `aioseo_meta_data` to the WP REST API. Requires the AIOSEO REST API addon (Plus plan or above).
+**Publish:** Uses the same WebSocket bridge as the screenshot publisher. Python sends `update_seo` commands to Chrome, which auto-detects the best available method:
+1. **AIOSEO Internal API** (default) — calls `/wp-json/aioseo/v1/post` directly. Works on all AIOSEO installations (free & pro), no addon needed.
+2. **WP REST API addon** (fallback) — PUTs `aioseo_meta_data` to `/wp-json/wp/v2/{post_type}/{id}`. Requires the AIOSEO REST API addon (Plus plan or above).
 
 **Configuration** in `config.yaml`:
 ```yaml
