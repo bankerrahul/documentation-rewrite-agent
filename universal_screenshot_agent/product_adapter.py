@@ -321,6 +321,15 @@ class ProductAdapter(ABC):
         """Return suffix for image alt text (e.g., 'in My Product')."""
         return f"in {self.product_name}"
 
+    def get_seo_config(self) -> dict:
+        """Return SEO configuration from config.yaml.
+
+        Returns dict with optional keys:
+            brand_suffix: str — appended to SEO titles (e.g., " - Thrive Themes")
+            default_keyphrases: list[str] — keyphrases added to every article
+        """
+        return self.config.get("seo", {})
+
     def get_categories_for_article(self, filename: str) -> List[int]:
         """Return category IDs for an article based on config mappings."""
         cats_config = self.config.get("categories", {})

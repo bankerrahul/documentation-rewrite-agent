@@ -181,6 +181,55 @@ def cmd_publish(args, config, paths, adapter):
     publisher.run()
 
 
+def cmd_generate_seo(args, config, paths, adapter):
+    """Generate SEO metadata for articles using LLM."""
+    from universal_screenshot_agent.seo_generator import generate_seo_for_product
+
+    wp_posts_path = paths["wp_posts"]
+    docs_dir = paths["docs"]
+    seo_meta_path = paths["seo_meta"]
+
+    print(f"Generating SEO metadata...")
+    print(f"Output: {seo_meta_path}")
+    print()
+
+    generate_seo_for_product(
+        config=config,
+        adapter=adapter,
+        wp_posts_path=wp_posts_path,
+        docs_dir=docs_dir,
+        output_path=seo_meta_path,
+        provider=getattr(args, "provider", "auto"),
+        model=getattr(args, "model", None),
+        article_filter=getattr(args, "article", None),
+    )
+
+
+def cmd_publish_seo(args, config, paths, adapter):
+    """Publish SEO metadata to WordPress via AIOSEO REST API."""
+    from universal_screenshot_agent.seo_publisher import SeoPublisher, get_chrome_client_js
+
+    seo_meta_path = paths["seo_meta"]
+
+    if not os.path.exists(seo_meta_path):
+        print(f"Error: seo_meta.json not found: {seo_meta_path}")
+        print("Run 'generate-seo' first to create it.")
+        sys.exit(1)
+
+    # Print the Chrome client JS for the user to inject
+    post_type = adapter.get_post_type()
+    client_js = get_chrome_client_js(post_type)
+    print("=" * 60)
+    print("Inject this JS into Chrome console on wp-admin:")
+    print("=" * 60)
+    print(client_js)
+    print("=" * 60)
+    print()
+
+    publisher = SeoPublisher(config, adapter, seo_meta_path)
+    publisher.run()
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Universal Screenshot Agent — product-agnostic documentation screenshot pipeline"
@@ -209,6 +258,18 @@ def main():
 
     # publish
     pub_parser = subparsers.add_parser("publish", help="Publish screenshots to production")
+
+    # generate-seo
+    seo_gen_parser = subparsers.add_parser("generate-seo", help="Generate SEO metadata for articles")
+    seo_gen_parser.add_argument("--article", "-a", help="Specific article slug (without .md)")
+    seo_gen_parser.add_argument(
+        "--provider", choices=["auto", "anthropic", "openai", "ollama"],
+        default="auto", help="LLM provider (default: auto-detect)"
+    )
+    seo_gen_parser.add_argument("--model", default=None, help="Override LLM model name")
+
+    # publish-seo
+    seo_pub_parser = subparsers.add_parser("publish-seo", help="Publish SEO metadata to WordPress (AIOSEO)")
 
     args = parser.parse_args()
 
@@ -247,6 +308,10 @@ def main():
         cmd_capture_all(args, config, paths, adapter)
     elif args.command == "publish":
         cmd_publish(args, config, paths, adapter)
+    elif args.command == "generate-seo":
+        cmd_generate_seo(args, config, paths, adapter)
+    elif args.command == "publish-seo":
+        cmd_publish_seo(args, config, paths, adapter)
     else:
         parser.print_help()
 

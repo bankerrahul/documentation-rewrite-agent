@@ -127,6 +127,7 @@ def get_product_paths(product_slug: str, products_dir: str = None) -> Dict[str, 
         "screenshots": os.path.join(base, "screenshots"),
         "adapter": os.path.join(base, "adapter.py"),
         "wp_posts": os.path.join(base, "wp_posts.json"),
+        "seo_meta": os.path.join(base, "seo_meta.json"),
     }
 
 

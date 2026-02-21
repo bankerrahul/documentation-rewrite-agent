@@ -420,6 +420,11 @@ articles:
   - slug: "1-03-creating-course-bundles"
     post_id: 114142894
 
+# ─── SEO Configuration (AIOSEO) ───
+seo:
+  brand_suffix: " - Thrive Themes"
+  default_keyphrases: ["thrive apprentice"]
+
 categories:
   prefix_map:
     "1-": [34177]

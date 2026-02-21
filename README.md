@@ -75,6 +75,8 @@ documentation_rewrite_agent/
 │   ├── product_adapter.py               # ProductAdapter ABC + GenericWebAppAdapter
 │   ├── config_loader.py                 # YAML config with env var interpolation
 │   ├── publisher.py                     # WebSocket publisher → WP REST API
+│   ├── seo_generator.py                # LLM-based SEO metadata generation
+│   ├── seo_publisher.py                # WebSocket SEO publisher → AIOSEO REST API
 │   └── products/
 │       ├── _template/                   # Copy this to create a new product
 │       └── thrive_apprentice/           # Working reference (config + Vue.js adapter)
@@ -177,8 +179,16 @@ screenshot-agent -p my_product capture getting-started --headed
 # Capture all articles
 screenshot-agent -p my_product capture-all
 
-# Publish to production via WebSocket
+# Publish screenshots to production via WebSocket
 screenshot-agent -p my_product publish
+
+# Generate SEO metadata (title, description, keyphrases) via LLM
+screenshot-agent -p my_product generate-seo
+screenshot-agent -p my_product generate-seo --article getting-started
+screenshot-agent -p my_product generate-seo --provider anthropic --model claude-sonnet-4-5-20250929
+
+# Publish SEO metadata to WordPress via AIOSEO REST API
+screenshot-agent -p my_product publish-seo
 ```
 
 ### Pipeline
@@ -191,6 +201,24 @@ Markdown Docs          Step Parser           Playwright            PIL Annotate
                                                              WebSocket Publisher
                                                              (upload to WP + inject
                                                               into draft posts)
+
+Markdown Docs       SEO Generator         SEO Publisher
+ (or wp_posts)  →  (LLM → JSON)    →   (WebSocket → AIOSEO REST API)
+```
+
+### SEO Metadata Module
+
+Generates and publishes SEO metadata (title, meta description, focus keyphrase, additional keyphrases) for each article using AIOSEO.
+
+**Generate:** Reads article content from `wp_posts.json` (or markdown docs), calls an LLM to produce optimized SEO fields, and writes `seo_meta.json` to the product directory. Existing entries are preserved — regeneration only fills in missing articles.
+
+**Publish:** Uses the same WebSocket bridge as the screenshot publisher. Python sends `update_seo` commands to Chrome, which PUTs `aioseo_meta_data` to the WP REST API. Requires the AIOSEO REST API addon (Plus plan or above).
+
+**Configuration** in `config.yaml`:
+```yaml
+seo:
+  brand_suffix: " - My Brand"           # Appended to SEO titles
+  default_keyphrases: ["my product"]     # Added to every article's keyphrases
 ```
 
 ### Adding a New Product
